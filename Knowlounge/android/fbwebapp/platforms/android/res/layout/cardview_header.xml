@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:id="@+id/cardview_header_title_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+            <TextView
+                android:id="@+id/cardview_header_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="#FF3C3C3C"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="#C8C8C8"/>
+        <TextView
+            android:id="@+id/cardview_header_more_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/global_seemore"
+            android:layout_marginLeft="10dp"
+            android:textColor="#646464"
+            android:textSize="13dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/class_empty_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal|bottom">
+
+        <TextView
+            android:id="@+id/class_empty_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:maxWidth="280dp"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textColor="#a0a0a0"/>
+        <ImageView
+            android:id="@+id/class_empty_img"
+            android:layout_width="150dp"
+            android:layout_height="90dp"/>
+        <Button
+            android:id="@+id/class_empty_btn"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:minWidth="150dp"
+            android:maxWidth="250dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_big_green_rounded"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="14dp"/>
+    </LinearLayout>
+
+</LinearLayout>

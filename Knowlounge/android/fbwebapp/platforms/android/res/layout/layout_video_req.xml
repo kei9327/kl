@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_redraw_history_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|right"
+    android:background="@drawable/bg_fafafa_with_shadow"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/video_req_user_thumb"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="14dp"
+        android:src="@drawable/img_userlist_default01"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/video_req_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:text="@string/cam_invite_alert"
+            android:textColor="#5a5a5a" />
+
+        <TextView
+            android:id="@+id/video_req_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="10dp"
+            android:text="@string/canvas_history2"
+            android:textColor="#787878"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/btn_deny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:textColor="#c8c8c8"
+                android:textSize="13dp"
+                android:text="@string/disagree_btn" />
+
+            <TextView
+                android:id="@+id/btn_allow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/app_base_color"
+                android:textSize="13dp"
+                android:text="@string/agree_btn"
+                android:visibility="visible"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

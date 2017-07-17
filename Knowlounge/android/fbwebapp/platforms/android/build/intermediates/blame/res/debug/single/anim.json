@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_to_right_duration8s.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\slide_left_to_right_duration8s.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\scale_fade_in.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\scale_fade_in.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\scale_fade_out_phone.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\scale_fade_out_phone.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_left.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\scale_fade_in_phone.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\scale_fade_in_phone.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_leftout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\slide_leftout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_left.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\drop_down.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\drop_down.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\riseup.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\riseup.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_from_right_to_left.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\slide_from_right_to_left.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_down.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\scale_fade_out.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\scale_fade_out.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\rotate.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\rotate.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_leftin.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\slide_leftin.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_up.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_right.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    }
+]

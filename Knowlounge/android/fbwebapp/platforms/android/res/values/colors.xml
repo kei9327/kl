@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_base_color">#FF41E169</color>
+    <color name="app_canvas_color">#FF3C3C3C</color>
+    <color name="app_base_color_0.6">#9941E169</color>
+
+    <color name="main_left_title_bg_color">#FFFFFFFF</color>
+    <color name="main_left_title_font_color">#FF5A5A5A</color>
+    <color name="main_left_title_under_line">#FFDCDCDC</color>
+
+    <color name="dialog_background">#FFF0F0F0</color>
+    <color name="dialog_text_color">#FF3C3C3C</color>
+    <color name="dialog_title">@color/app_base_color</color>
+
+    <color name="pen_color_1">#0064fa</color>
+    <color name="pen_color_2">#6400fa</color>
+    <color name="pen_color_3">#fa3232</color>
+    <color name="pen_color_4">#fa6400</color>
+    <color name="pen_color_5">#323232</color>
+    <color name="pen_color_6">#00c8fa</color>
+    <color name="pen_color_7">#c800fa</color>
+    <color name="pen_color_8">#fa6464</color>
+    <color name="pen_color_9">#fac800</color>
+    <color name="pen_color_10">#fac800</color>
+    <color name="pen_color_11">@android:color/transparent</color>
+
+    <color name="color_1">#0064fa</color>
+    <color name="color_2">#6400fa</color>
+    <color name="color_3">#fa3232</color>
+    <color name="color_4">#fa6400</color>
+    <color name="color_5">#00fa64</color>
+    <color name="color_6">#00c8fa</color>
+    <color name="color_7">#c800fa</color>
+    <color name="color_8">#fa6464</color>
+    <color name="color_9">#fac800</color>
+    <color name="color_10">#00fac8</color>
+    <color name="color_99">#ff000000</color>
+
+    <color name="right_menu_header_color">#787D7D</color>
+
+    <color name="tab_selected">#FF323232</color>
+    <color name="tab_unselected">#FF959898</color>
+
+    <color name="room_list_type_a">#9041E169</color>
+    <color name="room_list_type_b">#90FFDC37</color>
+    <color name="room_list_type_c">#9019D7FF</color>
+    <color name="room_list_type_d">#90FF8C3C</color>
+
+    <color name="bg_item_normal_state">#fff0f0f0</color>
+    <color name="bg_item_dragging_state">#ffffdddd</color>
+    <color name="bg_item_dragging_active_state">#ffff9999</color>
+    <color name="bg_item_swiping_state">#ffddddff</color>
+    <color name="bg_item_swiping_active_state">#ff9999ff</color>
+
+    <color name="poll_dialog_title_divider">#dcdcdc</color>
+
+    <color name="poll_dialog_section_divider">#f5f5f5</color>
+
+</resources>

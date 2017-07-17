@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/class_user_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:id="@+id/user_thumbnail_view"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/img_userlist_default01"/>
+            <ImageView
+                android:id="@+id/user_type_thumbnail"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right|bottom"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/row_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="110dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:text="User Name"
+                    android:textColor="#5a5a5a"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/user_room_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="110dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:text="User Name's Board"
+                    android:textColor="#5a5a5a"
+                    android:textSize="10dp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/txt_class_user_roll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textColor="#636363"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="right">
+
+            
+            <ImageView
+                android:id="@+id/btn_control_cam"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_userlist_cam_on"
+                android:visibility="gone" />
+            <ImageView
+                android:id="@+id/btn_3dot_options"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_userlist_option"/>
+            <ImageView
+                android:id="@+id/btn_expand_subroom"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_userlist_preview"/>
+
+            <!--
+            <ImageView
+                android:id="@+id/row_auth_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp" />
+            -->
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/expanding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="1dp"
+            android:background="@drawable/bg_radius2_bgcolor_aaaaaa_border_1">
+            <com.knowlounge.customview.TopCropImageView
+                android:id="@+id/sub_room_thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:scaleType = "centerCrop"
+                android:src="@drawable/thumbnail_01"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn_rightmenu_preview_chat"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_rightmenu_preview_chat"/>
+            <ImageButton
+                android:id="@+id/btn_rightmenu_preview_refresh"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_rightmenu_preview_refresh"/>
+
+            <ImageButton
+                android:id="@+id/btn_rightmenu_preview_shortcuts"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_rightmenu_preview_shortcuts"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <!--
+    <View
+        android:id="@+id/user_list_class_under_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#aaaaaa"/>
+    -->
+
+</LinearLayout>

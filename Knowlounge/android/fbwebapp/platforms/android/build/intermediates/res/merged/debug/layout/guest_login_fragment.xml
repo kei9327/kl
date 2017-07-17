@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:src="@drawable/thumb_list_friendslist"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="260dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#a0a0a0"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="@string/permission_deny_guest"/>
+    <Button
+        android:id="@+id/guest_join_btn"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_big_green_rounded"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="@string/global_sign_up"/>
+
+
+</LinearLayout>

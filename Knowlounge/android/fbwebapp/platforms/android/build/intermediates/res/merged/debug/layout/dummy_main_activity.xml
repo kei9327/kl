@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.knowlounge.customview.CustomDrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/right_drawer_room"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.room.RoomActivity">
+
+    <FrameLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/room_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+            </android.support.v7.widget.Toolbar>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!-- s : 좌측 메인 영역 -->
+                    <FrameLayout
+                        android:id="@+id/main_leftside"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/fragment_mainContainer"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:clickable="true" />
+
+                        <FrameLayout
+                            xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:id="@+id/user_video_frame"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#E5E5E5"
+                            android:visibility="invisible">
+
+                            <HorizontalScrollView
+                                android:id="@+id/video_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="140dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        xmlns:android="http://schemas.android.com/apk/res/android"
+                                        android:id="@+id/video_wrapper"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="left"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal">
+
+                                        <!--
+                                        <include
+                                            layout="@layout/peer_video_layout" />
+                                        -->
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:id="@+id/video_invite_user"
+                                        android:layout_width="132dp"
+                                        android:layout_height="132dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_gravity="center_vertical"
+                                        android:orientation="vertical"
+                                        android:paddingRight="2dp"
+                                        android:paddingBottom="2dp"
+                                        android:background="@drawable/video_view_bg">
+                                        <TextView
+                                            android:layout_width="75dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center_horizontal"
+                                            android:layout_marginTop="13dp"
+                                            android:layout_marginBottom="7dp"
+                                            android:gravity="center_horizontal"
+                                            android:textSize="12dp"
+                                            android:textColor="#646464"
+                                            android:text="함께할 친구를 초대해보세요."/>
+
+                                        <ImageView
+                                            android:layout_width="40dp"
+                                            android:layout_height="40dp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:src="@drawable/btn_video_user_invite"/>
+
+                                        <Button
+                                            android:id="@+id/btn_video_invite"
+                                            android:layout_width="112dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center_horizontal"
+                                            android:layout_marginTop="7dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:background="@drawable/video_invite_btn"
+                                            android:textSize="13dp"
+                                            android:textColor="#FFFFFF"
+                                            android:text="초대 하기"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+                            </HorizontalScrollView>
+
+                            <LinearLayout
+                                android:layout_width="40dp"
+                                android:layout_height="132dp"
+                                android:layout_gravity="right|center_vertical"
+                                android:background="#C3C6C8">
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:background="@drawable/btn_video_user_next"/>
+                            </LinearLayout>
+                        </FrameLayout>
+                    </FrameLayout>
+                    <!-- e : 좌측 메인 영역 -->
+
+                </LinearLayout>
+
+                <!-- s : 우측 아이콘 메뉴 영역 -->
+                <ScrollView
+                    android:id="@+id/right_menu_area_scroll"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="1dp"
+                    android:scrollbars="none"
+                    android:overScrollMode="never"
+                    android:background="@drawable/layer_right_menu_bar_style"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone">
+                    <LinearLayout
+                        android:id="@+id/right_menu_area"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#00000000"
+                        android:gravity="center_horizontal">
+                        <!--tablet menu s-->
+                        <LinearLayout
+                            android:id="@+id/right_menu_tablet"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center_horizontal"
+                            android:visibility="gone">
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_fold"
+                                android:tag="fold_right_btn"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_fold"
+                                android:background="@android:color/transparent"/>
+                            <LinearLayout
+                                android:id="@+id/rightmenu_area"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal">
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_pen"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_pen"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_eraser"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_eraser"
+                                    android:background="@android:color/transparent"
+                                    android:layout_below="@+id/right_btn_pen"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_shape"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_shape"
+                                    android:background="@android:color/transparent"
+                                    android:layout_below="@+id/right_btn_eraser"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_pointer"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_pointer"
+                                    android:background="@android:color/transparent"
+                                    android:layout_below="@+id/right_btn_shape"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_text"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_text"
+                                    android:background="@android:color/transparent"
+                                    android:layout_below="@+id/right_btn_pointer"/>
+
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_document"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_document"
+                                    android:background="@android:color/transparent"
+                                    android:layout_below="@+id/right_btn_text"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_chat"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_chat"
+                                    android:background="@android:color/transparent"
+                                    android:layout_below="@+id/right_btn_document"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_comment"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_comment"
+                                    android:background="@android:color/transparent"
+                                    android:layout_below="@+id/btn_rightmenu_chat"/>
+
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_poll"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_poll"
+                                    android:background="@android:color/transparent"
+                                    android:layout_below="@+id/right_btn_pdf"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <!--tablet menu e-->
+
+                        <!--phone drawing menu s-->
+                        <LinearLayout
+                            android:id="@+id/right_menu_drawing"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center_horizontal"
+                            android:visibility="gone">
+
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_pen_phone"
+                                android:tag="right_btn"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_pen"
+                                android:background="@android:color/transparent"/>
+
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_eraser_phone"
+                                android:tag="right_btn"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_eraser"
+                                android:background="@android:color/transparent"/>
+
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_shape_phone"
+                                android:tag="right_btn"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_shape"
+                                android:background="@android:color/transparent"/>
+
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_text_phone"
+                                android:tag="right_btn_no"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_text"
+                                android:background="@android:color/transparent"/>
+
+
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_document_phone"
+                                android:tag="right_btn_no"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_document"
+                                android:background="@android:color/transparent"/>
+
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_undo_phone"
+                                android:tag="right_btn_no"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_undo"
+                                android:background="@android:color/transparent"/>
+
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_redo_phone"
+                                android:tag="right_btn_no"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_redo"
+                                android:background="@android:color/transparent"/>
+
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_trash_phone"
+                                android:tag="right_btn_no"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_trash"
+                                android:background="@android:color/transparent"/>
+
+                        </LinearLayout>
+                        <!--phone drawing menu e-->
+
+                        <!--phone presentation menu s-->
+                        <LinearLayout
+                            android:id="@+id/right_menu_presentation"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center_horizontal"
+                            android:visibility="gone">
+
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_hand_phone"
+                                android:tag="right_btn"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_hand"
+                                android:background="@android:color/transparent"/>
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_pointer_phone"
+                                android:tag="right_btn"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_pointer"
+                                android:background="@android:color/transparent"/>
+
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_zoomout_phone"
+                                android:tag="right_btn_no"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_zoomout"
+                                android:background="@android:color/transparent"/>
+
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_zoomin_phone"
+                                android:tag="right_btn_no"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_zoomin"
+                                android:background="@android:color/transparent"/>
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_poll_phone"
+                                android:tag="right_btn_no"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_poll"
+                                android:background="@android:color/transparent"/>
+
+
+                        </LinearLayout>
+                        <!--phone presentation menu e-->
+
+                        <!--phone communication menu s-->
+                        <LinearLayout
+                            android:id="@+id/right_menu_communication"
+                            android:layout_width="48dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center_horizontal"
+                            android:visibility="gone">
+                            <RelativeLayout
+                                android:layout_width="40dp"
+                                android:layout_height="40dp">
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_friends_phone"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_friends"
+                                    android:background="@android:color/transparent"/>
+                                <TextView
+                                    android:id="@+id/room_right_badge_count"
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:background="@drawable/bg_radius10_bgcolorff3c3c"
+                                    android:layout_alignParentRight="true"
+                                    android:textColor="#ffffff"
+                                    android:textSize="12dp"
+                                    android:visibility="gone"
+                                    android:gravity="center"/>
+                            </RelativeLayout>
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_cam_phone"
+                                android:tag="right_btn"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_cam"
+                                android:background="@android:color/transparent"/>
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_chat_phone"
+                                android:tag="right_btn"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_chat"
+                                android:background="@android:color/transparent"/>
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_comment_phone"
+                                android:tag="right_btn"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_comment"
+                                android:background="@android:color/transparent"/>
+                            <ImageButton
+                                android:id="@+id/btn_rightmenu_setting_phone"
+                                android:tag="right_btn"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_setting"
+                                android:background="@android:color/transparent"/>
+
+
+                        </LinearLayout>
+                        <!--phone communication menu e-->
+
+                    </LinearLayout>
+                </ScrollView>
+                <!-- e : 우측 아이콘 메뉴 영역 -->
+
+                <!-- s : 텍스트/메모 서브메뉴 영역 -->
+                <LinearLayout
+                    android:id="@+id/layer_text_submenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_toLeftOf="@id/right_menu_area_scroll"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_rounded_corner_submenu"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/layer_rightmenu_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/btn_rightmenu_text"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="Text"
+                            android:textColor="#6e7072"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layer_rightmenu_memo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/btn_rightmenu_memo"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="Memo"
+                            android:textColor="#6e7072"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- e : 텍스트/메모 서브메뉴 영역 -->
+
+                <!-- s : 도큐먼트 서브메뉴 영역 -->
+                <LinearLayout
+                    android:id="@+id/layer_document_submenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_toLeftOf="@id/right_menu_area_scroll"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_rounded_corner_submenu"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/layer_rightmenu_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/btn_rightmenu_image"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="Image"
+                            android:textColor="#6e7072"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layer_rightmenu_pdf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/btn_rightmenu_pdf"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="PDF"
+                            android:textColor="#6e7072"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layer_rightmenu_cloud"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/btn_rightmenu_cloud"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="Cloud"
+                            android:textColor="#6e7072"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- e : 도큐먼트 서브메뉴 영역 -->
+
+                <!-- s : 폴 서브메뉴 영역 -->
+                <LinearLayout
+                    android:id="@+id/layer_poll_submenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="370dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_toLeftOf="@id/right_menu_area_scroll"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_rounded_corner_submenu"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/right_submenu_poll_create"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/btn_rightmenu_poll"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/canvas_poll"
+                            android:textSize="15dp"
+                            android:gravity="center_vertical"
+                            android:textColor="#6e7072"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/right_submenu_poll_list"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/btn_rightmenu_polllist"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/canvas_poll_list"
+                            android:textSize="15dp"
+                            android:gravity="center_vertical"
+                            android:textColor="#6e7072"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/right_submenu_complet_poll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/btn_rightmenu_pollcomplete"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/canvas_poll_result"
+                            android:textSize="15dp"
+                            android:gravity="center_vertical"
+                            android:textColor="#6e7072"/>\
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- e : 폴 서브메뉴 영역 -->
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/popover_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+        <!--
+        <include
+            android:id="@+id/config_drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            layout="@layout/sm_config_drawer" />
+        -->
+
+        <LinearLayout
+            android:id="@+id/layout_move_room"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/btn_move_room"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom|left"
+                android:background="@drawable/layer_jump_room_btn_on"
+                android:gravity="center"
+                android:textColor="#FFFFFFFF"
+                android:textSize="13dp"/>
+
+            <ImageButton
+                android:id="@+id/btn_open_userlist"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/layer_jump_room_btn_on"
+                android:src="@drawable/btn_quick_userlist"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/loading_layer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="#FFFFFFFF"
+            android:visibility="visible">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:layout_above="@+id/cancel_room_loading"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/room_loading_img"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:background="#00000000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#787878"
+                    android:textSize="18dp"
+                    android:text="@string/splash_switch"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/cancel_room_loading"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/canvas_loading_cancel"
+                android:textSize="18dp"
+                android:textColor="@color/app_base_color"
+                style="?android:attr/borderlessButtonStyle"
+                android:visibility="invisible"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_radius20_borderc00a651" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/right_drawer_panel_room"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:importantForAccessibility="no"
+        android:clickable="true"
+        android:background="#ffffff"/>
+
+</com.knowlounge.customview.CustomDrawerLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="207dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginRight="18dp"
+    android:layout_marginBottom="18dp"
+    android:background="@drawable/cardview_header_style">
+
+    <LinearLayout
+        android:id="@+id/cardview_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/cardview_header_create_room_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/icon_invite_newroom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"
+            android:gravity="bottom"
+            android:text="@string/global_new"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FF32AA55"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+    <!--</android.support.v7.widget.CardView>-->

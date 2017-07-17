@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:background="@drawable/bg_rounded_corner"
+    android:layout_gravity="center_vertical|center_horizontal">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/global_popup_title"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#3c3c3c"
+            android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/app_base_color"/>
+
+    <TextView
+        android:id="@+id/extend_request_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/class_setting_camteacheronlydesc"
+        android:textSize="13dp"
+        android:textColor="#505050"
+        android:layout_marginTop="30dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/positive_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/btn_big_green_rounded"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/global_ok"/>
+
+    <TextView
+        android:id="@+id/negative_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/btn_big_white_rounded"
+        android:textSize="16dp"
+        android:textColor="#c8c8c8"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/global_cancel"
+        />
+</LinearLayout>

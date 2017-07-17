@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 보더 색상 -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp"/>
+            <solid android:color="#FFC8C8C8"/>
+        </shape>
+    </item>
+    <!-- 본문 영역 색상 설정 -->
+    <item android:left="1dp" android:top="1dp" android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp"/>
+            <solid android:color="#FFFFFFFF" />
+        </shape>
+    </item>
+
+
+</layer-list>

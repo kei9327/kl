@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<meta http-equiv="Content-Security-Policy"
+			content="font-src * data:;
+				img-src * blob: data:;
+				style-src * 'unsafe-inline';
+				script-src * 'unsafe-inline' 'unsafe-eval';
+				media-src *" />
+		
+		<!-- <meta name="viewport" content="width=1300px, minimum-scale=0.3, maximum-scale=2, user-scalable=yes, target-densityDpi=device-dpi"> -->
+		<!--<meta name="viewport" content="width=device-width, minimum-scale=0.3, maximum-scale=2, user-scalable=yes, target-densityDpi=device-dpi">-->
+		<meta name="viewport" content="width=device-width, user-scalable=yes">
+
+		<!-- <script type="text/javascript" src='js/fb/common/googleanalytics.wente.com.js'></script> -->
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css">
+		<link type="text/css" rel="stylesheet" href="css/fb/jquery.minicolors.css">
+		<link type="text/css" rel="stylesheet" href="css/fb/circle.css" />
+		<link type="text/css" rel="stylesheet" href="css/fb/board.css" />
+
+		<!-- <link type="text/css" rel="stylesheet" href="css/fb/avgrund.css" /> -->
+		<!--<link type="text/css" rel="stylesheet" href="css/fb/jquery-ui.1.10.3.css" />-->
+		
+		<script type="text/javascript" src="cordova.js"></script>
+
+		<!-- 원격에서 읽어오는 방식 : s -->
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/common/encrypt.js"></script>
+
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/common/jquery.min.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/common/jquery.throttle.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/common/jquery.event.move.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/common/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/common/jquery.ui.touch-punch.min.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/common/jquery.minicolors.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/common/socket.io.js"></script>
+
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/common/prop.js"></script>
+
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/common/progress-circle.js"></script>
+
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/canvas/draw.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/canvas/canvas.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/canvas/canvas_webapp.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/canvas/memo.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/canvas/poll.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/canvas/poll_webapp.js"></script>
+
+		<script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/canvas/v_share.js"></script>  <!-- 유튜브 영상공유 스크립트 - 2016.09.12 추가 -->
+
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/common/utils.js"></script>
+
+		<!-- <script type="text/javascript" src="js/fb/video/adapter.js"></script> -->
+		<!-- <script type="text/javascript" src="js/fb/video/vc_2.js"></script> -->
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/video/vc_2.1.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/video/vpeer.js"></script>
+		
+		<!--#if !(MOZCENTRAL || CHROME || MINIFIED)-->
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/pdf/src/compatibility.js"></script>
+		<!--#endif-->
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/pdf/src/shared/util.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/pdf/src/shared/annotation.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/pdf/src/display/api.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/pdf/src/display/metadata.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/pdf/src/display/canvas.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/pdf/src/display/webgl.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/pdf/src/display/pattern_helper.js"></script>
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/pdf/src/display/font_loader.js"></script>
+
+		<script type="text/javascript" src="https://dev.knowlounges.com/fb/res/mobile/js/fb/canvas/pdf.js"></script>
+		<script type="text/javascript">
+		  	// Specify the main script used to create a new PDF.JS web worker.
+		  	// In production, change this to point to the combined `pdf.js` file.
+		  	
+		  	// 간혹 한글 인식못하는 버그가 있으므로 import 할것.
+		  	PDFJS.cMapUrl = 'https://dev.knowlounges.com/fb/res/mobile/js/fb/pdf/external/bcmaps/';
+			PDFJS.cMapPacked = true;
+			
+		  	PDFJS.workerSrc = "https://dev.knowlounges.com/fb/res/mobile/js/fb/pdf/src/worker_loader.js";
+		</script>
+		
+	</head>
+	<body style="background-color:white">
+		
+		<input type="hidden" id="lang" value="ko" />
+		<input type="hidden" id="rsaModule" value="b486eaa9931fc94f38d4108033c6dce08c7ad72a3d717c7ea03ceb470daf7bf794e8a33aedb81b3b62927d4f32b4953b1d63cc51ff39e5779e3705e00e220a4d" />
+		<input type="hidden" id="rsaExponent" value="10001" />
+					
+		<div id="loading" class="loadingWrap"  style=" display: none;">
+			<div class="loading">
+				<p class="text">loading...</p>
+				<div class="floatingCirclesG">
+					<div class="frotateG_01"></div>
+					<div class="frotateG_02"></div>
+					<div class="frotateG_03"></div>
+					<div class="frotateG_04"></div>
+					<div class="frotateG_05"></div>
+					<div class="frotateG_06"></div>
+					<div class="frotateG_07"></div>
+					<div class="frotateG_08"></div>
+				</div>
+			</div>
+		</div>
+
+		<input id="zoomval" type="text" value="100" readonly="readonly" style="display:none;" />
+
+		<iframe id="invite_frm" name="invite_frm" style="width:0;height:0;"></iframe>
+		<iframe id="targetFrm" name="targetFrm" style="width:0;height:0;"></iframe>
+		<form id="saveform" method="post" target="targetFrm">
+			<input type="hidden" id="title" name="title" value="" />
+			<input type="hidden" id="imageData" name="data" />
+			<input type="hidden" id="saveFrmUserNo" name="saveFrmUserNo" />
+		</form>
+
+		<div id="contsWrapper" class="contsWrapper">
+			<div id="docWrapper" class="mode_hand">
+				<div id="wrapper">
+					<div id="wrap" class="main_canvas">
+						<!-- <div id="sketch1" class="sketch" style="  width: 100%; height: 100%; overflow: hidden; position: relative;"></div> -->
+
+						<a id="text_btn" title="텍스트" class="btn_text" style="visibility: hidden;"></a>
+
+						<input id="file1" name="file1" type="file" title="배경 설정" style="display:none;"/>
+						<input id="file_pdf" name="file_pdf" type="file" title="배경 설정" accept="application/pdf" style="display:none;" />
+
+
+						<div id="memoWrapper" style="overflow:hidden;"></div>
+
+						<div id="textWrapper"></div> 
+
+						<div id="pdfWrapper" class="pdf_container" style="display:none; width:500px; height:50px; left:0px; top:0px;"></div>
+						
+						<div id="pdfCacheContainer" style="display:none;width:755px;height:1024px;left:0px;top:0px;"></div> <!-- PDF 캐싱 추가 - 2017.01.11 -->
+
+						
+						<div id="fontbox" class="text_box_edit" style="display:none;"> <!-- 포커스가 가거나 했을때 수정모드로 -->
+							<!-- s : 텍스트 옵션 박스 -->
+							<div id="fbox_wrap" class="text_editbox">
+								<select id="ffamily" class="ffamily" title="font face">
+									<option value="Arial" selected="selected">Arial</option>
+									<option value="calibri">calibri</option>
+									<option value="Georgia">Georgia</option>
+									<option value="Tahoma">Tahoma</option>
+									<option value="Verdana">Verdana</option>
+									<option value="Comic Sans MS">Comic Sans MS</option>
+								</select>
+								<select id="fsize" class="fsize" title="font size">
+									<option value="12">12</option>
+									<option value="14">14</option>
+									<option value="16">16</option>
+									<option value="18">18</option>
+									<option value="20" selected="selected">20</option>
+									<option value="22">22</option>
+									<option value="24">24</option>
+									<option value="26">26</option>
+									<option value="28">28</option>
+									<option value="30">30</option>
+									<option value="32">32</option>
+									<option value="34">34</option>
+									<option value="36">36</option>
+									<option value="38">38</option>
+									<option value="40">40</option>
+									<option value="42">42</option>
+									<option value="44">44</option>
+									<option value="46">46</option>
+									<option value="48">48</option>
+									<option value="50">50</option>
+								</select>
+								<a id="italic" class="edit_i edit_btn" title="italic"></a>
+								<a id="bold" class="edit_b edit_btn" title="bold"></a>
+								<input type="hidden" id="hidden-input" class="miniColor_jqueryP" value="#000000">
+								
+								<a id="txt_del_btn" class="edit_e" title="delete"></a>  
+							</div>
+							<div id="text_input_box" class="text_input_box">
+								<!--
+								<span class="tl"></span>
+								<span class="tc" style="display:none;"></span>
+								<span class="tr" style="display:none;"></span>
+								<span class="ml" style="display:none;"></span>
+								-->
+								<div class="text_input_textarea">
+									<textarea id="txt_area" style="font-family:Arial;font-size:20px;color:#000000;"></textarea>
+								</div>
+								<!--
+								<span class="mr" style="display:none;"></span>
+								<span class="bl" style="display:none;"></span>
+								<span class="bc" style="display:none;"></span>
+								<span class="br"></span>
+								-->
+							</div>							
+						</div>						
+						<!-- Another Noti -->
+						<div id="notiWrap" class="popup_box3" style="display:none;bottom:50px; left:50%; margin:-160px 0 0 -250px;"> <!-- 시스템 노티 -->
+							<div id="notiContent"class="popup_msg3"></div>
+						</div>
+
+						<!-- s : import video -->
+						<div id="vShareWrapper">
+						</div>
+						<!-- e : import video -->
+
+					</div>
+				</div>
+			</div>
+			<!-- Video Wrapper -->
+			<div id="videoWrapper"></div>
+		</div>
+		<div id="circle" style="display:none;"></div>
+		 
+	</body>
+
+</html>

@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.knowlounge.customview.CustomDrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/right_drawer_room"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.room.RoomActivity"
+    android:background="@android:color/white">
+
+    <FrameLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:orientation="vertical">
+
+        <!-- Toolbar, Webview, 우측 메뉴 컨테이너 : end -->
+        <LinearLayout
+            android:id="@+id/canvas_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Toolbar : start -->
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/room_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+            </android.support.v7.widget.Toolbar>
+            <!-- Toolbar : end -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+                <!--
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                -->
+                    <!-- 웹뷰 & 캠 영상 UI 영역 : start -->
+                    <LinearLayout
+                        android:id="@+id/main_leftside"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:id="@+id/user_video_container"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="#99FFFFFF"
+                            android:visibility="invisible"/>
+
+                        <LinearLayout
+                            android:id="@+id/webview_container"
+                            android:tag="webview_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:clickable="true" />
+
+                    </LinearLayout>
+                    <!-- 웹뷰 & 캠 영상 UI 영역 : end -->
+
+
+                <!--
+                </LinearLayout>
+                -->
+
+
+
+                <!-- 우측 메뉴 버튼 컨테이너 : start -->
+                <ScrollView
+                    android:id="@+id/right_menu_area_scroll"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/layer_right_menu_bar_style"
+                    android:padding="1dp"
+                    android:scrollbars="none"
+                    android:overScrollMode="never"
+                    android:visibility="visible">
+                        <LinearLayout
+                            android:id="@+id/right_menu_area"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="#00000000"
+                            android:gravity="center_horizontal">
+
+                            <!-- 테블릿 우측 메뉴 컨테이너 : start -->
+                            <LinearLayout
+                                android:id="@+id/right_menu_tablet"
+                                android:layout_width="48dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:visibility="gone">
+
+                                <ImageView
+                                    android:id="@+id/btn_rightmenu_fold"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_fold_on"
+                                    android:background="@android:color/transparent"/>
+
+                                <LinearLayout
+                                    android:id="@+id/rightmenu_area"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:gravity="center_horizontal">
+
+                                    <ImageView
+                                        android:id="@+id/btn_rightmenu_hand"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_hright_handmode"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_pen"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_pen"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_eraser"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_eraser"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_shape"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_shape"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_pointer"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_pointer"
+                                        android:background="@android:color/transparent"/>
+
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_text"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_text"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageView
+                                        android:layout_width="40dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/btn_rightmenu_line"/>
+
+                                    <ImageView
+                                        android:id="@+id/btn_rightmenu_memo"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_memo"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageView
+                                        android:id="@+id/btn_rightmenu_document"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_document"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageView
+                                        android:layout_width="40dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/btn_rightmenu_line"/>
+
+                                    <ImageView
+                                        android:id="@+id/btn_rightmenu_redo"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_redo"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageView
+                                        android:id="@+id/btn_rightmenu_undo"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_undo"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageView
+                                        android:id="@+id/btn_rightmenu_trash"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_trash"
+                                        android:background="@android:color/transparent"/>
+
+
+                                    <RelativeLayout
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp">
+                                        <ImageButton
+                                            android:id="@+id/btn_rightmenu_chat"
+                                            android:tag="right_btn"
+                                            android:layout_width="40dp"
+                                            android:layout_height="40dp"
+                                            android:src="@drawable/btn_rightmenu_chat"
+                                            android:background="@android:color/transparent"/>
+                                        <TextView
+                                            android:id="@+id/btn_rightmenu_chat_badge_count"
+                                            android:layout_width="20dp"
+                                            android:layout_height="20dp"
+                                            android:background="@drawable/bg_radius10_bgcolorff3c3c"
+                                            android:layout_alignParentRight="true"
+                                            android:textColor="#ffffff"
+                                            android:textSize="12dp"
+                                            android:visibility="gone"
+                                            android:gravity="center"/>
+                                    </RelativeLayout>
+                                    <RelativeLayout
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp">
+                                        <ImageButton
+                                            android:id="@+id/btn_rightmenu_comment"
+                                            android:tag="right_btn"
+                                            android:layout_width="40dp"
+                                            android:layout_height="40dp"
+                                            android:src="@drawable/btn_rightmenu_comment"
+                                            android:background="@android:color/transparent"/>
+                                        <TextView
+                                            android:id="@+id/btn_rightmenu_comment_badge_count"
+                                            android:layout_width="20dp"
+                                            android:layout_height="20dp"
+                                            android:background="@drawable/bg_radius10_bgcolorff3c3c"
+                                            android:layout_alignParentRight="true"
+                                            android:textColor="#ffffff"
+                                            android:textSize="12dp"
+                                            android:visibility="gone"
+                                            android:gravity="center"/>
+                                    </RelativeLayout>
+
+                                    <!--
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_poll"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_poll"
+                                        android:background="@android:color/transparent"/>
+                                    -->
+
+                                    <!--
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_multipage"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_multipage"
+                                        android:background="@android:color/transparent"/>
+                                     -->
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <!-- 테블릿 우측 메뉴 컨테이너 : end -->
+
+
+                            <!-- 폰 우측 메뉴 리뉴얼 버전 : start -->
+                            <LinearLayout
+                                android:id="@+id/right_menu_phone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:visibility="gone">
+
+                                <ImageView
+                                    android:id="@+id/btn_rightmenu_fold_phone"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_fold_on"
+                                    android:background="@android:color/transparent"/>
+
+                                <LinearLayout
+                                    android:id="@+id/phone_rightmenu_area"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:gravity="center_horizontal">
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_hand_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_hright_handmode"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_pen_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_pen"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_eraser_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_eraser"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_laser_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_laser"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_text_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_text"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/btn_rightmenu_line"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_document_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_document"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageView
+                                        android:layout_width="40dp"
+                                        android:layout_height="10dp"
+                                        android:src="@drawable/btn_rightmenu_line"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_multipage_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_header_multipage"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_poll_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_header_poll"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/btn_rightmenu_line"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_undo_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_undo"
+                                        android:background="@android:color/transparent"/>
+
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_trash_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_trash"
+                                        android:background="@android:color/transparent"/>
+                                </LinearLayout>
+                            </LinearLayout>
+                            <!-- 폰 우측 메뉴 리뉴얼 버전 : end -->
+
+                            <!-- 폰 우측 메뉴 가로 모드 : start -->
+                            <LinearLayout
+                                android:id="@+id/right_menu_landscape"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:visibility="gone">
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_pen_landscape"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_pen"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_eraser_landscape"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_eraser"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_document_landscape"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_document"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_poll_landscape"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_header_poll"
+                                    android:background="@android:color/transparent"/>
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_multipage_landscape"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_header_multipage"
+                                    android:background="@android:color/transparent"/>
+                            </LinearLayout>
+                            <!-- 폰 우측 메뉴 가로 모드 : end -->
+
+                            <!-- 폰 우측 드로잉 메뉴 컨테이너 : start -->
+                            <!--
+                            <LinearLayout
+                                android:id="@+id/right_menu_drawing"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:visibility="gone">
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_pen_phone"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_pen"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_eraser_phone"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_eraser"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_shape_phone"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_shape"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_text_phone"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_text"
+                                    android:background="@android:color/transparent"/>
+
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_document_phone"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_document"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_undo_phone"
+                                    android:tag="right_btn_no"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_undo"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_redo_phone"
+                                    android:tag="right_btn_no"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_redo"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_trash_phone"
+                                    android:tag="right_btn_no"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_trash"
+                                    android:background="@android:color/transparent"/>
+
+                            </LinearLayout>
+                            -->
+                            <!-- 폰 우측 드로잉 메뉴 컨테이너 : start -->
+
+                            <!-- 폰 우측 프레젠테이션 메뉴 컨테이너 : start -->
+                            <!--
+                            <LinearLayout
+                                android:id="@+id/right_menu_presentation"
+                                android:layout_width="48dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:visibility="gone">
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_hand_phone"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_hand"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_multipage_phone"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_multipage"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_pointer_phone"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_pointer"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_zoomout_phone"
+                                    android:tag="right_btn_no"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_zoomout"
+                                    android:background="@android:color/transparent"/>
+
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_zoomin_phone"
+                                    android:tag="right_btn_no"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_zoomin"
+                                    android:background="@android:color/transparent"/>
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_poll_phone"
+                                    android:tag="right_btn_no"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_poll"
+                                    android:background="@android:color/transparent"/>
+
+
+                            </LinearLayout>
+                            -->
+                            <!-- 폰 우측 프레젠테이션 메뉴 컨테이너 : end -->
+
+                            <!-- 폰 우측 커뮤니케이션 메뉴 컨테이너 : start -->
+                            <!--
+                            <LinearLayout
+                                android:id="@+id/right_menu_communication"
+                                android:layout_width="48dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="center_horizontal"
+                                android:visibility="gone">
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_cam_phone"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_cam"
+                                    android:background="@android:color/transparent"/>
+
+                                <RelativeLayout
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp">
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_friends_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_friends"
+                                        android:background="@android:color/transparent"/>
+                                    <TextView
+                                        android:id="@+id/room_right_badge_count"
+                                        android:layout_width="20dp"
+                                        android:layout_height="20dp"
+                                        android:background="@drawable/bg_radius10_bgcolorff3c3c"
+                                        android:layout_alignParentRight="true"
+                                        android:textColor="#ffffff"
+                                        android:textSize="12dp"
+                                        android:visibility="gone"
+                                        android:gravity="center"/>
+                                </RelativeLayout>
+                                <RelativeLayout
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp">
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_chat_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_chat"
+                                        android:background="@android:color/transparent"/>
+                                    <TextView
+                                        android:id="@+id/btn_rightmenu_chat_phone_badge_count"
+                                        android:layout_width="20dp"
+                                        android:layout_height="20dp"
+                                        android:background="@drawable/bg_radius10_bgcolorff3c3c"
+                                        android:layout_alignParentRight="true"
+                                        android:textColor="#ffffff"
+                                        android:textSize="12dp"
+                                        android:visibility="gone"
+                                        android:gravity="center"/>
+                                </RelativeLayout>
+                                <RelativeLayout
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp">
+                                    <ImageButton
+                                        android:id="@+id/btn_rightmenu_comment_phone"
+                                        android:tag="right_btn"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/btn_rightmenu_comment"
+                                        android:background="@android:color/transparent"/>
+                                    <TextView
+                                        android:id="@+id/btn_rightmenu_comment_phone_badge_count"
+                                        android:layout_width="20dp"
+                                        android:layout_height="20dp"
+                                        android:background="@drawable/bg_radius10_bgcolorff3c3c"
+                                        android:layout_alignParentRight="true"
+                                        android:textColor="#ffffff"
+                                        android:textSize="12dp"
+                                        android:visibility="gone"
+                                        android:gravity="center"/>
+                                </RelativeLayout>
+                                <ImageButton
+                                    android:id="@+id/btn_rightmenu_setting_phone"
+                                    android:tag="right_btn"
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:src="@drawable/btn_rightmenu_setting"
+                                    android:background="@android:color/transparent"/>
+                            </LinearLayout>
+                            -->
+                            <!-- 폰 우측 커뮤니케이션 메뉴 컨테이너 : end -->
+
+                    </LinearLayout>
+                </ScrollView>
+                <!-- 우측 메뉴 버튼 컨테이너 : end -->
+
+                <!-- 텍스트/메모 서브메뉴 컨테이너 : start -->
+                <ScrollView
+                    android:id="@+id/layer_text_submenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_toLeftOf="@id/right_menu_area_scroll"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/img_canvas_option_003"
+                    android:visibility="gone">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp">
+
+                        <LinearLayout
+                            android:id="@+id/layer_rightmenu_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_text"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="@string/canvas_textbox"
+                                android:textColor="#6e7072"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layer_rightmenu_memo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_memo"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="@string/canvas_memo"
+                                android:textColor="#6e7072"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+                <!-- 텍스트/메모 서브메뉴 컨테이너 : end -->
+
+                <!-- 도큐먼트 서브메뉴 (이미지, PDF) 컨테이너 : start -->
+                <ScrollView
+                    android:id="@+id/layer_document_submenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_toLeftOf="@id/right_menu_area_scroll"
+                    android:background="@drawable/img_canvas_option_003"
+                    android:visibility="gone">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/layer_rightmenu_photo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_photo"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="@string/canvas_photo"
+                                android:textColor="#6e7072"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/layer_rightmenu_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_image"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="@string/canvas_image"
+                                android:textColor="#6e7072"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layer_rightmenu_pdf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_pdf"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="@string/canvas_pdf"
+                                android:textColor="#6e7072"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/layer_rightmenu_video"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_video"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="@string/videosharing_menu"
+                                android:textColor="#6e7072"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+                <!-- 도큐먼트 서브메뉴 (이미지, PDF) 컨테이너 : end -->
+
+
+                <!-- 폴 서브메뉴 컨테이너 : start -->
+                <ScrollView
+                    android:id="@+id/layer_poll_submenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="250dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_toLeftOf="@id/right_menu_area_scroll"
+                    android:background="@drawable/img_canvas_option_003"
+                    android:visibility="gone">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:id="@+id/right_submenu_poll_create"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_poll"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/canvas_poll"
+                                android:textSize="15dp"
+                                android:gravity="center_vertical"
+                                android:textColor="#6e7072"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/right_submenu_poll_list"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_polllist"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/canvas_poll_list"
+                                android:textSize="15dp"
+                                android:gravity="center_vertical"
+                                android:textColor="#6e7072"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/right_submenu_complet_poll"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/btn_rightmenu_pollcomplete"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="@string/canvas_poll_result"
+                                android:textSize="15dp"
+                                android:gravity="center_vertical"
+                                android:textColor="#6e7072"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+                <!-- 폴 서브메뉴 컨테이너 : end -->
+
+                <!-- 영상 유저 초대, 영상 그룹 분리 버튼 영역 : start -->
+                <LinearLayout
+                    android:id="@+id/video_invite_user"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/bg_ffffff_border_radius6_c8c8c8"
+                    android:layout_toLeftOf="@id/right_menu_area_scroll"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/video_user_invite_btn"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/btn_video_user_invite"/>
+                    <ImageView
+                        android:id="@+id/video_separate_btn"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/btn_video_transform" />
+                </LinearLayout>
+                <!-- 영상 유저 초대, 영상 그룹 분리 버튼 영역 : end -->
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!-- Toolbar, Webview, 우측 메뉴 컨테이너 : end -->
+
+
+        <!-- 팝업 윈도우 컨테이너 : start -->
+        <RelativeLayout
+            android:id="@+id/popover_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+        <!-- 팝업 윈도우 컨테이너 : end -->
+
+
+        <!--
+        <include
+            android:id="@+id/config_drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            layout="@layout/sm_config_drawer" />
+        -->
+
+        <!-- 서비스 가이드 툴팁 : start -->
+        <FrameLayout
+            android:id="@+id/service_guide_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#b3ffffff">
+
+            <!-- 폰 가로모드일 때는 보이지 않는 툴팁 : start -->
+            <LinearLayout
+                android:id="@+id/service_guide_message1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="50dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img_canvas_serviceguide_01"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/canvas_bubble_classcode"
+                    android:maxWidth="300dp"
+                    android:textSize="15dp"
+                    android:background="@drawable/img_canvas_serviceguide_02"
+                    android:textColor="#5a5a5a"/>
+            </LinearLayout>
+            <!-- 폰 가로모드일 때는 보이지 않는 툴팁 : end -->
+
+            <TextView
+                android:id="@+id/service_guide_message2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/canvas_bubble_toolbar"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/img_canvas_serviceguide_04"
+                android:maxWidth="300dp"
+                android:textSize="15dp"
+                android:textColor="#5a5a5a"/>
+            <TextView
+                android:id="@+id/service_guide_message3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/canvas_bubble_boardnavi"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/img_canvas_serviceguide_03"
+                android:maxWidth="300dp"
+                android:textSize="15dp"
+                android:textColor="#5a5a5a"/>
+            <TextView
+                android:id="@+id/service_guide_message4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/canvas_bubble_toolbar"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/img_canvas_serviceguide_04"
+                android:maxWidth="260dp"
+                android:textSize="15dp"
+                android:textColor="#5a5a5a"/>
+        </FrameLayout>
+        <!-- 서비스 가이드 툴팁 : end -->
+
+
+
+
+
+        <!-- 하단 방 이동하기 버튼 레이아웃 : start -->
+        <LinearLayout
+            android:id="@+id/layout_move_room"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <!-- 보드 이동 버튼 레이아웃 : start -->
+            <LinearLayout
+                android:id="@+id/container_move_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_move_teacher_room"
+                android:paddingRight="20dp"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/ico_move_room"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ico_canvas_teacherboard"/>
+                <TextView
+                    android:id="@+id/txt_move_room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="@string/canvas_navi_master"
+                    android:textColor="@color/app_base_color"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+            <!-- 보드 이동 버튼 레이아웃 : end -->
+
+
+            <!-- 폴 버튼 레이아웃 : start -->
+            <LinearLayout
+                android:id="@+id/container_poll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/btn_wait_answer_poll"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txt_poll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="답변 대기 중"
+                    android:textColor="#c8c8c8"
+                    android:textSize="15dp"/>
+            </LinearLayout>
+            <!-- 보드 이동 버튼 레이아웃 : end -->
+
+
+            <!-- 2016.12.19 deprecated -->
+            <ImageButton
+                android:id="@+id/btn_open_userlist"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/layer_jump_room_btn_on"
+                android:src="@drawable/btn_quick_userlist"
+                android:visibility="gone" />
+
+        </LinearLayout>
+        <!-- 하단 방 이동하기 버튼 레이아웃 : end -->
+
+        <!-- 질문에 답변하기 가이드 툴팁 : start -->
+        <TextView
+            android:id="@+id/txt_answer_poll_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/img_canvas_serviceguide_05"
+            android:maxWidth="270dp"
+            android:text="@string/canvas_bubble_response"
+            android:textColor="#5a5a5a"
+            android:textSize="15dp"
+            android:visibility="gone"/>
+        <!-- 질문에 답변하기 가이드 툴팁 : end -->
+
+        <!-- 테블릿의 멀티 페이지 레이아웃 : start -->
+        <LinearLayout
+            android:id="@+id/multi_page_sliding_layout"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/drawer_shadow"
+                android:paddingEnd="0dp"
+                android:paddingLeft="-10dp"
+                android:paddingRight="0dp"
+                android:paddingStart="-10dp" />
+            <FrameLayout
+                android:id="@+id/multi_page_container"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:background="#ffffff" />
+        </LinearLayout>
+        <!-- 테블릿의 멀티 페이지 레이아웃 : end -->
+
+        <!-- 폰의 멀티 페이지 레이아웃 : start -->
+        <LinearLayout
+            android:id="@+id/multi_page_sliding_layout_phone"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_gravity="bottom"
+            android:visibility="gone">
+            <FrameLayout
+                android:id="@+id/multi_page_container_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true" />
+        </LinearLayout>
+        <!-- 폰의 멀티 페이지 레이아웃 : end -->
+
+
+        <!-- 참여 신청 알림 툴팁 레이아웃 : start -->
+        <com.knowlounge.customview.ClickableFrameLayout
+            android:id="@+id/notification_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/img_canvas_join_message"
+            android:layout_gravity="right"
+            android:layout_marginTop="44dp"
+            android:layout_marginRight="125dp"
+            android:layout_marginLeft="5dp"
+            android:visibility="gone"/>
+        <!-- 참여 신청 알림 툴팁 레이아웃 : start -->
+
+
+        <!-- 룸 로딩 화면 레이아웃 : start -->
+        <RelativeLayout
+            android:id="@+id/loading_layer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="#FFFFFFFF"
+            android:visibility="visible">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingTop="30dp"
+                android:layout_above="@+id/cancel_room_loading"
+                android:layout_centerInParent="true">
+
+                <!--
+                <com.victor.loading.book.BookLoading
+                    android:id="@+id/book_loading"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"/>
+                -->
+
+                <ImageView
+                    android:id="@+id/room_loading_img"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:background="#00000000"/>
+
+                <TextView
+                    android:id="@+id/txt_canvas_loading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#787878"
+                    android:textSize="18dp"
+                    android:text="@string/canvas_loading"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/cancel_room_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:minWidth="200dp"
+                android:layout_marginBottom="40dp"
+                android:text="@string/canvas_loading_cancel"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/app_base_color"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/bg_radius20_borderc00a651" />
+
+        </RelativeLayout>
+        <!-- 룸 로딩 화면 레이아웃 : end -->
+
+
+        <!-- 이전 필기 불러오기 Confirm 창 레이아웃 : start -->
+        <LinearLayout
+            android:id="@+id/btn_redraw_history_layout"
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:layout_gravity="bottom|right"
+            android:background="#fafafa"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:visibility="gone">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp" >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#c8e6d2"/>
+                <View
+                    android:id="@+id/progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/app_base_color"/>
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="25dp"
+                android:textSize="15dp"
+                android:textColor="#323232"
+                android:text="@string/canvas_history1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="12dp"
+                android:textColor="#969696"
+                android:text="@string/canvas_history2"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/btn_redraw_history_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:textColor="@color/app_base_color"
+                    android:textSize="15dp"
+                    android:text="@string/global_cancel" />
+                <TextView
+                    android:id="@+id/btn_redraw_history_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:textColor="@color/app_base_color"
+                    android:textSize="15dp"
+                    android:text="@string/global_ok" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 이전 필기 불러오기 Confirm 창 레이아웃 : end -->
+
+        <RelativeLayout
+            android:id="@+id/deemed_layer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="#80000000"
+            android:visibility="gone">
+        </RelativeLayout>
+
+
+        <!-- 판서형 질문에서 영역 선택시 사용되는 뷰 : start -->
+        <com.knowlounge.customview.DragSelectableView
+            android:id="@+id/draggable_draw_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+        <!-- 판서형 질문에서 영역 선택시 사용되는 뷰 : end -->
+
+
+        <!-- 판서형 질문에서 영역 선택시 사용하는 버튼 레이어 : start -->
+        <LinearLayout
+            android:id="@+id/btn_selector_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/btn_cancel_capture"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/btn_poll_canvas_capture_cancel"/>
+            <ImageView
+                android:id="@+id/btn_confirm_capture"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/btn_poll_canvas_capture_select"/>
+        </LinearLayout>
+        <!-- 판서형 질문에서 영역 선택시 사용하는 버튼 레이어 : end -->
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/left_drawer_layout"
+        android:layout_width="330dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/left_drawer_panel_room"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:importantForAccessibility="no"
+            android:clickable="true"
+            android:background="#ffffff" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/left_drawer_shadow"
+            android:paddingStart="0dp"
+            android:paddingEnd="-10dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="-10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/right_drawer_layout"
+        android:layout_width="330dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawer_shadow"
+            android:paddingEnd="0dp"
+            android:paddingLeft="-10dp"
+            android:paddingRight="0dp"
+            android:paddingStart="-10dp" />
+        <FrameLayout
+            android:id="@+id/right_drawer_panel_room"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:importantForAccessibility="no"
+            android:clickable="true"
+            android:background="#ffffff" />
+    </LinearLayout>
+
+
+
+</com.knowlounge.customview.CustomDrawerLayout>

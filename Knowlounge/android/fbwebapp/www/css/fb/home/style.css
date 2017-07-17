@@ -1,0 +1,190 @@
+header { position: fixed; left:0; top:0; width:100%; height: 50px ; background: #e4eaeb; z-index: 100; }
+header nav { position: relative; height:50px; overflow:hidden; overflow-x:auto;}
+header nav.login_after .navWrap { width:650px;}
+header nav.login_before .navWrap { width:330px; }
+header nav a { display: inline-block; height:50px; margin:0 5px; padding:0 15px; line-height:50px; font-size:16px; color:#8f9293; box-sizing:border-box; }
+header nav a:focus, header nav a.on { border-bottom:3px solid #96c81e; color:#1e1e1e; }
+
+header .google, header .facebook { position: absolute; top:5px; display: block; width: 40px; height:40px; border-radius:20px; background-image: url("../images/icon.png"); background-repeat: no-repeat; background-size: 400px auto ; }
+header .facebook { right:20px; background-color: #5d82d1; background-position: -40px 0;}
+header .google { right:70px; background-color: #eb5e4c; background-position: -80px 0;}
+
+header .user { position: absolute; right:0px; top:0; height:50px; padding:0 20px; line-height:50px;}
+header .user .userID { display: block; padding:0 10px 0 0; float:left; font-size:16px; color:#505050; line-height:50px; }
+header .user img { width:30px; height:30px; margin:10px 0 0; float:left; border-radius:20px; }
+header .user .newAlert { display: inline-block; position: absolute; right:15px; top:3px; min-width:10px; height:20px; padding:0 5px; border-radius:10px; background: #ff3c3c; text-align:center; font-size:12px; font-weight:bold; color:#ffffff; line-height:20px;}
+
+.align_middle_table { display: table-cell; vertical-align: middle;}
+
+.mySocial { display: none; position: fixed; left:0; top:0; width:100%; height:100%; background: rgba(0,0,0,0.55); z-index:300}
+.mySocialWrap { position:relative; width:100%; height:100%; z-index:300; }
+.mySocial .socialArea { display: block; position: absolute; right:0; top:0; width:320px; height:100%; padding:50px 0 0 0; background: #ffffff; z-index:310; overflow-y:auto; box-sizing:border-box; box-shadow: -2px 0 10px rgba(0,0,0,0.2); }
+.mySocial.on { display: block;  z-index:300 }
+
+.mySocial .topTitle { position: fixed; right:0; top:0; width:320px; height:50px; background: #e4eaeb; text-align:center; font-size:14px; z-index:390; }
+.mySocial .topTitle a { display: block; position: relative; width:94px; height:45px; margin:5px 0 0; float:left; border-left:1px solid #d7dcdc; border-bottom:1px solid #d7dcdc; color:#8f9293; line-height:45px; box-sizing:border-box; }
+.mySocial .topTitle a.on { border-bottom:none; border-top:1px solid #d7dcdc; background: #ffffff; color:#1e1e1e; }
+.mySocial .topTitle a:last-child.on { background: #f5f5f5; }
+.mySocial .topTitle .close { width:38px; height:50px; margin:0; }
+.mySocial .topTab { position: relative; }
+
+.mySocial .invite, .mySocial .invite2 {padding:20px; }
+.mySocial .roomlist { display: block; position: relative; width:280px; height:80px; margin:0 0 8px 0; padding: 10px 10px 10px 110px; border:1px solid #d7dcdc; border-radius:6px; background: #ffffff; color:#505050; font-size:14px; box-sizing:border-box; overflow:hidden; z-index:320;}
+.mySocial .invite .roomlist.selected::before { content:""; position: absolute; left:0; top:0; width:100%; height:100%; background: rgba(100,100,100,0.5); z-index:324; }
+.mySocial .invite .roomlist.selected::after { content:""; position: absolute; top:15px; left:50%; width:50px; height:50px; margin: 0 0 0 -25px; border-radius:25px; background: url("../images/icon.png") -195px 5px #ffffff; background-size:400px auto; z-index:325; box-shadow:0 2px 2px rgba(0,0,0,0.1); }
+.mySocial .roomlist .thumb { display: block; position: absolute; left:0; top:0; width:100px; height:100px; overflow:hidden;}
+.mySocial .roomlist .thumb::before { content:""; position: absolute; left:0; top:0; width:100px; height:100px; background: rgba(0,0,0,0.2); z-index:322; }
+.mySocial .roomlist .thumb img { width:120px; height:120px; margin:-10px 0 0 -10px; z-index:321;}
+.mySocial .roomlist .userPic { position: absolute; left:80px; top:5px; width:40px; height:40px; border-radius:20px; z-index:323;}
+.mySocial .roomlist .userID { display: block; position: absolute; left:130px; top:5px; width:130px; height:25px; color:#505050; font-size:13px; line-height:25px; box-sizing:border-box; overflow:hidden; text-overflow:ellipsis;white-space:nowrap;word-wrap:normal; }
+.mySocial .roomlist .time { display: block; position: absolute; left:130px; top:28px; width:130px; height:15px; color:#969696; font-size:11px; line-height:15px; }
+.mySocial .roomlist .accept { display:none; position: absolute; left:0; top:0;  width:280px; height:100px; background: rgba(100,100,100,0.5); z-index:330;}
+
+.mySocial .invite .searchArea { position: relative; padding:50px 0 0 0; overflow:hidden; }
+.mySocial .invite .searchArea input[type="search"] { position: absolute; left:0; top:0; width:280px; height:40px; padding:10px 40px 10px 115px; margin:0; border-radius:20px; border:1px solid #d7dcdc; line-height:20px; font-size:12px; box-sizing:border-box; box-shadow:none; z-index:301;}
+.mySocial .invite .searchArea input[type="search"]:focus { outline:none; }
+.mySocial .invite .searchArea select.searchType { position: absolute; left:1px; top:1px; width:104px; height:38px; padding:0 0 0 10px; border:none; border-right:1px solid #d7dcdc; border-radius:20px 0 0 20px; background: none !important; font-size:12px; outline:none; z-index:301; box-sizing:border-box; -webkit-appearance: none;}
+.mySocial .invite .searchArea select.searchType option { background:#ffffff !important; }
+.mySocial .invite .searchArea .btn_search { display:block; position:absolute; top:5px; right:5px; width:30px; height:30px; border-radius:15px; background: url("../images/icon.png") #96c81e no-repeat; background-position: -280px 0; background-size:400px auto;  z-index:302;}
+.mySocial .invite .searchArea .result { position: relative; }
+
+.mySocial .invite .searchArea .searchResult { display: none; position: relative; max-height:140px; padding:0; margin:0 0 10px 0; border:1px solid #d7dcdc; border-radius:6px; overflow: hidden; box-sizing:border-box;}
+.mySocial .invite .searchArea .searchResult.on { display: block; }
+
+.mySocial .invite .searchArea .searchResult ul { max-height:140px; overflow-y:auto; }
+.mySocial .invite .searchArea .searchResult li { position:relative; padding:0 15px;  border-bottom:1px solid #dce6e6; background: #ffffff; line-height:40px; font-size:14px; color:#505050; list-style:none;}
+.mySocial .invite .searchArea .searchResult li:nth-child(2n) { background: #f9fcfc;}
+.mySocial .invite .searchArea .searchResult li.on { border-bottom:1px solid #82b40a; background: #a0d228; color:#ffffff; }
+.mySocial .invite .searchArea .searchResult li:nth-child(2n).on { background: #96c81e;}
+.mySocial .invite .searchArea .searchResult li:last-child { border:none; }
+.mySocial .invite .searchArea .searchResult li img {width:30px; height:30px; margin:5px 10px 0 0; float:left; border-radius:15px;}
+.mySocial .invite .searchArea .searchResult li.on::after { content:""; position:absolute; left:14px; top:4px; width:32px; height:32px; border-radius:16px; background: url("../images/icon.png") -150px 0 rgba(0,0,0,0.4); background-size: 300px auto; }
+
+.mySocial .invite .searchArea .searchResultUser { max-height:130px; margin:0 0 80px 0;padding:10px 10px 5px; border:1px solid #d7dcdc; border-radius:6px; overflow-y:auto; }
+.mySocial .invite .searchArea .searchResultUser li { position: relative; margin:0 5px 5px 0; padding:0 30px 0 0; float:left; border:1px solid #dce6e6; border-radius:15px; background: #ffffff; line-height:30px; font-size:14px; color:#505050; list-style:none; }
+.mySocial .invite .searchArea .searchResultUser li:nth-child(2n) {margin:0 0 5px 0; }
+.mySocial .invite .searchArea .searchResultUser li span { display: block; max-width:52px; float:left; line-height:30px; overflow:hidden; text-overflow:ellipsis;white-space:nowrap;word-wrap:normal; }
+.mySocial .invite .searchArea .searchResultUser li img {width:30px; height:30px; margin:0 5px 0 0; float:left; border-radius:15px;}
+.mySocial .invite .searchArea .searchResultUser li .delete { display: block; position: absolute; right:0; top:0; width:30px; height:30px; border-radius:15px; background:url("../images/icon.png") no-repeat -360px 0; background-size: 400px auto; text-align:left; text-indent:-999px;  overflow:hidden;}
+
+.mySocial .btn_invite { position: fixed; right:0px; bottom:0px; width:280px; height:50px; padding:10px 20px; border-top:1px solid #d7dcdc; background: #f5f5f5; z-index:390; }
+.mySocial .btn_invite a {display: block; height:50px; border-radius:6px; background: #96c81e; color:#ffffff; font-weight:bold; line-height:50px; text-align:center; font-weight:bold; }
+
+.mySocial .invite2 .roomlist { height:100px; padding:50px 10px 10px 110px; }
+.mySocial .invite2 .roomlist.selected .accept { display: block; }
+.mySocial .invite2 .roomlist.selected .accept a { display: block; position: absolute; top:25px; width:50px; height:50px; border-radius:30px; background: url("../images/icon.png") #ffffff; background-size:400px auto; box-shadow:0 2px 2px rgba(0,0,0,0.1); }
+.mySocial .invite2 .roomlist.selected .accept a.entrance { left: 60px; background-position: -195px 5px;}
+.mySocial .invite2 .roomlist.selected .accept a.delete { left:170px; background-position: -235px 5px; }
+.mySocial .invite2 .roomlist.selected .accept a.cancel { top:0; right:0; width:25px; height:25px; border-radius:0 0 0 6px; background: #ffffff; color:#000000; text-align:center; box-shadow:none;}
+
+.mySocial .invite3 { min-height:100%; }
+.mySocial .invite3 .socialHeader { position: fixed; right:0; top:50px; width:320px; height:49px; border-bottom:1px solid #dce6e6; background: #f5f5f5; line-height:50px; z-index:390; }
+.mySocial .invite3 .socialHeader a { display:inline-block; line-height:50px; text-decoration:none; color:#505050; }
+.mySocial .invite3 .socialHeader a.selectAllFriends { position: relative; padding: 0 15px 0 60px; }
+.mySocial .invite3 .socialHeader a.selectAllFriends::after { content:""; display: block; position: absolute; left:10px; top:10px; width:30px; height:30px; border-radius:20px; background: url("../images/icon.png") no-repeat; background-position:-325px -5px; background-size: 400px auto;}
+.mySocial .invite3 .socialHeader a.selectAllFriends.on::after { background-position: -205px -5px;}
+
+.mySocial .invite3 .friendList { margin:50px 0 70px 0; z-index:310;}
+.mySocial .invite3 .friendList li { position: relative; height:50px; border-bottom:1px solid #dce6e6;list-style: none; background:#ffffff; line-height:50px; }
+.mySocial .invite3 .friendList li:nth-child(2n) { background: #f9fcfc}
+.mySocial .invite3 .friendList li input[type="checkbox"] { position: absolute; left:-1px; top:-1px; width:1px; height:1px; visibility: hidden; }
+.mySocial .invite3 .friendList li img { width:40px; height:40px; margin:5px 10px; border-radius: 20px; float:left; }
+.mySocial .invite3 .friendList li span { display: block; float:left; line-height:50px; }
+.mySocial .invite3 .friendList li.on { border-bottom:1px solid #82b40a; background: #a0d228; color:#ffffff; }
+.mySocial .invite3 .friendList li:nth-child(2n).on { background: #96c81e;}
+.mySocial .invite3 .friendList li.on::after { content:""; display:block; position: absolute; left:9px; top:4px; width:42px; height:42px; border-radius:21px; background: url("../images/icon.png") -200px 0 rgba(0,0,0,0.4); background-size: 400px auto; }
+.mySocial .invite3.no_friends { display: table; width:100%; padding:20px; background:#f5f5f5; text-align: center; box-sizing: border-box;
+    background: -moz-linear-gradient(top,  rgba(245,245,245,1) 5%, rgba(235,235,235,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(245,245,245,1) 5%, rgba(235,235,235,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(245,245,245,1) 5%, rgba(235,235,235,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.mySocial .invite3.no_friends .subtitle { margin:0 0 10px 0; font-weight: bold; color:#505050; font-size:16px;}
+.mySocial .invite3.no_friends .title { margin:50px 0 30px 0; font-weight: bold; color:#303030; font-size:20px; text-shadow: 2px 2px 1px rgba(0,0,0,0.1); }
+.mySocial .invite3.no_friends .description { color:#808080; font-size:14px;}
+.mySocial .invite3.no_friends .btn_callFriendsList { display: block; position:relative; height:40px; margin:0 0 20px 0; padding:0 30px 0 50px; border-radius:6px;color:#ffffff; font-weight:bold; line-height:40px;}
+.mySocial .invite3.no_friends .btn_callFriendsList::before { content:""; display: block; position:absolute; left:5px; top:0px; width:40px; height:40px; background: url("../images/icon.png"); background-size: 400px auto; }
+.mySocial .no_friends.facebook .btn_callFriendsList { border:1px solid #4d72c1; background: #5d82d1;}
+.mySocial .no_friends.facebook .btn_callFriendsList::before { background-position:-40px 0;}
+.mySocial .no_friends.google .btn_callFriendsList { border:1px solid #db4e3c; background:#eb5e4c; }
+.mySocial .no_friends.google .btn_callFriendsList::before { background-position:-80px 0; }
+
+.mySocial hr { margin:20px 0 ; border:none; border-top:1px solid #d7dcdc; }
+
+section.roomList { width:970px; margin:0 auto; overflow:hidden; }
+
+section.roomList .title { position: relative; padding:20px 0; line-height:30px; background: #ffffff; }
+section.roomList .title h1{ display: block; color:#1e1e1e; font-size:26px; line-height:40px; text-align:left; }
+section.roomList .title input { position: absolute; right:0px; top:20px; width:200px; height:40px; padding:10px 50px 10px 10px; border-radius:20px; border:1px solid #d7dcdc; line-height:20px; font-size:12px; box-sizing:border-box; box-shadow:none; z-index:1;}
+section.roomList .title .go_room { display: block; position: absolute; top:20px; right:5px; width:40px; height:40px; border-radius:20px; background: url("../images/icon.png") 0 0 no-repeat; background-size:400px auto ; z-index:2;}
+section.roomList .title input:focus { outline:none; }
+
+section.roomList .roomWrap { position:relative; width:24.25%; height:260px; margin:0 1% 16px 0; float:left; z-index:10; }
+section.roomList .roomWrap:nth-child(4n+1) { margin:0 0 12px 0; }
+section.roomList .room { position:relative; width:100%; height: 260px; border:1px solid #d7dcdc; border-radius:6px; background: #ffffff; box-shadow:0px 1px 2px rgba(0,0,0,0.2); box-sizing: border-box; overflow:hidden;}
+section.roomList .room .roomThumb { position: relative; width:100%; height:150px; z-index:11; overflow:hidden;}
+section.roomList .room .roomThumb::before { content:""; position: absolute; left:0; top:0; width:100%; height:150px; background: rgba(0,0,0,0.2); z-index:12; }
+section.roomList .room .roomThumb img { width:100%; height:auto; border-radius:6px 6px 0 0; }
+section.roomList .room .userPic { position: absolute; left:10px; top:130px; width:40px; height:40px; border-radius:20px; z-index:13; }
+section.roomList .room .userID { position: absolute; left:0; top:115px; width:100%; height:35px; padding:15px 0 0 55px; color:#ffffff; font-size:13px; line-height:20px; box-sizing:border-box; z-index:12;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 5%, rgba(0,0,0,0.5) 90%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 5%,rgba(0,0,0,0.5) 90%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 5%,rgba(0,0,0,0.5) 90%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+}
+section.roomList .room .roomTitle { padding:30px 10px 5px; font-size:14px; color:#505050; letter-spacing:-0.05em; }
+section.roomList .room .view { position: absolute; left:10px; bottom:10px; height:20px; font-size:12px; line-height:20px; color:#969696; }
+section.roomList .roomWrap .favorites { position: absolute; right:5px; bottom:5px; width:30px; height:30px; background: url("../images/icon.png") -160px 0 no-repeat; background-size: 400px auto ;  z-index:19; }
+section.roomList .roomWrap .favorites.on { background-position:-120px 0; }
+
+section.roomList.my .makeroom { border-width:3px; background: #f8f8f8; box-shadow:none;  text-align:center; }
+section.roomList.my .makeroom .description { padding:90px 30px 0; font-size:12px; color:#969696; line-height:24px; }
+section.roomList.my .makeroom .createRoom { display: inline-block; position: relative; margin:20px auto; padding:0 20px 0 40px; border-radius:6px; background: #96c813; color:#ffffff; font-weight:bold; line-height:40px; font-size:16px;}
+section.roomList.my .makeroom .createRoom::before, section.roomList.my .makeroom .createRoom::after { content:""; display: block; position: absolute; background: #ffffff;}
+section.roomList.my .makeroom .createRoom::before { left:12px; top:18px; width:16px; height:4px; }
+section.roomList.my .makeroom .createRoom::after { left:18px; top:12px; width:4px; height:16px; }
+
+.btn_floating_make { display: block; position: fixed; right:12px; bottom:20px; width:60px; height:60px; border-radius:30px; background: #96c81e; box-shadow:0px 3px 6px rgba(0,0,0,0.4); z-index:90; }
+.btn_floating_make::before, .btn_floating_make::after { content:""; display: block; position: absolute;  border-radius: 3px; background: #ffffff;}
+.btn_floating_make::before { left:15px; top:27px; width:30px; height:6px; }
+.btn_floating_make::after{ left:27px; top:15px; width:6px; height:30px;}
+
+@media all and (max-width:1000px){
+    section.roomList { width:96%; }
+    section.roomList .roomWrap { width: 32.4%; margin:0 1.4% 16px 0;}
+    section.roomList .roomWrap:nth-child(4n+1) { margin:0 1.4% 16px 0; }
+    section.roomList .roomWrap:nth-child(3n+1) { margin:0 0 16px 0; }
+}
+
+@media all and (max-width:800px){
+    body { padding:80px 0 0 0; }
+    header { height: 80px ; }
+    header nav { height:40px; margin:40px 0 0 0; }
+    header nav a { height:40px; line-height:40px; }
+    
+    header .user { height:40px; padding: 0 10px 0 15px; line-height:40px;}
+    header .user .userID { line-height:40px; }
+    header .user img { margin:5px 0 0; }
+    header .user .newAlert { right:5px; top:2px;}
+}
+
+@media all and (max-width:710px){
+    section.roomList .roomWrap { width: 49%; margin:0 2% 16px 0;}
+    section.roomList .roomWrap:nth-child(3n+1) { margin:0 2% 16px 0; }
+    section.roomList .roomWrap:nth-child(2n+1) { margin:0 0 16px 0; }
+}
+
+@media all and (max-width:480px){
+    section.roomList { width:260px; }
+    
+    section.roomList .title { padding:20px 0 60px; }
+    section.roomList .title h1{ display: block; text-align:center; }
+    section.roomList .title input { right:0px; top:60px; width:260px; }
+    section.roomList .title .go_room { top:60px; right:5px; }
+    
+    section.roomList .roomWrap{ margin:0 auto 16px !important; }
+    section.roomList .roomWrap { width:260px; float:none; }
+    section.roomList .room .roomThumb { width:260px; }
+    section.roomList .room .roomThumb::before { width:260px; }
+    section.roomList .room .roomThumb img {width:260px; }
+    section.roomList .room .userID { width:260px; }
+}

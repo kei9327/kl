@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textview_rounded_corner"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/poll_list_footer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#505050"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="13dp"
+                android:text="더 보기(1/15)"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/type2_area"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dedfe0"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/poll_List_send_btn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:paddingRight="30dp"
+                android:gravity="center_vertical|right"
+                android:textSize="16dp"
+                android:textColor="#8cbe14"
+                android:text="보내기"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ExpandableListView
+        android:id="@+id/drawer_main_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF0F0F0"
+        android:dividerHeight="0dp"
+        android:groupIndicator="@null"
+        android:divider="@null"
+        android:childDivider="@null"
+        android:scrollbars="none">
+    </ExpandableListView>
+</LinearLayout>

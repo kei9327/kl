@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_under_gray_background_white"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/room_notice_thumbnail"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/btn_checkbox_on"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/room_notice_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:text="참여 요청을 하였습니다.아녕하세요 아ㅏ어리누누판우린어ㅏ린얼미휴ㅜㄴ이뮤ㅜㅏㄴ웊니아ㅟㄴ아ㅜ린ㅇ러ㅣ나러ㅣㄴㅇ런이ㅠㅓㄴ이ㅠㅟㄴ우ㅠㄴ이ㅏㅓㄹ내ㅑㅓㄱ대휴ㅜㅎ만ㅀ"
+                android:textColor="#636363"
+                android:ellipsize="end"
+                android:textSize="13dp"
+                android:layout_marginBottom="6dp"/>
+            <TextView
+                android:id="@+id/room_notice_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="어제 PM 03:11"
+                android:textSize="12dp"
+                android:textColor="#c8c8c8"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,295 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+            <!-- <title>WENOTE Global</title>
+             <meta name="description" content="Wenote is awsome!">
+             <meta name="keywords" content="wenote, android, iOS, app, meeting, group, office, education "> -->
+            
+            <meta http-equiv="Content-Security-Policy"
+            content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; media-src *" />
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+                
+                <link rel="stylesheet" href="css/home/default.css" />
+                <link rel="stylesheet" href="css/home/style.css" />
+                
+                <script type="text/javascript" src="cordova.js"></script>
+
+                <script type="text/javascript" src="js/fb/common/jquery.min.js"></script>
+                <script type="text/javascript" src="js/fb/common/prop.js"></script>
+                <script type="text/javascript" src="js/fb/common/utils.js"></script>
+                <script type="text/javascript" src="js/fb/common/notify.js"></script>
+                <script type="text/javascript" src="js/fb/msg/msg_ko.js"></script>
+
+                <script type="text/javascript" src="js/fb/mainapp.js"></script>
+                <script type="text/javascript" src="js/fb/oauth/fbauth.js"></script>
+                <script type="text/javascript" src="js/fb/oauth/ggauth.js"></script>
+                <script type="text/javascript" src="js/fb/oauth/auth.js"></script>
+                <script type="text/javascript" src="js/fb/oauth/aes.js"></script> <!-- 암복호화 관련 -->
+
+                <!--
+                <script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/jquery.min.js"></script>
+                <script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/prop.js"></script>
+                <script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/utils.js"></script>
+                <script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/notify.js"></script>
+                <script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/msg/msg_ko.js"></script>
+
+                <script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/mainapp.js"></script>
+                <script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/oauth/fbauth.js"></script>
+                <script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/oauth/ggauth.js"></script>
+                <script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/oauth/auth.js"></script>
+                <script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/oauth/aes.js"></script>
+                -->
+                
+                <!--	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>-->
+                <!--	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>-->
+                
+                
+                </head>
+    <body>
+        
+        <!-- s : 상단영역 -->
+        <header>
+            <!-- s : 로그인 후 -->
+            <div id="afterLogin" style="display:none;">
+                <nav class="login_after">
+                    <div class="navWrap">
+                        <a id="menu_myRoom" href="" class="on" menuidx="0">내노트</a>
+                        <a id="menu_historyRoom" href="" menuidx="1">방문기록</a>
+                        <a id="menu_bookmarkRoom" href="" menuidx="2">즐겨찾기</a>
+                        <a id="menu_mostViewRoom" href="" menuidx="3">가장 많이 본 노트</a>
+                        <a id="menu_recommandRoom" href="" menuidx="4">에디터 추천 노트</a>
+                    </div>
+                </nav>
+                <a href="" class="user"> <!-- 이거 누르면 좌측서브메뉴 나옴 -->
+                    <span id="userNm" class="userID"></span>
+                    <img id="userThumb" src="" alt=""/>
+                    <span id="userNoti" class="newAlert"></span> <!-- 초대 있을때 -->
+                </a>
+                <a id="signout" href="">로그아웃</a> <!-- 임시 로그아웃 버튼.. 일단 여기에 로그아웃 기능 넣어주세요. 추후 디자인팀에 요청드릴 예정입니당 -->
+            </div>
+            <!-- e : 로그인 후 -->
+            
+            <!-- s : 로그인 전 -->
+            <div id="beforeLogin" style="display:none;"> <!-- 이 div는 가리려고 임시로 넣은거임. 실제로는 로그인 전/후가 스왑되는거 -->
+                <nav class="login_before">
+                    <div class="navWrap">
+                        <a id="menu_mostViewRoom" href="" class="on">가장 많이 본 노트</a>
+                        <a id="menu_recommandRoom" href="">에디터 추천 노트</a>
+                    </div>
+                </nav>
+                
+                <a id="fbLogin" class="facebook">
+                </a>
+                <a id="ggLogin" class="google">
+                </a>
+            </div>
+            <!-- e : 로그인 전 -->
+            
+        </header>
+        <!-- e : 상단영역 -->
+        
+        
+        <div class="mySocial on" style="display:none;">
+            <div class="mySocialWrap">
+                <div class="socialArea">
+                    
+                    <div class="topTitle">
+                        <a href="" class="close">X</a>
+                        <a id="inviteM1" href="" class="on">초대 하기</a>
+                        <a id="inviteM2" href="">받은 초대</a>
+                        <a id="inviteM3" href="">facebook</a>
+                    </div>
+                    
+                    <div class="invite">
+<!--                        <div class="roomlist selected">-->
+<!--                            <span class="thumb">-->
+<!--                                <img src="./res/images/imsi_thumb01.png" alt="">-->
+<!--                                    </span>-->
+<!--                            포카리스웨트의 성분이 정말로 수분 공급에 적절한...-->
+<!--                        </div>-->
+                        <hr>
+                        
+                        <!-- s : 검색 -->
+                        <div class="searchArea">
+                            <input id="searchInput" type="search">
+                                <select class="searchType">
+                                    <option value="">이름으로 검색</option>
+                                    <option value="">이메일로 검색</option>
+                                </select>
+                                <a href="" class="btn_search"></a>
+                                <!-- s : 검색 결과 -->
+                                <div class="searchResult">
+                                    <ul>
+<!--                                        <li>-->
+<!--                                            <img src="./res/images/imsi_user02.png" alt=""/>-->
+<!--                                            akreid-->
+<!--                                        </li>-->
+                                    </ul>
+                                </div>
+                                <!-- e : 검색 결과 -->
+                                
+                                <!-- s : 초대하려고 추가한 유저 -->
+                                <ul class="searchResultUser">
+<!--                                    <li>-->
+<!--                                        <img src="./res/images/imsi_user05.png" alt=""/><span>thouy</span> <a href="" class="delete">x</a>-->
+<!--                                    </li>-->
+                                </ul>
+                                <!-- e : 초대하려고 추가한 유저 -->
+                                
+                                </div>
+                        <!-- e : 검색 -->
+                        
+                        <div class="btn_invite">
+                            <a id="inviteBtn0" href="">초대하기</a>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    <div class="invite2" style="display:none;">
+<!--                        <div class="roomlist selected">-->
+<!--                            <span class="thumb">-->
+<!--                                <img src="./res/images/imsi_thumb01.png" alt=""/>-->
+<!--                            </span>-->
+<!--                            포카리스웨트의 성분이 정말로 수분 공급에 적...-->
+<!--                            <img src="./res/images/imsi_user01.png" alt="" class="userPic"/>-->
+<!--                            <span class="userID">akreid.m</span>-->
+<!--                            <span class="time">2016.01.19</span>-->
+<!--                            <div class="accept">-->
+<!--                                <a href="" class="entrance"></a>-->
+<!--                                <a href="" class="delete"></a>-->
+<!--                                <a href="" class="cancel">x</a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+                    </div>
+                    
+                    <div class="invite3" style="display:none;">
+                        <div class="socialHeader">
+                            <a id="IM3_SAF" href="" class="selectAllFriends">모두 선택</a>
+                        </div>
+                        <ul class="friendList">
+                            <li>
+                                <input type="checkbox" />
+                                <img src="./res/images/imsi_user01.png" alt="" />
+                                <span>이말년</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <img src="./res/images/imsi_user02.png" alt="" />
+                                <span>조석</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <img src="./res/images/imsi_user03.png" alt="" />
+                                <span>최삡뺩</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <img src="./res/images/imsi_user04.png" alt="" />
+                                <span>이윤창</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <img src="./res/images/imsi_user05.png" alt="" />
+                                <span>가스파드</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <img src="./res/images/imsi_user06.png" alt="" />
+                                <span>레바</span>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <img src="./res/images/imsi_user07.png" alt="" />
+                                <span>엉덩국</span>
+                            </li>
+                        </ul>
+                        
+                        <div class="btn_invite">
+                            <a id="inviteBtn1" href="">초대하기</a>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+        <section id="myRoom" class="roomList my" style="display:block;">
+            <div class="title">
+                <h1>내 노트</h1>
+                <input type="number" placeholder="링크로 입장" class="" />
+                <a href="" class="go_room"></a>
+            </div>
+            
+            <div id="myRoom_list">
+                <!-- 노트가 하나도 없을 땐, 별도로 안내를 할 수 있는 레이아웃으로 나갈거니까 고려해놓으세요 -->
+                <!-- 스크립트로 렌더링 되는 영역.. -->
+                <!--
+                 <div class="roomWrap">
+                 <div class="room">
+                 <div class="roomThumb">
+                 <img src="res/images/imsi_thumb01.png" alt="">
+                 </div>
+                 <img src="res/images/imsi_user01.png" alt="" class="userPic" />
+                 <p class="userID">akreid</p>
+                 <p class="roomTitle">포카리스웨트의 성분이 정말로 수분 공급에 적절한...</p>
+                 <p class="view">1212 view</p>
+                 </div>
+                 </div>
+                 <div class="roomWrap makeroom">
+                 <p class="description">새 노트를 만들고<br /> 다른 사람들과 공유 해 보세요</p>
+                 <a href="" class="createRoom">
+                 노트 만들기
+                 </a>
+                 </div>
+                 -->
+            </div>
+            
+        </section>
+        
+        <section id="historyRoom" class="roomList" style="display:none;">
+            <div class="title">
+                <h1>방문 기록</h1>
+                <input type="number" placeholder="링크로 입장" class="" />
+                <a href="" class="go_room"></a>
+            </div>
+            <div id="historyRoom_list"></div>
+        </section>
+        
+        <section id="bookmarkRoom" class="roomList" style="display:none;">
+            <div class="title">
+                <h1>즐겨찾기</h1>
+                <input type="number" placeholder="링크로 입장" class="" />
+                <a href="" class="go_room"></a>
+            </div>
+            <div id="bookmarkRoom_list"></div>
+        </section>
+        
+        <!-- 가장 많이 본 노트 영역 -->
+        <section id="mostViewRoom" class="roomList" style="display:none;">
+            <div class="title">
+                <h1>가장 많이 본 노트</h1>
+                <input type="number" placeholder="링크로 입장" class="" />
+                <a href="" class="go_room"></a>
+            </div>
+            
+            <div id="mostViewRoom_list"></div>
+        </section>
+        
+        <section id="recommandRoom" class="roomList" style="display:none;">
+            <div class="title">
+                <h1>에디터 추천 노트</h1>
+                <input type="number" placeholder="링크로 입장" class="" />
+                <a href="" class="go_room"></a>
+            </div>
+            <div id="recommandRoom_list"></div>
+        </section>
+        
+        <a id="createRoom" href="" class="btn_floating_make"></a>
+        
+        <body>
+</html>

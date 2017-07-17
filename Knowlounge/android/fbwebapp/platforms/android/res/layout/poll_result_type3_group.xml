@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/poll_result_type3_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/poll_result_type3_thumbnail"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/img_userlist_default01"/>
+
+        <LinearLayout
+            android:id="@+id/poll_result_type3_underline_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/poll_result_type3_usernm"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:text="빰자님"
+                    android:textSize="15dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#5a5a5a"/>
+                <TextView
+                    android:id="@+id/poll_result_type3_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textSize="15dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#787878"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/poll_result_type3_on_off"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/btn_poll_fold"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/poll_result_type3_detail_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="Contrary to popular belief, Lorem lpsum is not simply random text. It has roots in a piece of classical Latin literature from"
+        android:textColor="#787878"
+        android:textSize="15dp"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/list_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dcdcdc"/>
+</LinearLayout>

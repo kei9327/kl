@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/video_frame"
+    android:layout_width="142dp"
+    android:layout_height="132dp"
+    android:paddingLeft="10dp"
+    android:background="#00000000">
+
+    <org.webrtc.SurfaceViewRenderer
+        android:id="@+id/video_view_renderer"
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/layout_no_video"
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:visibility="visible"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:visibility="visible"
+            android:src="@drawable/img_video_user_novideo"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/video_user_nm_layer"
+        android:layout_width="132dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:visibility="visible"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/local_video_user_nm"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="10dp"
+            android:textSize="12dp"
+            android:text=""/>
+
+        <ImageView
+            android:id="@+id/video_on_off_test"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src ="@drawable/btn_video_user_volume"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/video_user_reconnect_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src ="@drawable/btn_video_user_reconnect"
+            android:visibility="gone"/>
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/reconnect_progress"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="6dp"
+            android:visibility="gone"
+            app:indicatorName="BallPulseIndicator"
+            app:indicatorColor="#FFFFFFFF" />
+
+        <ImageView
+            android:id="@+id/video_user_mute_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src ="@drawable/btn_video_user_volume_on"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+    <!--  2016.06.15 - 영상 UI에서 권한 제어 버튼들 삭제됨 -->
+    <!--
+    <LinearLayout
+        android:id="@+id/video_user_detail_layer"
+        android:layout_width="132dp"
+        android:layout_height="101dp"
+        android:layout_gravity="bottom"
+        android:background="#BB32AA50"
+        android:visibility="invisible">
+
+        <ImageButton
+            android:id="@+id/btn_video_user_authority"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_video_user_authority"/>
+        <TextView
+            android:id="@+id/video_user_auth_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp"
+            android:text="Authority"/>
+    </LinearLayout>
+    -->
+</FrameLayout>

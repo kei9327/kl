@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2013 Paul Burke
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="fileChooserName">
+        <item name="android:drawablePadding">@dimen/list_item_padding</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingLeft">@dimen/list_item_padding</item>
+        <item name="android:paddingRight">@dimen/list_item_padding</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <!-- Transparent dialog style -->
+    <style name="DialogCustomTheme" parent="android:Theme.Holo.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <!-- Transparent dialog style -->
+    <style name="DialogAppcompatCustomTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/black</item>
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#FFC107</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- <item name="android:actionBarStyle">@style/RoomActionBar</item> -->
+        <item name="android:tabWidgetStyle">@style/CustomSubTabIndicator</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/app_base_color</item>
+        <item name="android:colorPrimaryDark">#000000</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+
+    <style name="MainViewTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<style name="MainViewTheme" parent="android:Theme.Holo.Light">-->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="actionBarStyle">@style/MainActionBar</item>-->
+        <!--<item name="android:actionBarStyle">@style/MainActionBar</item>-->
+    </style>
+
+    <!-- <style name="MyActionBar" parent="android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">-->
+    <style name="RoomActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:background">#3C3C3C</item>
+        <item name="android:actionBarSize">48dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+
+
+
+    <style name="MainActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    <!--<style name="MainActionBar" parent="android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">-->
+        <item name="android:actionBarSize">48dp</item>
+        <item name="android:background">@color/app_base_color</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+
+    <style name="CustomSubTabIndicator" parent="android:TextAppearance.Medium">
+        <item name="android:textColor">@drawable/tab_text_selector</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/app_base_color</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/tab_unselected</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/tab_unselected</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/dialog_text_color</item>
+        <item name="android:textColorPrimary">@color/dialog_text_color</item>
+        <item name="android:windowTitleStyle">@style/WindowTitleStyle</item>
+        <item name="android:background">@color/dialog_background</item>
+        <item name="borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
+    </style>
+
+    <style name="WindowTitleStyle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/dialog_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PollDialogNoTitleStyle"  parent="@style/Theme.AppCompat.Dialog">
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TabStyle" parent="@style/Widget.Design.TabLayout">
+        <item name="android:paddingStart">0dip</item>
+        <item name="android:paddingEnd">0dip</item>
+    </style>
+
+    <!--멀티 페이지 스타일-->
+    <style name="commonListItemStyle"></style>
+
+    <style name="myRecyclerViewStyle">
+        <!-- NOTE: clipChildren should be true on API level 10 -->
+        <item name="android:clipChildren">true</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="directBtn">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

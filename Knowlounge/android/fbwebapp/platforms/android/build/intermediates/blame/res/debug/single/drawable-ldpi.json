@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ambilwarna_arrow_down.png",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_arrow_down.png"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_launcher.png",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ambilwarna_cursor.png",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_cursor.png"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ambilwarna_arrow_right.png",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_arrow_right.png"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ambilwarna_target.png",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_target.png"
+    }
+]

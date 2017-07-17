@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.2.0\\res\\layout-v21\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout-v21\\notification_action.xml"
+    }
+]

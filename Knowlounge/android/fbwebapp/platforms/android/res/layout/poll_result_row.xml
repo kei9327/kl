@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/item_click_btn"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    android:id="@+id/item_grape"
+                    android:layout_width="20dp"
+                    android:layout_height="25dp"
+                    android:gravity="left|center_vertical"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:text="   1"/>
+
+                <TextView
+                    android:id="@+id/item_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11dp"
+                    android:textColor="#969696"
+                    android:text="0%"
+                    android:paddingLeft="4dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ico_list_people" />
+
+            <TextView
+                android:id="@+id/result_people_count"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textColor="#5a5a5a"
+                android:text="0"/>
+
+            <!--
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ico_list_nextarrow"/>
+            -->
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

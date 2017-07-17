@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<android.support.v7.widget.CardView-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--card_view:cardCornerRadius="3dp"-->
+<!--card_view:cardElevation="3dp"-->
+<!--card_view:cardPreventCornerOverlap="false"-->
+<!--card_view:cardUseCompatPadding="true"-->
+<!--card_view:contentPadding="0dp">-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:padding="7dp">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/cardview_header_style">
+
+        <LinearLayout
+            android:id="@+id/cardview_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/cardview_header_create_room_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/icon_invite_newroom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/global_new"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#FF32AA55"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+    <!--</android.support.v7.widget.CardView>-->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/answered_user_grid_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="20dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="20dp" />
+
+</LinearLayout>

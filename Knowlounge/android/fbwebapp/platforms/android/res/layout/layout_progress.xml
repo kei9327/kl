@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_redraw_history_layout"
+    android:layout_width="match_parent"
+    android:layout_height="127dp"
+    android:layout_gravity="bottom|right"
+    android:background="#fafafa"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:visibility="visible">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#c8e6d2"/>
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:max="100" />
+
+    </FrameLayout>
+    <TextView
+        android:id="@+id/txt_progress_bar_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="15dp"
+        android:textColor="#323232"
+        android:text="@string/toast_import_start"/>
+    <TextView
+        android:id="@+id/txt_progress_bar_sub_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="12dp"
+        android:textColor="#969696"
+        android:text="@string/canvas_history2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="horizontal">
+        <!--
+        <TextView
+            android:id="@+id/btn_redraw_history_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/app_base_color"
+            android:textSize="15dp"
+            android:text="@string/global_cancel" />
+         -->
+        <TextView
+            android:id="@+id/btn_progress_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/app_base_color"
+            android:textSize="15dp"
+            android:text="@string/global_ok"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+</LinearLayout>

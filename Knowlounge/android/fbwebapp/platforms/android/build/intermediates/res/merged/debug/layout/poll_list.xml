@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_rounded_corner"
+    android:layout_gravity="center_vertical|center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/poll_list_title_area"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#fafafa"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/poll_list_editing"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:paddingLeft="20dp"
+            android:textSize="13dp"
+            android:textColor="@color/app_base_color"
+            android:text="@string/global_delete" />
+        <TextView
+            android:id="@+id/list_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="@string/canvas_poll_list"
+            android:textSize="20dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textColor="#3c3c3c"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/poll_list_cancel"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="right|center_vertical"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:paddingRight="20dp"
+            android:textSize="13dp"
+            android:textColor="@color/app_base_color"
+            android:text="@string/global_cancel" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/poll_dialog_title_divider"/>
+
+    <ListView
+        android:id="@+id/poll_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#00000000"
+        android:dividerHeight="0px"
+        android:layout_weight="1"
+        android:listSelector="#00000000">
+    </ListView>
+
+    <!-- 리스트 로딩 프로그래스 영역 : start -->
+    <LinearLayout
+        android:id="@+id/poll_loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:visibility="gone">
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <!-- 리스트 로딩 프로그래스 영역 : end -->
+
+    <!-- 리스트에 데이터 없을 때 띄워줄 뷰 영역 : start -->
+    <LinearLayout
+        android:id="@+id/not_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/poll_not_list"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/not_list_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:textColor="#FF636363"/>
+
+    </LinearLayout>
+    <!-- 리스트에 데이터 없을 때 띄워줄 뷰 영역 : end -->
+
+
+    <LinearLayout
+        android:id="@+id/type2_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dcdcdc"/>
+
+        <!-- 보내기 버튼 영역 : start - 2017.01.24 deprecated.. -->
+        <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/poll_List_send_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_poll_dialog_fill_green"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="#ffffff"
+                android:text="@string/global_send" />
+        </LinearLayout>
+        -->
+
+        <!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dedfe0"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/poll_List_send_btn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:paddingRight="30dp"
+                android:gravity="center_vertical|right"
+                android:textSize="16dp"
+                android:textColor="#969696"
+                android:text="@string/global_send"/>
+        </LinearLayout>
+        -->
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

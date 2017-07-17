@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <HorizontalScrollView
+        android:id="@+id/video_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/video_wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- 영상 레이어 -->
+                <include
+                    layout="@layout/peer_video_layout" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/video_invite_user"
+                android:layout_width="132dp"
+                android:layout_height="132dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:background="@drawable/video_view_bg">
+
+                <!-- 2017.01.05 초대 버튼 UI 업데이트 -->
+                <LinearLayout
+                    android:id="@+id/layout_user_invite"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/btn_video_user_invite"/>
+                </LinearLayout>
+
+                <!-- 2017.01.05 - deprecated..
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="7dp"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp"
+                        android:layout_marginBottom="7dp"
+                        android:gravity="center_horizontal"
+                        android:textSize="12dp"
+                        android:textColor="#646464"
+                        android:text="@string/canvas_cam_invite"/>
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/btn_video_user_invite"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_video_invite"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#8041E169"
+                    android:textSize="13dp"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/invite_btn"/>
+                -->
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/btn_video_user_next"
+        android:layout_width="40dp"
+        android:layout_height="140dp"
+        android:background="#8AC8C8C8">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/btn_video_user_next"/>
+    </LinearLayout>
+
+</LinearLayout>

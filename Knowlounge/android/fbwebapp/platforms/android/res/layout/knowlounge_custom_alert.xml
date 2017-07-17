@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded_corner">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/global_popup_title"
+        android:textColor="#3c3c3c"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/app_base_color"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="3명 이상 Live에 초대하려면\nStar가 필요합니다."
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_big_green_rounded"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Star 구매하기"
+        android:textColor="#ffffff"
+        android:textSize="18dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_big_white_rounded"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Star 구매하기"/>
+
+
+
+</LinearLayout>

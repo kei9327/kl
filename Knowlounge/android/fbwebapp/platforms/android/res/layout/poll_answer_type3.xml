@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/poll_answer_type3_edit"
+            android:layout_width="260dp"
+            android:layout_height="120dp"
+            android:textSize="13dp"
+            android:textColor="#5a5a5a"
+            android:singleLine="false"
+            android:paddingLeft="10dp"
+            android:background="@drawable/edit_rounded_corner"/>
+    </LinearLayout>
+
+</FrameLayout>

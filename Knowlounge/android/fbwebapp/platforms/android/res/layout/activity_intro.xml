@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.knowlounge.customview.CustomDrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/invite_drawer_in_main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<com.knowlounge.customview.ImeDetectFrameLayout-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/main_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+            </android.support.v7.widget.Toolbar>
+
+            <LinearLayout
+                android:id="@+id/main_activity_container"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f3f3f3">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <ImageButton
+                        android:id="@+id/btn_float_create_room"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="bottom|right"/>
+
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/touch_block_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:orientation="vertical"/>
+
+    </FrameLayout>
+
+    <!-- s : 좌측 네비게이션 Drawer 전용 Deemed -->
+    <RelativeLayout
+        android:id="@+id/deemed_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:background="#80000000"
+        android:visibility="gone">
+    </RelativeLayout>
+    <!-- e : 좌측 네비게이션 Drawer 전용 Deemed -->
+
+    <LinearLayout
+        android:id="@+id/main_left_nav"
+        android:layout_width="330dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:id="@+id/main_left_nav_content"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:importantForAccessibility="no"
+            android:clickable="true"
+            android:background="#00000000"/>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/left_drawer_shadow"
+            android:paddingEnd="0dp"
+            android:paddingLeft="-10dp"
+            android:paddingRight="0dp"
+            android:paddingStart="-10dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginTop="48dp"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawer_shadow"
+            android:paddingEnd="0dp"
+            android:paddingLeft="-10dp"
+            android:paddingRight="0dp"
+            android:paddingStart="-10dp" />
+        <com.knowlounge.customview.ImeDetectFrameLayout
+            android:id="@+id/main_right_friend_list"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:importantForAccessibility="no"
+            android:clickable="true"
+            android:background="#00000000"/>
+    </LinearLayout>
+
+
+
+</com.knowlounge.customview.CustomDrawerLayout>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_rounded_corner"
+    android:id="@+id/root_layout"
+    android:layout_gravity="center_vertical|center_horizontal">
+
+    <!--제목-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#fafafa"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/answer_response"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#3c3c3c"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/time_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="(남은 시간 30초)"
+            android:textSize="16dp"
+            android:textColor="#3c3c3c"/>
+    </LinearLayout>
+    <!--제목-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/poll_dialog_title_divider"/>
+
+
+    <!--Body-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/poll_question"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#3c3c3c"/>
+
+            <TextView
+                android:id="@+id/poll_answer_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="1 + 2 X 3 = ?"
+                android:layout_marginBottom="20dp"
+                android:textColor="#787878"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/poll_dialog_section_divider"/>
+
+        <LinearLayout
+            android:id="@+id/layout_poll_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/answer_response"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#3c3c3c"/>
+
+            <!-- 선다형 선택지가 삽입되는 영역 : start -->
+            <com.knowlounge.customview.PollAnswerListView
+                android:id="@+id/multi_select_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_rounded_corner"
+                android:paddingTop="1dp"
+                android:paddingBottom="1dp"
+                android:listSelector="#00000000"
+                android:divider="@null"
+                android:visibility="gone"/>
+            <!-- 선다형 선택지가 삽입되는 영역 : end -->
+
+            <!-- 양자택일 선택지가 삽입되는 영역 : start -->
+            <ScrollView
+                android:id="@+id/single_select_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="1dp"
+                android:paddingBottom="1dp"
+                android:visibility="visible">
+                <RadioGroup
+                    android:id="@+id/single_answer_radiogroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"/>
+            </ScrollView>
+            <!-- 양자택일 선택지가 삽입되는 영역 : end -->
+
+            <!-- 단답형 입력박스가 삽입되는 영역 : start -->
+            <EditText
+                android:id="@+id/poll_answer_type3_edit"
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_rounded_corner"
+                android:gravity="top"
+                android:singleLine="false"
+                android:padding="10dp"
+                android:textSize="13dp"
+                android:textColor="#5a5a5a"
+                android:visibility="gone" />
+            <!-- 단답형 입력박스가 삽입되는 영역 : end -->
+
+        </LinearLayout>
+
+        <!-- 판서형 질문 선택지 영역 : start -->
+        <LinearLayout
+            android:id="@+id/layout_drawing_poll_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/poll_draw_ansr"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#3c3c3c"/>
+
+            <LinearLayout
+                android:id="@+id/opt_full_screen"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/ico_full_screen"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_poll_checkbox" />
+                <TextView
+                    android:id="@+id/txt_full_screen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/divider_popup_dialog_item"
+                    android:text="@string/poll_draw_qstn_entire"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#5a5a5a"
+                    android:textColorHint="#969696"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/opt_selection"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/ico_selection"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_poll_checkbox"/>
+                <TextView
+                    android:id="@+id/txt_selection"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="@string/poll_draw_qstn_select"
+                    android:gravity="center_vertical"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:textColor="#5a5a5a"
+                    android:textColorHint="#969696"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <!-- 판서형 질문 선택지 영역 : end -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:layout_marginTop="10dp"
+                android:padding="1dp"
+                android:background="@drawable/poll_drawing_preview_panel_border">
+
+                <ImageView
+                    android:id="@+id/capture_preview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/thumbnail_01"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--Body-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/poll_dialog_title_divider"/>
+
+    <LinearLayout
+        android:id="@+id/answer_submit_layout"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/poll_answer_minimize_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_poll_dialog_fill_green"
+            android:gravity="center"
+            android:text="@string/poll_btn_min"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/poll_answer_ok_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_poll_dialog_fill_green"
+            android:gravity="center"
+            android:text="@string/global_send"
+            android:textSize="16dp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

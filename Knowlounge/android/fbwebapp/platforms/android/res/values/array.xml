@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="main_nav_item_title_array">
+        <item>@string/main_home</item>
+        <item>@string/main_myclass</item>
+        <item>@string/main_friends</item>
+        <item>@string/main_public</item>
+        <item>@string/main_school</item>
+    </string-array>
+
+    <string-array name="group_title">
+        <item>@string/canvas_drawing</item>
+        <item>@string/canvas_presentation</item>
+        <item>@string/canvas_communication</item>
+        <item>@string/canvas_sharetools</item>
+        <item>@string/canvas_inform</item>
+        <item>@string/canvas_exit</item>
+    </string-array>
+
+    <string-array name="group_img">
+        <item>@drawable/btn_leftmenu_pen</item>
+        <item>@drawable/btn_leftmenu_presentation</item>
+        <item>@drawable/btn_leftmenu_userlist</item>
+        <item>@drawable/btn_leftmenu_system</item>
+        <item>@drawable/btn_leftmenu_setting</item>
+        <item>@drawable/btn_leftmenu_exit</item>
+    </string-array>
+
+    <string-array name="menu_tags">
+        <item>btn_leftmenu_pen</item>
+        <item>btn_leftmenu_presentation</item>
+        <item>btn_leftmenu_userlist</item>
+        <item>btn_leftmenu_system</item>
+        <item>btn_leftmenu_setting</item>
+        <item>btn_leftmenu_exit</item>
+    </string-array>
+
+    <string-array name="has_sub_list">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+    </string-array>
+
+
+    <string-array name="group_list_title">
+        <item>@array/drawing_item_title</item>
+        <item>@array/presentation_item_title</item>
+        <item>@array/communication_item_title</item>
+        <item>@array/system_item_title</item>
+        <item>@array/setting_item_title</item>
+        <item>@array/exit_item_title</item>
+    </string-array>
+
+    <!-- Drawing 메뉴 -->
+    <string-array name="drawing_item_title">
+        <item>@string/canvas_pen</item>
+        <item>@string/canvas_eraser</item>
+        <item>@string/canvas_figure</item>
+        <item>@string/canvas_textbox</item>
+        <item>@string/canvas_memo</item>
+        <item>@string/canvas_photo</item>
+        <item>@string/canvas_image</item>
+        <item>@string/canvas_pdf</item>
+        <item>@string/canvas_undo</item>
+        <item>@string/canvas_redo</item>
+        <item>@string/canvas_deleteall</item>
+    </string-array>
+
+    <!-- Presentation 메뉴 -->
+    <string-array name="presentation_item_title">
+        <item>@string/canvas_hand</item>
+        <item>@string/canvas_pointer</item>
+        <item>@string/canvas_zoomin</item>
+        <item>@string/canvas_zoomout</item>
+        <item>@string/canvas_poll</item>
+        <item>@string/canvas_poll_list</item>
+        <item>@string/canvas_poll_result</item>
+    </string-array>
+
+    <!--Communication 메뉴-->
+    <string-array name="communication_item_title">
+        <item>@string/canvas_userlist</item>
+        <item>@string/canvas_cam</item>
+        <item>@string/canvas_chat</item>
+        <item>@string/canvas_comment</item>
+        <item>@string/invite_btn</item>
+    </string-array>
+
+    <!--System Menu-->
+    <string-array name="system_item_title">
+        <item>@string/canvas_bookmark</item>
+        <item>@string/canvas_import</item>
+        <item>@string/canvas_urlcopy</item>
+        <item>@string/canvas_share</item>
+    </string-array>
+
+    <string-array name="setting_item_title">
+    </string-array>
+
+    <string-array name="exit_item_title">
+    </string-array>
+
+    <string-array name="star_shop_product_id">
+        <item>currency.knowlounge.100</item>
+        <item>currency.knowlounge.500</item>
+        <item>currency.knowlounge.1000</item>
+        <item>currency.knowlounge.5000</item>
+        <item>currency.knowlounge.10000</item>
+    </string-array>
+
+    <string-array name="star_shop_product_name">
+        <item>100 Star</item>
+        <item>500 Star</item>
+        <item>1000 Star</item>
+        <item>5000 Star</item>
+        <item>10000 Star</item>
+    </string-array>
+
+    <string-array name="star_shop_product_price">
+        <item>0.99</item>
+        <item>4.99</item>
+        <item>8.99</item>
+        <item>38.99</item>
+        <item>66.99</item>
+    </string-array>
+
+
+
+</resources>

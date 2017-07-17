@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:minWidth="1000dp"
+    android:minHeight="1000dp"
+    android:tag="deemed">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/btn_video_setting_close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:src="@drawable/btn_video_setting_close"/>
+
+
+        <LinearLayout
+            android:id="@+id/dialog_body"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:tag="deemed">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/video_setting_title"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:text="실시간 영상과 화이트보드를 사용하는 수업입니다."
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:gravity="center"/>
+
+                <com.knowlounge.customview.CircleSurfaceViewRenderer
+                    android:id="@+id/preview_local_video"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginBottom="20dp" />
+
+                <!--
+                <org.webrtc.SurfaceViewRenderer
+                    android:id="@+id/preview_local_video"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp" />
+                -->
+
+                <ImageView
+                    android:id="@+id/video_setting_user_thumb"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/img_userlist_defaultgroup01"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/switch_video"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/btn_video_setting_cam_on"/>
+                    <ImageView
+                        android:id="@+id/switch_mic"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/btn_video_setting_mic_on"/>
+                    <ImageView
+                        android:id="@+id/switch_audio"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/btn_video_setting_volume_on"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/bg_rounded_corner"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="15dp"
+                            android:text="@string/cam_video_setting_switch_1"/>
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/switch_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:theme="@style/MySwitch"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp">
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/cam_video_setting_switch_2"
+                            android:textSize="15dp" />
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/switch_whiteboard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:theme="@style/MySwitch"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="20dp"
+                        android:paddingBottom="10dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="15dp"
+                            android:text="@string/cam_video_setting_switch_3"/>
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/switch_video_control"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:theme="@style/MySwitch"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/dialog_btn_confirm"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/btn_big_green_bottom_round"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textSize="16dp"
+                        android:textColor="#ffffff"
+                        android:text="@string/cam_video_setting_start_btn"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

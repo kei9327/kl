@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		
+		<meta http-equiv="Content-Security-Policy"
+			content="default-src *;
+				font-src * data:;
+				img-src * blob:;
+				style-src * 'unsafe-inline';
+				script-src * 'unsafe-inline' 'unsafe-eval';
+				media-src *" />
+		
+		<!-- <meta name="viewport" content="width=1300px, minimum-scale=0.3, maximum-scale=2, user-scalable=yes, target-densityDpi=device-dpi"> -->
+		<!-- <meta name="viewport" content="width=device-width, minimum-scale=0.3, maximum-scale=2, user-scalable=yes, target-densityDpi=device-dpi"/> -->
+
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css"/>
+		<!-- <link type="text/css" rel="stylesheet" href="css/fb/jquery.minicolors.css"> -->
+		<link type="text/css" rel="stylesheet" href="https://dev.wenote.com/mapi/res/fb/css/circle.css" />
+		<link type="text/css" rel="stylesheet" href="https://dev.wenote.com/mapi/res/fb/css/board.css" />
+		<!-- <script type="text/javascript" src='js/fb/common/googleanalytics.wente.com.js'></script> -->
+
+		<!-- <link type="text/css" rel="stylesheet" href="css/fb/avgrund.css" /> -->
+		<link type="text/css" rel="stylesheet" href="https://dev.wenote.com/mapi/res/fb/css/jquery-ui.1.10.3.css" />
+		
+		<script type="text/javascript" src="cordova.js"></script>
+
+		<!--
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/encrypt.js"></script>
+
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/jquery.min.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/jquery.throttle.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/jquery.event.move.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/jquery.ui.touch-punch.min.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/jquery.minicolors.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/socket.io.js"></script>
+
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/prop.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/utils.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/notify.js"></script>
+
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/common/progress-circle.js"></script>
+
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/msg/msg_en.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/msg/msg_ko.js"></script>
+
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/canvas/draw.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/canvas/canvas.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/canvas/canvas_webapp.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/canvas/memo.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/canvas/poll.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/canvas/pdf.js"></script>
+
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/video/adapter.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/video/vc_2.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/video/vpeer.js"></script>
+
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/pdf/src/compatibility.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/pdf/src/shared/util.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/pdf/src/shared/annotation.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/pdf/src/display/api.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/pdf/src/display/metadata.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/pdf/src/display/canvas.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/pdf/src/display/webgl.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/pdf/src/display/pattern_helper.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/pdf/src/display/font_loader.js"></script>
+		-->
+
+
+		<script type="text/javascript" src="js/fb/common/encrypt.js"></script>
+
+		<script type="text/javascript" src="js/fb/common/jquery.min.js"></script>
+		<script type="text/javascript" src="js/fb/common/jquery.throttle.js"></script>
+		<script type="text/javascript" src="js/fb/common/jquery.event.move.js"></script>
+		<script type="text/javascript" src="js/fb/common/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/fb/common/jquery.ui.touch-punch.min.js"></script>
+		<script type="text/javascript" src="js/fb/common/jquery.minicolors.js"></script>
+		<script type="text/javascript" src="js/fb/common/socket.io.js"></script>
+
+		<script type="text/javascript" src="js/fb/common/prop.js"></script>
+		<script type="text/javascript" src="js/fb/common/utils.js"></script>
+		<script type="text/javascript" src="js/fb/common/notify.js"></script>
+
+		<script type="text/javascript" src="js/fb/common/progress-circle.js"></script>
+
+		<script type="text/javascript" src="js/fb/msg/msg_en.js"></script>
+		<script type="text/javascript" src="js/fb/msg/msg_ko.js"></script>
+
+		<script type="text/javascript" src="js/fb/canvas/draw.js"></script>
+		<script type="text/javascript" src="js/fb/canvas/canvas.js"></script>
+		<script type="text/javascript" src="js/fb/canvas/canvas_webapp.js"></script>
+		<script type="text/javascript" src="js/fb/canvas/memo.js"></script>
+		<script type="text/javascript" src="js/fb/canvas/poll.js"></script>
+		<script type="text/javascript" src="js/fb/canvas/pdf.js"></script>
+
+		<script type="text/javascript" src="js/fb/video/adapter.js"></script>
+		<script type="text/javascript" src="js/fb/video/vc_2.js"></script>
+		<script type="text/javascript" src="js/fb/video/vpeer.js"></script>
+
+		<script type="text/javascript" src="js/fb/pdf/src/compatibility.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/shared/util.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/shared/annotation.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/api.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/metadata.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/canvas.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/webgl.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/pattern_helper.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/font_loader.js"></script>
+
+
+
+
+		<!-- <script type="text/javascript" src="js/fb/canvas/draw.js"></script> -->
+		<!-- <script type="text/javascript" src="js/fb/canvas/canvas_webapp.js"></script> -->
+
+
+
+
+
+		<!--<script type="text/javascript" src="js/fb/video/vc.js"></script> -->
+
+		<!--
+		-->
+
+		<!--#if !(MOZCENTRAL || CHROME || MINIFIED)-->
+		<script type="text/javascript" src="js/fb/pdf/src/compatibility.js"></script>
+		<!--#endif-->
+		<script type="text/javascript" src="js/fb/pdf/src/shared/util.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/shared/annotation.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/api.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/metadata.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/canvas.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/webgl.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/pattern_helper.js"></script>
+		<script type="text/javascript" src="js/fb/pdf/src/display/font_loader.js"></script>
+
+		<!-- <script type="text/javascript" src="js/fb/common/myUtils.js"></script> -->
+
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/oauth/fbauth.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/oauth/ggauth.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/oauth/auth.js"></script>
+		<script type="text/javascript" src="https://dev.wenote.com/mapi/res/fb/js/oauth/aes.js"></script> <!-- 암복호화 관련 -->
+
+
+		<script type="text/javascript">
+		  	// Specify the main script used to create a new PDF.JS web worker.
+		  	// In production, change this to point to the combined `pdf.js` file.
+		  	
+		  	// 간혹 한글 인식못하는 버그가 있으므로 import 할것.
+		  	PDFJS.cMapUrl = 'js/fb/pdf/external/bcmaps/';
+			PDFJS.cMapPacked = true;
+			
+		  	PDFJS.workerSrc = "js/fb/pdf/src/worker_loader.js";
+		</script>
+		
+		
+		<!-- <script type="text/javascript" src='js/fb/common/facebookanalytics.wente.com.js'></script> -->
+		<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1093127647368615&amp;ev=PixelInitialized" /></noscript>
+	</head>
+	<body style="background-color:white">
+		
+		<input type="hidden" id="lang" value="ko" />
+		<input type="hidden" id="rsaModule" value="b486eaa9931fc94f38d4108033c6dce08c7ad72a3d717c7ea03ceb470daf7bf794e8a33aedb81b3b62927d4f32b4953b1d63cc51ff39e5779e3705e00e220a4d" />
+		<input type="hidden" id="rsaExponent" value="10001" />
+					
+		<div id="loading" class="loadingWrap"  style=" display: none;">
+			<div class="loading">
+				<p class="text">loading...</p>
+				<div class="floatingCirclesG">
+					<div class="frotateG_01"></div>
+					<div class="frotateG_02"></div>
+					<div class="frotateG_03"></div>
+					<div class="frotateG_04"></div>
+					<div class="frotateG_05"></div>
+					<div class="frotateG_06"></div>
+					<div class="frotateG_07"></div>
+					<div class="frotateG_08"></div>
+				</div>
+			</div>
+		</div>
+
+		<input id="zoomval" type="text" value="100" readonly="readonly" style="display:none;" />
+
+		<iframe id="invite_frm" name="invite_frm" style="width:0;height:0;"></iframe>
+		<iframe id="targetFrm" name="targetFrm" style="width:0;height:0;"></iframe>
+		<form id="saveform" method="post" target="targetFrm">
+			<input type="hidden" id="title" name="title" value="" />
+			<input type="hidden" id="imageData" name="data" />
+			<input type="hidden" id="saveFrmUserNo" name="saveFrmUserNo" />
+		</form>
+
+		<div id="contsWrapper" class="contsWrapper">
+			<div id="docWrapper" class="mode_hand">
+				<div id="wrapper">
+					<div id="wrap" class="main_canvas">
+						<div id="sketch1" class="sketch" style="  width: 100%; height: 100%; overflow: hidden; position: relative;"></div>
+						<!-- s : circle_menu -->
+						<div class="draw_container">
+							<!--
+							<ul class="circle_menu">
+								<li id="cmenu" class="circle_menu_front"><a href="javascript:void(0);" title="메뉴" class="btn_menu"></a></li>
+								<li id="cmenu1"><a title="펜" class="btn_pen"></a></li>
+								<li id="cmenu3"><a title="지우개" class="btn_eraser"></a></li>
+								<li id="cmenu5_root">
+									<ul class="sub_circle">
+										<li id="cmenu5"><a title="도형" class="btn_figure"></a></li>
+										<li id="cmenu5_1"><a title="도형" class="btn_line"></a></li>
+										<li id="cmenu5_2"><a title="도형" class="btn_square"></a></li>										
+										<li id="cmenu5_3"><a title="도형" class="btn_circle"></a></li>
+									</ul>
+								</li>
+								<li id="cmenu4_root">
+									<ul class="sub_circle">
+										<li id="cmenu4"><a title="포인터" class="btn_laserpointer"></a></li>
+										<li id="cmenu4_1"><a title="포인터" class="btn_lptype1"></a></li>
+										<li id="cmenu4_2"><a title="포인터" class="btn_lptype2"></a></li>
+										<li id="cmenu4_3"><a title="포인터" class="btn_lptype3"></a></li>
+									</ul>
+								</li>								
+								<li>
+									<div id="bg_file2" class="btn_backgroundWrap">
+										<a title="이미지" class="btn_background"></a>										
+									</div>
+								</li>
+								<li><a id="text_btn2" title="텍스트" class="btn_text"></a></li>
+							</ul>
+							-->
+						</div>
+						<!-- e : circle_menu -->		 	
+						
+						<div id="setup_box" class="setup_box2" style="display: none;"> <!-- right 값은 preview용. 삭제하세요 -->
+							<span class="box_tit">환경 설정</span>
+							<div class="set_option">
+								<input id="ck_authtype" type="checkbox"  checked="checked"  />
+								<span>진행권한 허용하기</span>
+							</div>
+							<div class="set_option set_pw">
+								<input id="ck_passwd" type="checkbox"  />
+								<span>비밀번호 사용</span>
+								<!-- 기본적으로 input_pw는 display:none -->
+								<div class="input_pw">
+									<input id="passwd_txt" type="text" maxlength="6" placeholder="비밀번호를 입력해 주세요." value="" />
+									<!-- 기본적으로 btn_disable 클래스~ input box에 value 들어오면~ 클래스 삭제 -->
+								</div>
+							</div>
+							<div class="set_option">
+								<input id="ck_chat" type="checkbox"  checked="checked"  />
+								<span>그룹 대화 허용</span>
+							</div>
+							<div class="set_option">
+								<input id="ck_cmt" type="checkbox"  checked="checked"  />
+								<span>그룹 댓글 허용</span>
+							</div>
+							<div class="set_option">
+								<input id="ck_exp" type="checkbox"  checked="checked"  />
+								<span>이미지로 저장하기 허용</span>
+							</div>
+							<a id="btn_room_update" title="적용" class="btn_apply setup_submit">적용</a>
+						</div>
+
+																
+						<!-- s : background-color set -->
+						<div id="bg_box" class="setup_box" style="display: none;"> <!-- right 값은 preview용. 삭제하세요 -->
+							<span class="box_tit">배경 색깔 설정</span>
+							<div class="set_bg">
+								<span class="bg_01 "><a></a></span>
+								<span class="bg_02 "><a></a></span>
+								<span class="bg_03 "><a></a></span>
+								<span class="bg_04 "><a></a></span>
+								<span class="black_board "><a></a></span>
+								<span class="color1 "><a></a></span>
+								<span class="color2 "><a></a></span>
+								<span class="color3 "><a></a></span>
+								<span class="color4 "><a></a></span>
+								<span class="color5 "><a></a></span>
+								<input type="hidden" class="miniColor_jqueryP" value="">
+								<span class="bg_del "><a></a></span>
+							</div>
+							<a title="적용" class="btn_apply">적용</a>							
+						</div>
+						<!-- e : background-color set -->	
+						<!-- s : userList -->						
+						<div id="user_wrapper" class="parlist_box" style="display: none;">
+							<span id="user_header" class="member_counter"> 참여자 : <font id="attendCnt">1</font></span>
+						
+							<div id="user_creator" class="user_box_opener userinfo" userno="334e63d1154g987f" userid="1101801423182852">
+								<img class="user_photo" src="https://graph.facebook.com/1101801423182852/picture" /> <!-- 프로필 사진 없음-->
+								<span class="user_name">김민수</span>
+								<span class="opener" onclick="Ctrl.Member.auth(this);"></span>															
+							</div>
+								
+							<div id="attender_list" class="user_list">
+							
+							</div>
+						</div>
+						<!-- e : userList -->
+
+						<a id="text_btn" title="텍스트" class="btn_text" style="visibility: hidden;"></a>
+
+						<!--
+						<div id="quick_wrapper" class="menu_rightBottm_wrap">
+							<a title="대화" class="btn_chat"></a>							
+							<a title="댓글" class="btn_comment"></a>
+							<a title="메모" class="btn_memo"></a>
+							<a id="text_btn" title="텍스트" class="btn_text"></a>
+							
+							<div id="bg_file" class="btn_backgroundWrap">
+								<a title="이미지" class="btn_background"></a>
+							</div>
+							<input id="file1" name="file1" type="file" title="배경 설정" style="display:none;"/>
+							<a id="bg_file_del" title="배경 삭제" class="btn_background_del"></a>
+														
+							<div class="poll_circle">
+								<ul class="bottom_cmenu">
+									<li class="circle_menu_front"><a title="설문조사" class="btn_poll"></a></li>
+									<li><a title="설문조사" class="btn_poll" href="javascript:PollCtrl.UI.open('poll_info_box');"></a></li>
+									<li><a title="질문 목록" class="btn_pollList" href="javascript:PollCtrl.Action.Master.makePollList(1);"></a></li>
+									<li><a title="결과 목록" class="btn_resultList" href="javascript:PollCtrl.Action.Master.makePollCompleteList(1);"></a></li>
+								</ul>
+							</div>
+							<a title="스크린 캡처" class="btn_capture"></a>
+							<a title="질문" class="btn_duplex" href="javascript:PollCtrl.UI.open('question_info_box');"></a>
+							
+							<a id="bg_pdf" title="PDF파일" class="btn_pdf"></a> 
+							<input id="file_pdf" name="file_pdf" type="file" title="배경 설정" accept="application/pdf" style="display:none;" />
+							<span id="chat_badge" class="msg_count" style="right:0px; display:none;"></span>
+							<span id="comment_badge" class="msg_count" style="right:50px; display:none;"></span>
+						</div>
+						-->
+						<input id="file1" name="file1" type="file" title="배경 설정" style="display:none;"/>
+						<input id="file_pdf" name="file_pdf" type="file" title="배경 설정" accept="application/pdf" style="display:none;" />
+						<!-- s : 채팅 -->
+						<div id="chat_wrapper" class="chat_container" style="display: none;">
+							<div class="chat_box">
+								<div class="chat_header">
+									<span>대화</span>
+									<a href="javascript:void(0);" title="닫기" class="chat_close"></a>
+								</div>
+								<div id="chat_cont" class="chat_body"></div>
+								<div class="chat_input">
+									<select id="chattarget" class="user_sel">
+										<option userid="" value="">전체</option>
+										
+										
+										
+									</select> 
+									<input id="chatmsg" type="text" placeholder="메시지를 입력해 주세요." />
+									<a id="sendchat">보내기</a>
+								</div>
+							</div>
+						</div>
+						<!-- e : 채팅 -->							
+						<!-- s : comment --> 
+						<div id="commentWrapper" class="comment_container" style="display:none; right:420px; bottom:15px;">
+							<div id="commentBox" class="comment_box">
+								<div class="comment_header">
+									<span>댓글</span>
+									<a id="cmt_close_btn" href="javascript:void(0);"></a>
+									<a id="cmt_open_btn" href="javascript:void(0);" class="container_open"></a>
+									<a id="cmt_hide_btn" href="javascript:void(0);" class="container_hide"></a>
+								</div>
+								
+								<div id="cmt_body" class="comment_body empty">								
+								
+									<div id="cmt_more_btn" class="comm_moreWrap" style="display:none;">
+										<a class="comm_more">더보기</a>
+									</div>
+								</div>
+								<input id="cmt_more_cnt" type="hidden" value="0" />								
+								<div id="cmt_input" class="comment_input">
+									<img class="user_photo" src="https://graph.facebook.com/1101801423182852/picture" />
+									<input  id="cmt_content" type="text" placeholder="메시지를 입력해 주세요.">
+									<a id="cmt_add_btn">등록</a>
+								</div>
+							</div>
+						</div> 
+						<!-- e : comment -->
+
+						<div id="memoWrapper" style="overflow:hidden;"></div>
+
+						<div id="textWrapper"></div> 
+
+						<div id="pdfWrapper" class="pdf_container" style="display:none; width:500px; height:50px; left:0px; top:0px;"></div>
+						
+						<!-- 영상관련 -->
+						
+						 
+						<!-- User Cam Container -->
+						 
+						
+						<div id="fontbox" class="text_box_edit" style="display:none;"> <!-- 포커스가 가거나 했을때 수정모드로 -->
+							<!-- s : 텍스트 옵션 박스 -->
+							<div id="fbox_wrap" class="text_editbox">
+								<select id="ffamily" class="ffamily" title="font face">
+									<option value="Arial" selected="selected">Arial</option>
+									<option value="calibri">calibri</option>
+									<option value="Georgia">Georgia</option>
+									<option value="Tahoma">Tahoma</option>
+									<option value="Verdana">Verdana</option>
+									<option value="Comic Sans MS">Comic Sans MS</option>
+								</select>
+								<select id="fsize" class="fsize" title="font size">
+									<option value="12">12</option>
+									<option value="14">14</option>
+									<option value="16">16</option>
+									<option value="18">18</option>
+									<option value="20" selected="selected">20</option>
+									<option value="22">22</option>
+									<option value="24">24</option>
+									<option value="26">26</option>
+									<option value="28">28</option>
+									<option value="30">30</option>
+									<option value="32">32</option>
+									<option value="34">34</option>
+									<option value="36">36</option>
+									<option value="38">38</option>
+									<option value="40">40</option>
+									<option value="42">42</option>
+									<option value="44">44</option>
+									<option value="46">46</option>
+									<option value="48">48</option>
+									<option value="50">50</option>
+								</select>
+								<a id="italic" class="edit_i edit_btn" title="italic"></a>
+								<a id="bold" class="edit_b edit_btn" title="bold"></a>
+								<input type="hidden" id="hidden-input" class="miniColor_jqueryP" value="#000000">
+								
+								<a id="txt_del_btn" class="edit_e" title="delete"></a>  
+							</div>
+							<div class="text_input_box">
+								<span class="tl"></span>
+								<span class="tc" style="display:none;"></span>
+								<span class="tr" style="display:none;"></span>
+								<span class="ml" style="display:none;"></span>
+								<div class="text_input_textarea">
+									<textarea id="txt_area" style="font-family:Arial;font-size:20px;color:#000000;"></textarea>
+								</div>
+								<span class="mr" style="display:none;"></span>
+								<span class="bl" style="display:none;"></span>
+								<span class="bc" style="display:none;"></span>
+								<span class="br"></span>
+							</div>							
+						</div>						
+						<!-- Another Noti -->
+						<div id="notiWrap" class="popup_box3" style="display:none;bottom:50px; left:50%; margin:-160px 0 0 -250px;"> <!-- 시스템 노티 -->
+							<div id="notiContent"class="popup_msg3"></div>
+						</div>
+						
+						
+						
+						<!-- Answer Sheet (결과 확인 화면 - 판서) -->
+						
+						
+						<!-- Poll Stay 관리자가 사용자들의 참여를 기다리는 DIV (시간 Count) -->
+						<div id="poll_timer_box" class="poll_box" style="display: none;">
+							<span class="poll_header">
+								<span class="pop_tit">Poll</span>
+								<a href="#"></a>
+							</span>
+							<div class="poll_body">
+								<div class="poll_stay">
+									<div class="poll_count">
+										<a id="timer"></a> 초
+									</div>
+									<div class="bg_count">
+										<div class="frontLeft"></div>
+										<div id="rotateLeft" class="rotateLeft">
+											<div class="bgLeft"></div>
+										</div>
+										<div id="rotateRight" class="rotateRight" style="display:none;">
+											<div class="bgRight"></div>
+										</div>
+									</div>
+								</div>
+								<div class="poll_btn">
+									<a id="poll_stop_btn" class="btn_full">Finish</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Poll 질문 만드는 화면 (첫화면) -->
+						<div id="poll_info_box" class="poll_box" style="display: none;">
+							<span class="poll_header">
+								<span class="pop_tit">질문</span>
+								<a href="javascript:PollCtrl.UI.close('poll_info_box');"></a>
+							</span>
+							<div class="poll_body">
+								<div class="question_box">
+									<span class="poll_tit"><span>질문 내용</span><span class="sub_tit">질문 내용을 입력 하세요.</span></span>
+									<textarea id="poll_title" placeholder="질문 내용을 입력 하세요."></textarea>
+								</div>
+
+								<div class="answer_box">
+									<span class="poll_tit2"><span>질문 항목</span><span class="sub_tit">질문 유형을 선택 하세요.</span></span>
+									<div class="answer_type">
+										<input type="radio" name="poll_type" id="multi_type" value="0" onclick="PollCtrl.UI.toggleItemForm('0')" checked  /><label for="multi_type">선다형</label>
+										<input type="radio" name="poll_type" id="alter_type" value="1" onclick="PollCtrl.UI.toggleItemForm('1')"/><label for="alter_type">양자택일</label>
+										<input type="radio" name="poll_type" id="short_type" value="2" onclick="PollCtrl.UI.toggleItemForm('2')"/><label for="short_type">단답형</label>
+									</div>
+									<!-- multi -->
+									<div id="multichoice_box" class="multichoice_box" style="display: block;">
+										<div id="item_rows">
+											<span>1.</span><input type="text" placeholder="#1 Enter the Examples"/>
+											<span>2.</span><input type="text" placeholder="#2 Enter the Examples"/>
+											<span>3.</span><input type="text" placeholder="#3 Enter the Examples"/>
+											<span>4.</span><input type="text" placeholder="#4 Enter the Examples"/>
+										</div>
+									</div>
+									<div id="item_adddel" class="example_adddel">
+										<a href="javascript:PollCtrl.UI.delItemRow();" class="btn_delexam" style="display:none;">삭제</a>
+										<a href="javascript:PollCtrl.UI.addItemRow();" class="btn_addexam">추가</a>
+										<span class="duplicate_chk"><input type="checkbox" id="dup_choice_allow"><label for="dup_choice_allow">중복선택 허용</label></span>
+									</div>
+									<!-- alter -->
+									<div id="alternative_box" class="alternative_box" style="display: none;">
+										<select onchange="PollCtrl.UI.setAlterPollTemplate(this.value)">
+											<option value="">양자택일 유형을 선택 하세요.</option>
+											<option value="0">A / B</option>
+											<option value="1">O / X</option>
+											<option value="2">찬성 / 반대</option>
+											<option value="3">직접 입력하기</option>
+										</select>
+										<div class="alternative_direct" style="display: none;">
+											<span>1.</span><input type="text" placeholder="내용을 입력 하세요."/>
+											<span>2.</span><input type="text" placeholder="내용을 입력 하세요."/>
+										</div>
+									</div>
+									<!-- short -->
+								</div>
+
+								<div class="option_box">
+									<span class="poll_tit"><span>옵션</span><span class="sub_tit">질문 종료시간을 선택 하세요.</span></span>
+									<select id="shutdown_time" onchange="PollCtrl.UI.onSelectTime();">
+										<!-- <option value="none">자동 질문 종료시간</option>  -->
+										<option value="30" selected>30초</option>
+										<option value="40">40초</option>
+										<option value="50">50초</option>
+										<option value="60">60초</option>
+										<option value="80">80초</option>
+										<option value="100">100초</option>
+										<option value="custom">종료시간 직접 입력하기</option>
+									</select>
+									<input type="text" id="custom_time" class="input_time" placeholder="Enter the end times directly" style="display:none;"/>
+								</div>
+								<div class="poll_btn">
+									<a id="poll_update_btn" style="display:none;">변경</a>
+									<a id="poll_remove_btn" style="display:block;">삭제</a>
+									<a id="poll_send_btn">보내기</a>
+									<a id="poll_save_btn" href="javascript:PollCtrl.Action.Master.createPoll(false);">저장</a>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Question 질문 만드는 화면 (첫화면) -->
+						
+
+						<!-- Poll List Poll 저장한 리스트 화면 -->
+						<div id="poll_list_box" class="poll_box" style="display: none; ">
+							<span class="poll_header">
+								<span class="pop_tit">질문 서식 목록</span>
+								<a href="javascript:PollCtrl.UI.close('poll_list_box');"></a>
+							</span>
+							<div class="poll_body">
+								<ul id="poll_list" class="poll_list"></ul>
+								<ul id="page_navi" class="page_navi"></ul>
+								<div class="poll_btn">
+									<a href="javascript:PollCtrl.Action.Master.sendPollFromList();" class="btn_full">보내기</a>
+								</div>
+							</div>
+						</div>
+						
+						<!-- 완료된 폴 리스트 -->
+						<div id="poll_complete_list_box" class="poll_box" style="display: none; ">
+							<span class="poll_header">
+								<span class="pop_tit">완료된 질문 목록</span>
+								<a href="javascript:PollCtrl.UI.close('poll_complete_list_box');"></a>
+							</span>
+							<div class="poll_body">
+								<ul id="poll_complete_list" class="poll_list"></ul>
+								<ul id="page_navi_complete" class="page_navi"></ul>
+								<div class="poll_btn">
+									<a href="javascript:PollCtrl.Action.Master.deleteCompletedPoll();" class="btn_full">삭제</a>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Poll Edit 저장한 Poll 선택해서 수정하는 화면 -->
+						
+						<!-- Poll Answer 사용자가 받은 poll (객관식) -->
+						<div id="multi_choice_sheet" class="poll_box" style="display: none;">
+							<span class="poll_header">
+								<span class="pop_tit">Q9</span>
+								<a href="javascript:PollCtrl.UI.close('multi_choice_sheet');"></a>
+							</span>
+							<div class="poll_body">
+								<div class="question_box">
+									<span class="poll_tit"><span>질문</span></span>
+									<span class="question_text"></span>
+								</div>
+								<div class="answer_input_box">
+									<span class="poll_tit2"><span>답변</span></span>
+									<ul id="multi_choice_item" class="answermulti_box" style="display: block;"></ul>
+								</div>
+								<div class="poll_user_count">남은 시간 : <span></span> 초</div>
+								<div class="poll_btn">
+									<a href="javascript:PollCtrl.Action.Attender.submitPollResult('0')" class="btn_full">제출</a>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Poll Answer 사용자가 받은 poll (양자택일) -->
+						<div id="alternative_sheet" class="poll_box" style="display: none;">
+							<span class="poll_header">
+								<span class="pop_tit">Q9</span>
+								<a href="javascript:PollCtrl.UI.close('alternative_sheet');"></a>
+							</span>
+							<div class="poll_body">
+								<div class="question_box">
+									<span class="poll_tit"><span>질문</span></span>
+									<span class="question_text"></span>
+								</div>
+								<div class="answer_input_box">
+									<span class="poll_tit2"><span>답변</span></span>
+									<ul id="alternative_item" class="answermulti_box" style="display: block;"></ul>
+								</div>
+								<div class="poll_user_count">남은 시간 : <span></span> 초</div>
+								<div class="poll_btn">
+									<a href="javascript:PollCtrl.Action.Attender.submitPollResult('1')" class="btn_full">제출</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Poll Answer 사용자가 받은 poll (주관식) -->
+						<div id="short_answer_sheet" class="poll_box" style="display: none; ">
+							<span class="poll_header">
+								<span class="pop_tit">Q9</span>
+								<a href="javascript:PollCtrl.UI.close('short_answer_sheet');"></a>
+							</span>
+							<div class="poll_body">
+								<div class="question_box">
+									<span class="poll_tit"><span>질문</span></span>
+									<span class="question_text"></span>
+								</div>
+								<div class="answer_input_box">
+									<span class="poll_tit2"><span>답변</span></span>
+									<textarea class="answer_short"></textarea>
+								</div>
+								<div class="poll_user_count">남은 시간 : <span></span> 초</div>
+								<div class="poll_btn">
+									<a href="javascript:PollCtrl.Action.Attender.submitPollResult('2')" class="btn_full">제출</a>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Answer Sheet (답변 화면 Draw) -->
+						<div id="hand_writing_sheet" class="poll_box2" style="display: none;">
+							<span class="poll_header">
+								<span class="pop_tit">답변 Sheet</span>
+								<a href="javascript:PollCtrl.UI.close('hand_writing_sheet');"></a>
+							</span>
+							<div class="poll_body">
+								<div class="question_box">
+									<span class="poll_tit"><span>질문</span></span>
+									<span class="question_text"></span>
+								</div>
+								<div class="answer_input_box">
+									<span class="poll_tit2"><span>답변</span></span>
+									<div class="answer_draw_menu">
+										<a title="clear" id="answer_clear" class="btn_clear"></a>
+										<a title="pen" id="answer_eraser" class="btn_eraser"></a>
+										<span class="section_divide">|</span>
+										<div id="answer_pen_size">
+											<a title="color" id="pen_size3" class="color_select2"><span class="value3" style="background:rgba(0,0,0,1)"></span></a>
+											<a title="color" id="pen_size2" class="color_select2"><span class="value2" style="background:rgba(0,0,0,1)"></span></a>
+											<a title="color" id="pen_size1" class="color_select2 checked"><span class="value1" style="background:rgba(0,0,0,1)"></span></a>
+										</div>
+										<span class="section_divide">|</span>
+										<div id="answer_pen_color">
+											<a title="color" id="pen_color3" class="color_select2"><span class="pointer_color3"></span></a>
+											<a title="color" id="pen_color2" class="color_select2"><span class="pointer_color2"></span></a>
+											<a title="color" id="pen_color1" class="color_select2 checked"><span class="pointer_color1"></span></a>
+										</div>
+										<span class="section_divide">|</span>
+										<a title="pen" id="answer_pen" class="btn_pen checked"></a>
+									</div>
+									<div id="cursor_wrap">
+										<div id="answer_canvas" class="answer_draw sketch_poll">
+										</div>
+									</div>
+								</div>
+								<div class="poll_user_count">남은 시간 : <span></span> 초</div>
+								<div class="poll_btn">
+									<a href="javascript:PollCtrl.Action.Attender.submitPollResult('3')" class="btn_full">제출</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Answer Sheet (답변 화면 Text) -->
+						<div id="text_answer_sheet" class="poll_box2" style="display: none;">
+							<span class="poll_header">
+								<span class="pop_tit">답변 Sheet</span>
+								<a href="#"></a>
+							</span>
+							<div class="poll_body">
+								<div class="question_box">
+									<span class="poll_tit"><span>질문</span></span>
+									<span class="question_text"></span>
+								</div>
+								<div class="answer_input_box">
+									<span class="poll_tit2"><span>답변</span></span>
+									<textarea class="answer_text" placeholder="Enter the Answer"></textarea>
+								</div>
+								<div class="poll_user_count">남은 시간 : <span></span> 초</div>
+								<div class="poll_btn">
+									<a href="javascript:PollCtrl.Action.Attender.submitPollResult('2')" class="btn_full">제출</a>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Answer Sheet (결과 공유 화면) -->
+												
+						<!-- Poll End -->
+					</div>
+				</div>
+			</div>
+			<!-- Video Wrapper -->
+			<div id="videoWrapper"></div>
+		</div>
+		<div id="circle" style="display:none;"></div>
+		 
+	</body>
+
+</html>

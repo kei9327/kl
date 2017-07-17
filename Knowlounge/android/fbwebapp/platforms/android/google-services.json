@@ -1,0 +1,96 @@
+{
+  "project_info": {
+    "project_number": "790030787971",
+    "project_id": "freeboard-1168"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790030787971:android:0d4b395ba1296658",
+        "android_client_info": {
+          "package_name": "com.knowlounge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790030787971-l3pohqft13ii4jldj1b9b409j48tascv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "790030787971-se4q4a6l5d1ehsgbu57ggu6da72rf76c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "790030787971-2593updckflkun0nhe8vgmadqdc975l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAs2-VjgbOO04cjGo0OlPpX0TljA5ghwE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790030787971:android:4b974a3353e1c572",
+        "android_client_info": {
+          "package_name": "com.knowlounge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790030787971-98huadhhs4ppt8m3c721fv72kp65piqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.knowlounge",
+            "certificate_hash": "4023B7527E751DCEA2BF3CB48E1918C772B57AA9"
+          }
+        },
+        {
+          "client_id": "790030787971-l3pohqft13ii4jldj1b9b409j48tascv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "790030787971-se4q4a6l5d1ehsgbu57ggu6da72rf76c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "790030787971-2593updckflkun0nhe8vgmadqdc975l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAs2-VjgbOO04cjGo0OlPpX0TljA5ghwE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

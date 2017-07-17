@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_marginLeft="20dp">
+
+    <ImageView
+        android:id="@+id/user_thumbnail_view"
+        android:layout_width="55dp"
+        android:layout_height="55dp" />
+    <ImageView
+        android:id="@+id/ico_checked"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="right|bottom" />
+    <ImageView
+        android:id="@+id/user_thumbnail_deemed"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="#99FFFFFF"
+        android:visibility="visible" />
+</FrameLayout>

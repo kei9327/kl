@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    }
+]

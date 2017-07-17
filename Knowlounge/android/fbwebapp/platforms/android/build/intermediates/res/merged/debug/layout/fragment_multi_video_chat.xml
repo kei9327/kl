@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_multi_video_chat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <!-- ScrollView는 하나의 차일드만 존재해야 함. -->
+    <FrameLayout
+        android:id="@+id/video_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true">
+
+        <!-- 영상 레이어 -->
+        <include
+            android:id="@+id/local_render_layout"
+            layout="@layout/layout_renderer_item" />
+
+    </FrameLayout>
+
+</HorizontalScrollView>

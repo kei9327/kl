@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_action_introbar"
+    android:gravity="center_vertical">
+
+    <ImageButton
+        android:id="@+id/btn_left_nav_toggle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_maintop_leftmenu" />
+
+    <com.knowlounge.customview.CustomSpinner
+        android:id="@+id/intro_spinner"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/spinner_style">
+
+    </com.knowlounge.customview.CustomSpinner>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|center_vertical">
+        <LinearLayout
+            android:id="@+id/enter_room_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_maintop_direct" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/btn_actionbar_create_room"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@drawable/btn_maintop_makeroom" />-->
+        <!--</LinearLayout>-->
+
+        <RelativeLayout
+            android:id="@+id/btn_actionbar_alert"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_maintop_alertlist" />
+            <TextView
+                android:id="@+id/main_badge_count"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_radius10_bgcolorff3c3c"
+                android:layout_alignParentRight="true"
+                android:textColor="#ffffff"
+                android:textSize="12dp"
+                android:visibility="gone"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_actionbar_invite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_maintop_userlist" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

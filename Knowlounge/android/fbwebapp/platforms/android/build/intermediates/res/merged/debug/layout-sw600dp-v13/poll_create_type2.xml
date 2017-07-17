@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_rounded_corner"
+    android:layout_gravity="center_vertical|center_horizontal">
+
+    <!--Title 부분-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#fafafa"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/type2_poll_backbtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/btn_poll_back" />
+        <me.grantland.widget.AutofitTextView
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:maxLines="2"
+            autofit:minTextSize="15dp"
+            android:text="@string/poll_type_ox"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#3c3c3c"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/poll_dialog_title_divider"/>
+
+    <!-- 양자택일 유형 선택 영역 : start -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/poll_choose"
+                android:textSize="15dp"
+                android:textColor="#3c3c3c"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- A/B 항목 영역 : start -->
+            <LinearLayout
+                android:id="@+id/type2_check_1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/type2_question_check"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_checkbox"/>
+                <TextView
+                    android:id="@+id/type2_question_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/divider_popup_dialog_item"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/poll_ox_ab"
+                    android:textSize="15dp"
+                    android:textColor="#969696"/>
+            </LinearLayout>
+            <!-- A/B 항목 영역 : end -->
+
+            <!-- O/X 항목 영역 : start -->
+            <LinearLayout
+                android:id="@+id/type2_check_2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/type2_question2_check"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_checkbox" />
+                <TextView
+                    android:id="@+id/type2_question2_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/divider_popup_dialog_item"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/poll_ox_ox"
+                    android:textSize="15dp"
+                    android:textColor="#969696" />
+            </LinearLayout>
+            <!-- O/X 항목 영역 : end -->
+
+            <!-- 찬성/반대 항목 영역 : start -->
+            <LinearLayout
+                android:id="@+id/type2_check_3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/type2_question3_check"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_checkbox"/>
+
+                <TextView
+                    android:id="@+id/type2_question3_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/divider_popup_dialog_item"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/poll_ox_yn"
+                    android:textSize="15dp"
+                    android:textColor="#969696"/>
+            </LinearLayout>
+            <!-- 찬성/반대 항목 영역 : end -->
+
+            <!-- 직접 입력하기 항목 영역 : start -->
+            <LinearLayout
+                android:id="@+id/type2_direct_input_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/type2_question4_check"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/btn_checkbox"/>
+                <TextView
+                    android:id="@+id/type2_question4_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/poll_ox_direct"
+                    android:textSize="15dp"
+                    android:textColor="#969696"/>
+            </LinearLayout>
+            <!-- 직접 입력하기 항목 영역 : end -->
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 양자택일 유형 선택 영역 : end -->
+
+    <!-- 질문 직접 입력 폼 영역 : start -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="14"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/type2_direct_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f5f5f5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/poll_ox_directguide"
+                    android:textSize="16dp"
+                    android:textColor="#3c3c3c"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="left|center_vertical"
+                        android:text="1."
+                        android:textSize="15dp"
+                        android:textColor="#5a5a5a" />
+                    <EditText
+                        android:id="@+id/type2_input_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="#00000000"
+                        android:textColorHint="#c8c8c8"
+                        android:hint="@string/poll_fill"
+                        android:textSize="15dp"
+                        android:textColor="#5a5a5a"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#dcdcdc"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="left|center_vertical"
+                        android:text="2."
+                        android:textSize="15dp"
+                        android:textColor="#5a5a5a" />
+                    <EditText
+                        android:id="@+id/type2_input_edit2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="#00000000"
+                        android:textColorHint="#c8c8c8"
+                        android:hint="@string/poll_fill"
+                        android:textSize="15dp"
+                        android:textColor="#5a5a5a"/>
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#dcdcdc"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 질문 직접 입력 폼 영역 : end -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/poll_dialog_title_divider"/>
+
+    <!-- 확인 버튼 영역 : start -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/type2_ok_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_poll_dialog_fill_green"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="#ffffff"
+            android:text="@string/global_ok"/>
+    </LinearLayout>
+    <!-- 확인 버튼 영역 : end -->
+
+</LinearLayout>

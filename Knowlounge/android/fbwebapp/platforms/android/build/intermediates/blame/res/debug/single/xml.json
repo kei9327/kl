@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\mimetypes.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\xml\\mimetypes.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\global_tracker.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\xml\\global_tracker.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\xml\\config.xml"
+    }
+]

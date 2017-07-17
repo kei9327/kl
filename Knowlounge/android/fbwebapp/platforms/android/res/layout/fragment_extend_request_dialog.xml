@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/bg_rounded_corner">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/extend_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/popup_apply_title"
+            android:textSize="18dp"
+            android:textColor="#505050" />
+
+        <TextView
+            android:id="@+id/extend_request_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/popup_apply_message"
+            android:textSize="13dp"
+            android:textColor="#3c3c3c" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ico_mainleft_profile_mystar_color"/>
+            <TextView
+                android:id="@+id/txt_my_star"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="50"
+                android:textColor="#ffdc37"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_req_extend"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_big_green_rounded"
+            android:text="@string/popup_apply_button"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            style="?android:attr/borderlessButtonStyle" />
+
+        <LinearLayout
+            android:id="@+id/btn_extend_release"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_radius6_bgcolor_ffffff_border_41e169">
+
+            <me.grantland.widget.AutofitTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                autofit:minTextSize="15dp"
+                android:text="@string/popup_extend_button"
+                android:textColor="@color/app_base_color"
+                android:textSize="18dp"  />
+
+            <!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="@string/popup_extend_button"
+                android:textColor="@color/app_base_color"
+                android:textSize="18dp" />
+            -->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

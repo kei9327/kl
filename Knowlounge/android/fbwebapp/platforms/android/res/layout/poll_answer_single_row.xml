@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="single_radio_btn"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="1dp"
+    android:background="@drawable/divider_popup_dialog_item"
+    android:button="@drawable/radio_button_toggle"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:text="sdfsdfsfsdf"
+    android:textColor="#969696"
+    android:textSize="13dp" />
+<!--
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RadioButton
+        android:tag="single_radio_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:button="@drawable/radio_button_toggle"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="sdfsdfsfsdf"
+        android:textColor="#969696"
+        android:textSize="13dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dcdcdc"/>
+</LinearLayout>
+-->

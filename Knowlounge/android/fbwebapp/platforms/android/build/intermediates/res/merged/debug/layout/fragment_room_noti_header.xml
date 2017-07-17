@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/room_notice_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_top_bottom_gray_background_fafafa"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/room_notice_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:textSize="12dp"
+            android:textColor="#636363"
+            android:paddingLeft="10dp"/>
+        <ImageView
+            android:id="@+id/room_notice_arrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/btn_rightdrawer_fold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/room_notice_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#ffffff"
+        android:visibility="visible">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/btn_rightmenu_tap_not_noti"/>
+        <TextView
+            android:id="@+id/room_notice_no_data_text"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:maxWidth="280dp"
+            android:textSize="16dp"
+            android:textColor="#a0a0a0"
+            android:gravity="bottom|center_horizontal"/>
+    </LinearLayout>
+
+</LinearLayout>

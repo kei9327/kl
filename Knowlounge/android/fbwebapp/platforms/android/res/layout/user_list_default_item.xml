@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_list_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:id="@+id/user_thumbnail_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:id="@+id/user_type_thumbnail"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right|bottom"/>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/row_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:maxWidth="110dp"
+            android:ellipsize="end"
+            android:text="User Naasdfdasfsdfasfsdsdfasfsfsfsdfafme"
+            android:singleLine="true"
+            android:textSize="16dp"
+            android:textColor="#FF636363" />
+        <TextView
+            android:id="@+id/user_roll_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text=""
+            android:textColor="#FF636363"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/btn_video"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_userlist_cam"/>
+
+            <ImageButton
+                android:id="@+id/btn_userlist_option"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_userlist_option"/>
+
+            <TextView
+                android:id="@+id/btn_retry_invite"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:visibility="visible"
+                android:textColor="#41e169"
+                android:text="@string/userlist_reinvite"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/user_list_default_under_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#AAAAAA"/>
+</LinearLayout>

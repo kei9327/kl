@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/rootView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="2dp"
+    android:layout_marginRight="18dp"
+    android:layout_marginBottom="18dp"
+    card_view:contentPadding="1dp"
+    card_view:cardElevation="0dp"
+    card_view:cardBackgroundColor="#FFDCDCDC"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true">
+
+    <LinearLayout
+        android:id="@+id/room_root_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="#ffffff">
+            <!--Room Thumbnail-->
+            <!-- <com.knowlounge.customview.TopCropImageView -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/room_thumbnail" />
+
+            <!--Room remove 부분-->
+            <ImageView
+                android:id="@+id/room_delete_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:visibility="gone"
+                android:src="@drawable/ico_thumbnail_close"/>
+            <!--Room favorit 부분-->
+            <ImageView
+                android:id="@+id/room_favorite_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:visibility="gone"
+                android:src="@drawable/btn_favoritelist_on"/>
+            <!--Subroom 표시-->
+            <LinearLayout
+                android:id="@+id/is_subroom"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_rounded_corner_subroom">
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_margin="6dp"
+                    android:src="@drawable/ico_thumbnail_subroom"/>
+            </LinearLayout>
+
+        </FrameLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFDCDCDC"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#fafafa"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <!--user thumbnail 부분-->
+            <ImageView
+                android:id="@+id/img_creator_thumbnail"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/img_userlist_default01"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!--수업 제목-->
+                <TextView
+                    android:id="@+id/room_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="#FF5A5A5A"
+                    android:textSize="13dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="right">
+                    <TextView
+                        android:id="@+id/room_user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="10dp"
+                        android:textColor="#FF969696"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:text="user Name"
+                        android:layout_marginTop="1dp"/>
+
+                    <!--수업 인원, 수업 뷰 숫자-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/ico_roomuser"/>
+                            <TextView
+                                android:id="@+id/room_people_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="0/0"
+                                android:paddingBottom="5dp"
+                                android:textColor="#FF969696"
+                                android:textSize="10dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="right|center_vertical">
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src ="@drawable/ico_roomview"/>
+                            <TextView
+                                android:id="@+id/room_view_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:text="0"
+                                android:paddingBottom="5dp"
+                                android:textColor="#FF969696"
+                                android:textSize="10dp"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

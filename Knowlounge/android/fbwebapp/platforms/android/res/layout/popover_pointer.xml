@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/layout_popover_style">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/laser_type_01"
+            android:tag="laser_type_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_laser_type01"/>
+        />
+        <ImageButton
+            android:id="@+id/laser_type_02"
+            android:tag="laser_type_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_laser_type02"/>
+        <ImageButton
+            android:id="@+id/laser_type_03"
+            android:tag="laser_type_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_laser_type03"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/lp_color01"
+            android:tag="laser_pointer_color_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/btn_option_colorselect"
+            android:background="@drawable/btn_option_color01"/>
+
+        <ImageButton
+            android:id="@+id/lp_color02"
+            android:tag="laser_pointer_color_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_option_color02"/>
+        <ImageButton
+            android:id="@+id/lp_color03"
+            android:tag="laser_pointer_color_3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_option_color03"/>
+        <ImageButton
+            android:id="@+id/lp_color04"
+            android:tag="laser_pointer_color_4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_option_color04"/>
+        <ImageButton
+            android:id="@+id/lp_color05"
+            android:tag="laser_pointer_color_5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_option_color05"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/lp_color06"
+            android:tag="laser_pointer_color_6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_option_color06"/>
+
+        <ImageButton
+            android:id="@+id/lp_color07"
+            android:tag="laser_pointer_color_7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_option_color07"/>
+        <ImageButton
+            android:id="@+id/lp_color08"
+            android:tag="laser_pointer_color_8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_option_color08"/>
+        <ImageButton
+            android:id="@+id/lp_color9"
+            android:tag="laser_pointer_color_9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_option_color09"/>
+        <ImageButton
+            android:id="@+id/lp_color10"
+            android:tag="laser_pointer_color_10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_option_color10"/>
+
+    </LinearLayout>
+
+</LinearLayout>

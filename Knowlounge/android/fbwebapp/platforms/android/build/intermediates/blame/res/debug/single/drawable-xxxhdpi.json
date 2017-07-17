@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_stat_notify.png",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\drawable-xxxhdpi\\ic_stat_notify.png"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_stat_notify_list.png",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\drawable-xxxhdpi\\ic_stat_notify_list.png"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\met_ic_clear.png",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.rengwuxian.materialedittext\\library\\2.1.4\\res\\drawable-xxxhdpi\\met_ic_clear.png"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_launcher.png",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\drawable-xxxhdpi\\ic_launcher.png"
+    }
+]

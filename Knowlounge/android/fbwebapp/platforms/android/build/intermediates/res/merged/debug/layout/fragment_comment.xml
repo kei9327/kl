@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_popupwhite">
+
+    <ListView
+        android:id="@+id/comment_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:divider="@null"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c8c8c8"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:background="#f0f0f0"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_radius20_borderc8c8c8">
+            <EditText
+                android:id="@+id/input_comment"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:background="#00000000"
+                android:paddingLeft="20dp"
+                android:imeOptions="flagNoExtractUi"
+                android:layout_marginRight="10dp"
+                android:textColor="#646464"
+                android:saveEnabled="true"
+                android:textSize="13dp" />
+            <Button
+                android:id="@+id/btn_send_comment"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_radius20_bgcolor_app_base_color"
+                android:text="@string/canvas_chat_send"
+                android:textSize="13dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:textStyle="bold"
+                style="?android:attr/borderlessButtonStyle"
+                android:visibility="invisible"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

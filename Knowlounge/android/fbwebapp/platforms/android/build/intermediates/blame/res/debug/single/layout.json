@@ -1,0 +1,982 @@
+[
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.20.0\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.20.0\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_room_passwd_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_room_passwd_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_list_phone.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_list_phone.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_config_edit.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_config_edit.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\comment_list_rows_temp.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\comment_list_rows_temp.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_popup_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_popup_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\klounge_notice_room_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\klounge_notice_room_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_room_noti_header.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_room_noti_header.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.20.0\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\guest_login_fragment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\guest_login_fragment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cardview_room_list.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\cardview_room_list.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_room_custom_phone.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\actionbar_room_custom_phone.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\spinner_dropdown.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cast_mini_controller.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\layout\\cast_mini_controller.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_layout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\layout\\cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\newton_cradle_loading.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.victor\\lib\\1.0.4\\res\\layout\\newton_cradle_loading.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\invite_tab_frame.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\invite_tab_frame.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\user_list_class_footer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\user_list_class_footer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cardview_footer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\cardview_footer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_parent_right_drawer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_parent_right_drawer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_list_footer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_list_footer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_config.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_config.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_result_detail_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_result_detail_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\mr_controller_volume_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\layout\\mr_controller_volume_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\dummy_main_activity.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\dummy_main_activity.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\profile_multi_select_list.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\profile_multi_select_list.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_user_parent.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_right_user_parent.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_answer_single_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_answer_single_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\my_invite_list_fragment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\my_invite_list_fragment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chatting.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_chatting.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_result_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_result_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\youtube_list_header.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\youtube_list_header.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\sns_friend_list_fragment_depth2.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\sns_friend_list_fragment_depth2.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_drawing_upload.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_drawing_upload.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_room_noti_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_room_noti_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\popover_pen.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\popover_pen.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\klounge_notice_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\klounge_notice_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\youtube_view_page.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\youtube_view_page.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\rows_friend_list.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\rows_friend_list.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cardview_no_room_header.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\cardview_no_room_header.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\layout\\mr_chooser_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_teacher_call_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_teacher_call_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_room_left_nav_header.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_room_left_nav_header.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_room_title.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\dialog_room_title.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\layout_renderer_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\layout_renderer_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_webview.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_webview.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\user_list_sub_menu.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\user_list_sub_menu.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\rows_profile_edit_multi.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\rows_profile_edit_multi.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_answer_type12_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_answer_type12_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\klounge_notice_footer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\klounge_notice_footer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_intro_custom.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\actionbar_intro_custom.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\content_oauth_login.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\content_oauth_login.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_list_footer_phone.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_list_footer_phone.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_result_drawing_parent.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_result_drawing_parent.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\set_profile_teacher.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\set_profile_teacher.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\youtube_search_keyword_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\youtube_search_keyword_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_version_chk_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_version_chk_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\rows_room_left_nav.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\rows_room_left_nav.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_premium_webview.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\activity_premium_webview.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_comment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_comment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\piker_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\piker_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.2.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\mr_controller_material_dialog_b.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\layout\\mr_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\knowlounge_custom_alert.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\knowlounge_custom_alert.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\video_share_tab.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\video_share_tab.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_drawing.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_drawing.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\profile_multi_select_header.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\profile_multi_select_header.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_profile_edit_multi.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_profile_edit_multi.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\spinner_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cast_help_text.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\layout\\cast_help_text.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\klounge_notice.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\klounge_notice.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\multi_page_fragment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\multi_page_fragment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_smart_device_dialog_fragment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.20.0\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_room_custom.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\actionbar_room_custom.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_app_config.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_app_config.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\user_list_class_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\user_list_class_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\rows_invite_my_room.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\rows_invite_my_room.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_timer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_timer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\item_answerd_user.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\item_answerd_user.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\youtube_activity.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\youtube_activity.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_result_type3_group.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_result_type3_group.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\multi_page_footer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\multi_page_footer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\chat_list_rows_temp.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\chat_list_rows_temp.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\sm_config_drawer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\sm_config_drawer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\page_answered_user_list.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\page_answered_user_list.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_list_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\layout\\mr_chooser_list_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_video_chat.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_video_chat.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\multi_page_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\multi_page_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_extend_request_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_extend_request_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_answer_multiple_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_answer_multiple_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\popover_shape.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\popover_shape.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_create_type1_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_create_type1_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_shutdown_time.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_shutdown_time.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\youtube_list_footer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\youtube_list_footer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_room_noti_list.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_room_noti_list.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\user_list_default_header.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\user_list_default_header.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\youtube_search.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\youtube_search.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\layout_parent_tab.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\layout_parent_tab.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_teacher_only_cam_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_teacher_only_cam_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_star_pay_noti.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_star_pay_noti.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.20.0\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_profile.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.20.0\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main_left_nav.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_main_left_nav.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_right_community_tab.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_right_community_tab.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.2.0\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\layout_child_tab.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\layout_child_tab.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_list_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_list_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_answer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_answer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\next_profile_set.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\next_profile_set.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_full_screen_webview.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_full_screen_webview.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\ambilwarna_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\layout\\ambilwarna_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\user_list_default_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\user_list_default_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\layout_video_req.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\layout_video_req.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.20.0\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\history_video_list_fragment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\history_video_list_fragment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.20.0\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\set_profile_student.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\set_profile_student.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.20.0\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\popover_eraser.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\popover_eraser.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_intro.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\activity_intro.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\sns_friend_list_fragment_depth1.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\sns_friend_list_fragment_depth1.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_create.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_create.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\youtube_list_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\youtube_list_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_communicate_tab_frame.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_communicate_tab_frame.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_multi_video_chat.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_multi_video_chat.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\enter_room_path_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\enter_room_path_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\room_activity_left_nav_drawer_main_list_group_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\room_activity_left_nav_drawer_main_list_group_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cardview_room_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\cardview_room_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\user_list_class_header.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\user_list_class_header.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\item_chips.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\item_chips.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_result_detail.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_result_detail.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.20.0\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_profile_edit.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_profile_edit.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\room_activity_left_nav_drawer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\room_activity_left_nav_drawer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_view_pager.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_view_pager.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\star_shop_list_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\star_shop_list_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_knowlounge_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_knowlounge_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\file.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\file.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\layout_progress.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\layout_progress.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\layout_participate_noti.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\layout_participate_noti.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_list.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_list.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_answer_type3.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_answer_type3.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\peer_video_layout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\peer_video_layout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\user_list_fragment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\user_list_fragment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_create_type1.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_create_type1.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_user_list.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_user_list.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.20.0\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\ambilwarna_pref_widget.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\layout\\ambilwarna_pref_widget.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\row_select_user_chips.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\row_select_user_chips.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_create_type2.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_create_type2.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\popover_pointer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\popover_pointer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_starshop.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_starshop.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\comment_list_rows.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\comment_list_rows.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cardview_header.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\cardview_header.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.2.0\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\profile_multi_select_list_row.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\profile_multi_select_list_row.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_room.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\activity_room.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_profile_init.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\activity_profile_init.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_result.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_result.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_room_noti_footer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_room_noti_footer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\tutorial_video_list_fragment.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\tutorial_video_list_fragment.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\mr_volume_control.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\layout\\mr_volume_control.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_enter_room_direct.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_enter_room_direct.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_drawing_poll_notify.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_drawing_poll_notify.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\klounge_notice_container.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\klounge_notice_container.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\chat_user_list_rows.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\chat_user_list_rows.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\chat_list_rows.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\chat_list_rows.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_rtc_status_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_rtc_status_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\book_loading.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.victor\\lib\\1.0.4\\res\\layout\\book_loading.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\help_video_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\help_video_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\layout\\cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_room_right_one.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_room_right_one.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_help_desk.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_help_desk.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\select_profile_type.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\select_profile_type.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\klounge_notice_room_footer.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\klounge_notice_room_footer.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\10.2.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_test.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\activity_video_test.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\mr_playback_control.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\24.0.0\\res\\layout\\mr_playback_control.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_room_left_nav.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_room_left_nav.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\list_foot_loader.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\list_foot_loader.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.2.0\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cardview_room_header.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\cardview_room_header.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cast_expanded_controller_activity.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\layout\\cast_expanded_controller_activity.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_room_info_dialog.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\fragment_room_info_dialog.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\cast_intro_overlay.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\10.2.0\\res\\layout\\cast_intro_overlay.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_result_type3_group_detail.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_result_type3_group_detail.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_popup_dialog_phone.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_popup_dialog_phone.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\poll_list_row_phone.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\res\\layout\\poll_list_row_phone.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\VSS\\Knowlounge\\android\\fbwebapp\\platforms\\android\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.2.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    }
+]

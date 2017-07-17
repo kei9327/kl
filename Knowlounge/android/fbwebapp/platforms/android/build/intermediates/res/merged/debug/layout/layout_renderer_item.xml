@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/video_frame"
+    android:layout_width="130dp"
+    android:layout_height="130dp"
+    android:background="#00000000">
+
+
+
+    <LinearLayout
+        android:id="@+id/layout_no_video"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:visibility="visible"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/video_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/no_video_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_video_user_novideo"/>
+
+
+
+    </LinearLayout>
+
+    <org.webrtc.SurfaceViewRenderer
+        android:id="@+id/video_view_renderer"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/video_user_nm_layer"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="top"
+        android:background="#8841e169"
+        android:orientation="horizontal"
+        android:visibility="visible">
+        <TextView
+            android:id="@+id/local_video_user_nm"
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="12dp"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/ico_video_authority"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ico_video_authority"
+            android:visibility="invisible"/>
+
+        <LinearLayout
+            android:id="@+id/layout_video_controller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/btn_screen_max"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:src="@drawable/btn_video_user_screen_max" />
+            <ImageView
+                android:id="@+id/btn_video_reconnect"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:src="@drawable/btn_video_user_reconnect" />
+
+            <ImageView
+                android:id="@+id/btn_volume_control"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:src="@drawable/btn_video_user_volume_on" />
+
+            <ImageView
+                android:id="@+id/btn_video_setting"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right"
+                android:src="@drawable/btn_video_my_setting"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--  2016.06.15 - 영상 UI에서 권한 제어 버튼들 삭제됨 -->
+    <!--
+    <LinearLayout
+        android:id="@+id/video_user_detail_layer"
+        android:layout_width="132dp"
+        android:layout_height="101dp"
+        android:layout_gravity="bottom"
+        android:background="#BB32AA50"
+        android:visibility="invisible">
+
+        <ImageButton
+            android:id="@+id/btn_video_user_authority"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_video_user_authority"/>
+        <TextView
+            android:id="@+id/video_user_auth_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp"
+            android:text="Authority"/>
+    </LinearLayout>
+    -->
+</FrameLayout>

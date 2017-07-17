@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/title_sns_friend_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/input_sns_friend_search_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src ="@drawable/btn_leftmenu_userlist"/>
+
+        <EditText
+            android:id="@+id/input_sns_friend_search"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:singleLine="true"
+            android:textColorHint="#c8c8c8"
+            android:hint="@string/invite_search_guide" />
+        <ImageView
+            android:id="@+id/btn_clear_friend_search"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            android:src ="@drawable/btn_invite_selecteduser_del"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dfe1e3"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/friend_search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!-- 선택한 유저 UI -->
+            <LinearLayout
+                android:id="@+id/select_friend_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/selected_users_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="#00000000"/>
+                <TextView
+                    android:id="@+id/select_users_more_view_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textSize="14dp"
+                    android:textColor="@color/app_base_color"
+                    android:layout_marginLeft ="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop = "10dp"
+                    android:background="@drawable/corners_3_boarder_gray"
+                    android:visibility="gone"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#dfe1e3"/>
+            </LinearLayout>
+
+            <!-- SNS 친구리스트 영역 -->
+            <LinearLayout
+                android:id="@+id/sns_friend_list_layer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/search_mode"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:background="#00000000">
+                    <TextView
+                        android:id="@+id/sns_friend_search_result_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/global_search_result"
+                        android:textColor="#787878"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="16dp"
+                        android:visibility="gone"/>
+                    <LinearLayout
+                        android:id="@+id/sns_friend_list_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:id="@+id/image_view_friend_list_title"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ico_userlist_title_facebook"/>
+
+                        <TextView
+                            android:id="@+id/text_view_friend_list_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:textColor="#787878"
+                            android:textSize="16dp"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="right">
+
+                            <ImageView
+                                android:id="@+id/btn_list_toggle"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/btn_userlist_categoryfold"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:id="@+id/search_under_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#dfe1e3"
+                    android:visibility="gone"/>
+                <ListView
+                    android:id="@+id/friend_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:visibility="visible"
+                    android:divider="#ffffff"
+                    android:background="#00000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/sns_friend_search_empty_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@+id/sns_friend_search_empty_img"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:src ="@drawable/thumb_list_friendslist"
+                    android:layout_marginBottom="40dp"/>
+                <TextView
+                    android:id="@+id/sns_friend_search_empty_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="260dp"
+                    android:gravity="center"
+                    android:text="친구와 함께 Knowlounge에서 공부해 보세요"/>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dfe1e3"/>
+            <LinearLayout
+                android:id="@+id/next_depth_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btn_next_depth"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn_big_green_rounded"
+                    android:textSize="18dp"
+                    android:textColor="#FFFFFF"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="@string/invite_next" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--친구가 없을때 or 검색 친구가 없을때-->
+        <LinearLayout
+            android:id="@+id/friend_no_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffffff"
+            android:gravity="center"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/friend_no_result_img"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:layout_marginBottom="40dp"
+                android:src="@drawable/thumb_list_friendslist"/>
+            <TextView
+                android:id="@+id/friend_no_result_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="260dp"
+                android:gravity="center"
+                android:text="@string/invite_search_guide"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
+

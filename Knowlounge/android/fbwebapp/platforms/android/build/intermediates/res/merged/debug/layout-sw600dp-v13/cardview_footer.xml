@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/cardview_seemore_btn"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="@string/global_seemore2"
+    android:textSize="16dp"
+    android:gravity="center"
+    android:textColor="#a0a0a0"
+    style="?android:attr/borderlessButtonStyle"
+    android:background="@drawable/bg_radius6_bgcolor_fafafa_border_1"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="18dp"/>
+
+

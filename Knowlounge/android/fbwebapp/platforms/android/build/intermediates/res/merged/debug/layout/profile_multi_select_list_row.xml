@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:id="@+id/profile_multi_select_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_profile_chips_on">
+        <ImageView
+            android:id="@+id/profile_multi_select_row_check"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ico_firstprofile_check_green"/>
+        <TextView
+            android:id="@+id/profile_multi_select_row_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"
+            android:text="한국어"
+            android:textSize="14dp"
+            android:textColor="@color/app_base_color"/>
+    </LinearLayout>
+</LinearLayout>
