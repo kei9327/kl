@@ -1,0 +1,514 @@
+[
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_trackbar.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\view_trackbar.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_eraser_selection.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\view_eraser_selection.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_guide_item.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\service_guide_item.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_activity_photobox.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\b5c79503e3a132ea71db1bcc975e015c7d77a1e6\\output\\res\\layout\\ucrop_activity_photobox.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_controls.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\b5c79503e3a132ea71db1bcc975e015c7d77a1e6\\output\\res\\layout\\ucrop_controls.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\open_course.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\open_course.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\p_home_list_card.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\p_home_list_card.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_dialog_opencourse.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_dialog_opencourse.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\crop__layout_done_cancel.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\c3c59854cee4e84ddc2b5acb7cc3aeade592e5b2\\output\\res\\layout\\crop__layout_done_cancel.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\p_activity_opencourse.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\p_activity_opencourse.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_setting.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\dialog_setting.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\export_progress_dialog.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\export_progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_drawer_bubble.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\popup_drawer_bubble.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_player_activity.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_player_activity.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_export.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\dialog_export.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_dialog_infomation.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_dialog_infomation.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_controll_tools.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_controll_tools.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawing_tools.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\drawing_tools.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_pointer_selection.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\view_pointer_selection.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\p_fragment_my_school.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\p_fragment_my_school.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_aspect_ratio.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\b5c79503e3a132ea71db1bcc975e015c7d77a1e6\\output\\res\\layout\\ucrop_aspect_ratio.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_layout_controller.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\video_layout_controller.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_opencourse_export.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\dialog_opencourse_export.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\p_fragment_setting.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\p_fragment_setting.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\crop__activity_crop.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\c3c59854cee4e84ddc2b5acb7cc3aeade592e5b2\\output\\res\\layout\\crop__activity_crop.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_pen_selection.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\view_pen_selection.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_share_bubble.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\popup_share_bubble.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_media_controller.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\video_media_controller.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\p_video_list_card.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\p_video_list_card.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_drawing_tools.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_drawing_tools.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recording_board_activity.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\recording_board_activity.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_dialog_help.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_dialog_help.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tooltip_category_menu.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\tooltip_category_menu.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_timeline_packet_item.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_timeline_packet_item.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_dialog_setting.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_dialog_setting.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_view.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\b5c79503e3a132ea71db1bcc975e015c7d77a1e6\\output\\res\\layout\\ucrop_view.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_full_screen_webview.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\fragment_full_screen_webview.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_dialog_export.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_dialog_export.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_sign_in.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\dialog_sign_in.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_export_dialog.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\video_export_dialog.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_leftmenu_fragment.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_leftmenu_fragment.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_note_thumbnail.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\view_note_thumbnail.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_note_item.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_note_item.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_data_view.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\custom_data_view.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_export_gallery.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\dialog_export_gallery.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\p_home_list_row.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\p_home_list_row.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_dialog_progress.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_dialog_progress.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\snackbar.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\layout\\snackbar.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_timeline_time_item.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_timeline_time_item.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_dialog_service_guid.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_dialog_service_guid.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\color_selector.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\layout\\color_selector.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_viewer_list.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\activity_viewer_list.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\activity_guide.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\panel_control.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\panel_control.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\p_fragment_subject_sort_search.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\p_fragment_subject_sort_search.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\number_indicator_spinner.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\layout\\number_indicator_spinner.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_layout_scale_wheel.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\b5c79503e3a132ea71db1bcc975e015c7d77a1e6\\output\\res\\layout\\ucrop_layout_scale_wheel.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\share_note_thumbnail.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\share_note_thumbnail.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\p_fragment_subject.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\p_fragment_subject.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\panel_left_drawer.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\panel_left_drawer.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\p_viewpager_childview.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\p_viewpager_childview.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_tool.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\popup_tool.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_page_picker.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\dialog_page_picker.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_dialog_sign_in.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_dialog_sign_in.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tooltip_textview.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\tooltip_textview.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_viewpager.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\layout_viewpager.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ucrop_layout_rotate_wheel.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\b5c79503e3a132ea71db1bcc975e015c7d77a1e6\\output\\res\\layout\\ucrop_layout_rotate_wheel.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_player.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\activity_player.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_shape_selection.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\view_shape_selection.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\p_fragment_home.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\p_fragment_home.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_view_in_grid.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\video_view_in_grid.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rb_timeline_fragment.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\rb_timeline_fragment.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_youtube_export.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\dialog_youtube_export.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\left_panel.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\left_panel.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_edit_recording.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout\\dialog_edit_recording.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    }
+]

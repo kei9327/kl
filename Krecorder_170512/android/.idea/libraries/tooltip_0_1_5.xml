@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="tooltip-0.1.5">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/ef6b7bc10aafa18436de6661cae2e93dce99f5f8/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ef6b7bc10aafa18436de6661cae2e93dce99f5f8/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fenchtose/tooltip/0.1.5/930bc9b83fa6c7b7e09bcf005bf511bebbccba03/tooltip-0.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

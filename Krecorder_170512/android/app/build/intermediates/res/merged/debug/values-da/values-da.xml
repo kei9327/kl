@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Naviger hjem"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Naviger op"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Flere muligheder"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Luk"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Vælg en app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"FRA"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"TIL"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Søg…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Ryd forespørgslen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Søgeforespørgsel"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Søg"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Indsend forespørgslen"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Talesøgning"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Del med %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string msgid="5835639618285370804" name="accept">"Acceptér"</string>
+    <string name="action_search">Søg</string>
+    <string name="app_name">Know Recorder</string>
+    <string name="btn_more">Mere…</string>
+    <string name="btn_my_school">Min skole</string>
+    <string name="c_import_pdf_endtime">Du kan importere PDF i slutningen af optagelse. Vil du gøre det?</string>
+    <string name="c_recording_new">Ny optagelse fra dette punkt</string>
+    <string name="c_recording_this_page">Rediger kun det specifikke tidsinterval</string>
+    <string name="c_wifi">We recommend WiFi or unlimited plan. Do you want to play with 3G or 4G?</string>
+    <string name="cancel">Ophæve</string>
+    <string name="cant_access_play">Kunne ikke oprette forbindelse til Google Play</string>
+    <string name="category">Kategori</string>
+    <string name="close">Luk</string>
+    <string name="com_facebook_image_download_unknown_error">Der opstod en uventet fejl under download af et billede.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView-login kræver tilladelse til INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Fejl i forbindelse med AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Synes godt om</string>
+    <string name="com_facebook_like_button_not_liked">Synes godt om</string>
+    <string name="com_facebook_loading">Indlæser ...</string>
+    <string name="com_facebook_loginview_cancel_action">Annuller</string>
+    <string name="com_facebook_loginview_log_in_button">Log på</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log på med Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log af</string>
+    <string name="com_facebook_loginview_log_out_button">Log af</string>
+    <string name="com_facebook_loginview_logged_in_as">Logget på som: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logget på med Facebook</string>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Del</string>
+    <string name="com_facebook_tooltip_default">Nyhed! Du har styringen – vælg de oplysninger, som du vil dele med apps.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivér"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Du skal aktivere Google Play-tjenester, for at <ns1:g id="APP_NAME">%1$s</ns1:g> kan fungere."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktivér Google Play-tjenester"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installer"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Du skal installere Google Play-tjenester, før <ns1:g id="APP_NAME">%1$s</ns1:g> kan køre på din enhed."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Hent Google Play-tjenester"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fejl i Google Play-tjenester"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> har problemer med Google Play-tjenester. Prøv igen."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerer ikke uden Google Play-tjenester, som ikke understøttes på din enhed."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Opdater"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan ikke køre, medmindre du opdaterer Google Play-tjenester."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Opdater Google Play-tjenester"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan ikke køre uden Google Play-tjenester, som i øjeblikket opdateres."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Du skal bruge en ny version af Google Play-tjenester. Opdateringen gennemføres automatisk om et øjeblik."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Åbn på telefonen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Log ind"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Log ind med Google"</string>
+    <string name="content_text_youtube_upload_started">Overfører til YouTube.</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"Vil du tillade, at annoncen opretter en kalenderbegivenhed?"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"Opret kalenderbegivenhed"</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"Annonceoplysninger"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"Eksempel på annoncemateriale"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"Vælg en fejlretningstilstand"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Fejlfinding"</string>
+    <string msgid="6099173376375995052" name="decline">"Afvis"</string>
+    <string name="description">Filmbeskrivelse</string>
+    <string name="dialog_setting_accounts">Konti</string>
+    <string name="dialog_setting_remove_watermark">Fjern vandmærke</string>
+    <string name="dialog_setting_time_limit">Lås op for optagelsestidsbegrænsning.</string>
+    <string name="dialog_setting_title">muligheder</string>
+    <string name="enter_text_here">Skriv tekst her</string>
+    <string name="exit">Vis ikke igen</string>
+    <string name="export">Eksportér film.</string>
+    <string name="export_default_text">Videoer lavet med Know Recorder</string>
+    <string name="export_to_gallery">Galleri</string>
+    <string name="facebook">Facebook</string>
+    <string name="fail_to_get_categories">Kunne ikke loade kategorier</string>
+    <string name="file_download_failed">Fildownload fejl</string>
+    <string name="filecopy_loading_file">importere ...</string>
+    <string name="gallery">Galleri</string>
+    <string name="google_login_succeed">Logget ind på YouTube</string>
+    <string name="googleplay_service_connection_failed">Kunne ikke oprette forbindelse til Google Play</string>
+    <string name="guide_start_btn">Starte</string>
+    <string name="guide_title_1">Enhver viden kan forklares.</string>
+    <string name="guide_title_1_subtitle_1">Forklar og del dine idéer! Fra forelæsningsvideo for Flipped Classroom til </string>
+    <string name="guide_title_1_subtitle_2">eksperters tekniske forelæsninger, kan alt let forklares, og det er nemt med Know Recorder.</string>
+    <string name="guide_title_2">Det er nemt at lave forelæsningsvideoer.</string>
+    <string name="guide_title_2_subtitle_1">Med blot få berøringsknapper kan du optage skrifter og stemmer, samt eksterne filer.</string>
+    <string name="guide_title_3">Bliv til en lærer for alle studerende i verden.</string>
+    <string name="guide_title_3_subtitle_1">Optagede videoer kan overføres direkte til YouTube. Det er nemt at slå dine</string>
+    <string name="guide_title_3_subtitle_2">overførte videoer op på din Facebook. Del og oplev den nye måde at undervise på!</string>
+    <string name="i_category_autos">Biler &amp; køretøjer</string>
+    <string name="i_category_comedy">Humor</string>
+    <string name="i_category_edu">Uddannelse</string>
+    <string name="i_category_ent">Underholdning</string>
+    <string name="i_category_film">Film &amp; animation</string>
+    <string name="i_category_game">Spil</string>
+    <string name="i_category_howto">Praktiske tips</string>
+    <string name="i_category_music">Musik</string>
+    <string name="i_category_news">Nyheder &amp; politik</string>
+    <string name="i_category_nonprofits">Velgørenhed &amp; aktivisme</string>
+    <string name="i_category_people">Personer &amp; blogs</string>
+    <string name="i_category_pets">Dyr</string>
+    <string name="i_category_science">Videnskab &amp; teknologi</string>
+    <string name="i_category_sports">Sport</string>
+    <string name="i_category_travel">Rejser &amp; begivenheder</string>
+    <string name="i_coming_soon">Kommer snart</string>
+    <string name="i_noVideo">Du har brug for at optage noget!</string>
+    <string name="i_recording_guide_label">Optag det valgte område igen</string>
+    <string name="i_recording_option_all">Tegning &amp; Stemme</string>
+    <string name="i_recording_option_title">Optag redigeringsindstilling</string>
+    <string name="i_recording_option_voice">Kun stemme</string>
+    <string name="i_search_result_ok">%2$@ Resultat fundet for %1$@</string>
+    <string name="i_searchtips">Søgetips</string>
+    <string name="i_searchtips_one">Sørg for at dine nøgleord er stavet korrekt.</string>
+    <string name="i_searchtips_two">Prøv at bruge færre, forskellige eller mere almene nøgleord.</string>
+    <string name="i_viewer_no_result_found">Intet Resultat fundet for %@</string>
+    <string name="i_youtube_category">Kategori</string>
+    <string name="i_youtube_channel">Du skal have mindst en YouTube kanal for at uploade videolektioner til YouTube. Du kan oprette din egen kanal ved at gå til | Hjem -&lt; Min kanal | på YouTubes hjemmeside eller app.</string>
+    <string name="i_youtube_private">Privat</string>
+    <string name="i_youtube_public">Offentlig</string>
+    <string name="i_youtube_unlisted">Skjult</string>
+    <string name="image_drag_message">Importerede billede med succes! Træk skærm for at tilføje til lærred.</string>
+    <string name="image_too_small">Billedstørrelse er for småt til at tilføje.</string>
+    <string name="initiation_completed">Initialisering fuldendt</string>
+    <string name="initiation_started">Initialiserer upload</string>
+    <string name="intro_m1">Lær mere om en række forskellige emner</string>
+    <string name="intro_m2">Søg og se videolektioner</string>
+    <string name="intro_m3">Lav video foredrag med din Android Tablet</string>
+    <string name="left_panel_new">Ny note.</string>
+    <string name="left_panel_open">Åben</string>
+    <string name="left_panel_share">Del</string>
+    <string name="login">Login</string>
+    <string name="login_facebook">Log på med Facebook</string>
+    <string name="login_google">Log ind med Google</string>
+    <string name="logout_confirm_msg">Ønsker du at afbryde?</string>
+    <string name="m_subject">Vælg et emne du gerne vil lære mere om</string>
+    <string name="messenger_send_button_text">Send</string>
+    <string name="mins_left">Resterende tid : %@ sek.</string>
+    <string name="mute">stum</string>
+    <string name="network_failed">Netværksforbindelse er påkrævet.</string>
+    <string name="new_note_confirm">Ønsker du at starte en ny opgave? Eksisterende opgaver vil blive gemt automatisk.</string>
+    <string name="no">ingen</string>
+    <string name="no_google_play_service">Google Play er ikke installeret</string>
+    <string name="no_youtube_history">Eksportér din video til YouTube før du kan dele via Facebook.</string>
+    <string name="note_delete_confirm_msg">Vil du slette %@ note?</string>
+    <string name="now_encoding_video">Eksporterer til Galleri</string>
+    <string name="now_in_compress">Komprimerer fil…</string>
+    <string name="now_in_decompress">Pakker fil ud…</string>
+    <string name="onepage_onevideo">Du kan kun tilføje én video pr. side.</string>
+    <string name="opencourse">Open Courses</string>
+    <string name="opencourse_back">tilbage</string>
+    <string name="opencourse_download_step1">Downloader video nu.</string>
+    <string name="opencourse_menu_all">Alle</string>
+    <string name="opencourse_menu_art">Kunst</string>
+    <string name="opencourse_menu_language">Sprog</string>
+    <string name="opencourse_menu_math">Matematik</string>
+    <string name="opencourse_menu_others">Andre</string>
+    <string name="opencourse_menu_science">Videnskab</string>
+    <string name="opencourse_menu_social">Social</string>
+    <string name="opencourse_play_unavailable">Ikke i stand til at afspille</string>
+    <string name="opencourse_respond_fail">Serverfejl</string>
+    <string name="opencourse_upload_error_1">En eller flere af dine filer blev ikke eksporteret. Tjek venligst dine filer igen.</string>
+    <string name="opencourse_upload_error_2">Eksport fejlede. Fejlkode:</string>
+    <string name="opencourse_upload_error_3">Der opstod et problem under eksporten af videoen til serveren.</string>
+    <string name="opencourse_upload_error_thumbnail">Eksport af miniaturebillede fejlede. Fejlkode:</string>
+    <string name="opencourse_upload_error_zip">Der opstod en fejl under komprimeringen. Fejlkode:</string>
+    <string name="opencourse_upload_step1">Komprimerer filer...</string>
+    <string name="opencourse_upload_step2">Komprimering fuldendt</string>
+    <string name="opencourse_upload_step3">Eksporterer filer…</string>
+    <string name="opencourse_upload_succeed">Eksport fuldendt</string>
+    <string name="pdf_renderer_error">En fejl er opstået.</string>
+    <string name="play_finished">Afspilning er slut.</string>
+    <string name="please_enter_subject">Indtast titlen venligst.</string>
+    <string name="please_try_again">Prøv venligst at eksportere din video til YouTube igen.</string>
+    <string name="please_wait">Downloader nu ...</string>
+    <string name="private_setting">Privatlivsniveau</string>
+    <string name="record_not_found">Du har brug for at optage noget!</string>
+    <string name="record_not_found_export">Du har brug for at optage noget!</string>
+    <string name="record_selection_1">Ny optagelse fra dette punkt</string>
+    <string name="record_selection_2">Ny optagelse herfra</string>
+    <string name="record_selection_warn">Optag redigeringsindstilling</string>
+    <string name="reset_papers_popup_toast">Alle ændringer vil blive tabt. Ønsker du at fortsætte?</string>
+    <string name="s_general">Generel</string>
+    <string name="s_horizon">Afspil altid videoer i horisontal skærmindstilling</string>
+    <string name="s_info">Information</string>
+    <string name="s_privacy">Fortrolighedspolitik</string>
+    <string name="s_qna">Hjælp</string>
+    <string name="s_qna_a1">Prøv Vidensoptager til Android Tablet! Brug den simple brugerflade til at optage din stemme, skriv på tavlen og indsæt billeder/PDFer for at skabe dine egne videolektioner.</string>
+    <string name="s_qna_a2">Se vores online klasselokale service Knowlounge. Knowlounge er en real-time interaktivt læringsplatform som også understøtter kommunikation via webkamera. Afhold en live lektion via din browser eller app, og interager med elever ligesom du ville i et rigtigt klasselokale. Lav online læring mere underholdende ved at tage del i gruppestudier, tale med andre, give quizzer og meget mere!</string>
+    <string name="s_qna_q1">Hvordan kan jeg lave mine egne videolektioner?</string>
+    <string name="s_qna_q2">Kan jeg streame lektioner live?</string>
+    <string name="s_question">Kontakt os</string>
+    <string name="s_shortcut">Genvej</string>
+    <string name="s_sort">Slags</string>
+    <string name="s_subject">emne</string>
+    <string name="s_terms">Brugeraftale</string>
+    <string name="s_version">Version</string>
+    <string name="s_wifi">Afspil kun videoer når forbundet med wifi</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Søg"</string>
+    <string name="search_results">Søgeresultater</string>
+    <string name="shape_drag_message">Tegn former ved at trække</string>
+    <string name="shape_too_small">Figur er for lille til at tilføje.</string>
+    <string name="share_to_youtube_valid_toast">Kan ikke benytte del hvis der ikke er en videoeksport historie</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"Vil du tillade, at annoncen gemmer billedet i Galleri?"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"Gem billede"</string>
+    <string name="subject">Filmnavn</string>
+    <string name="switch_ready_msg">Vil udbydes efter prøveperioden.</string>
+    <string name="text_touch_message">Rør et sted på fladen for at indsætte en tekstboks</string>
+    <string name="tmsg_onevideo">You can only add one video</string>
+    <string name="to_use_know_recorder_please_sign_in">Log venligst in for at benytte Know Recorder.</string>
+    <string name="tooltip_to_opencourse">Del optagede videoer,\nsøg andre brugeres videoer efter emner.</string>
+    <string name="tooltip_to_pen">Indsæt filer og\nforklar med pen, figurer, makører.</string>
+    <string name="tooltip_to_timeline">Start optagelse når du er klar. Den er stadig redigerbar på tidslinjen, efter optagelsen er færdig.</string>
+    <string name="twice_backpress_to_exit">Tryk tilbage tasten igen for at afslutte</string>
+    <string name="unavailable_to_delete_note">Mindst én note er krævet her.</string>
+    <string name="unavailable_to_save_disk">Ikke i stand til at gemme komprimerede filer på disk</string>
+    <string name="untitled_note_name">Videoer lavet med Know Recorder</string>
+    <string name="upload_completed">Overført til YouTube.</string>
+    <string name="upload_in_progress">Overfører til YouTube.</string>
+    <string name="upload_not_started">Klar til at uploade til YouTube</string>
+    <string name="video_encoding_finished">Upload til Galleri fuldendt</string>
+    <string name="video_not_found">Kan ikke finde videofiler.</string>
+    <string name="video_touch_message">Importerede video med succes! Rør skærm for at tilføje til lærred.</string>
+    <string name="viewer_search_category_all">Alle sprog</string>
+    <string name="viewer_search_category_most_popular">Mest populære</string>
+    <string name="viewer_search_category_name">Filmnavn</string>
+    <string name="viewer_search_category_recent">Seneste</string>
+    <string name="yes">Ja</string>
+    <string name="youtube">YouTube</string>
+    <string name="youtube_upload">Overfør til YouTube</string>
+    <string name="youtube_upload_started_toast">Start med at overføre til YouTube.</string>
+    <string name="youtube_validation_1">Parenteser er ikke tilladt i titel.</string>
+    <string name="youtube_validation_2">%@ bogstaver kan indtastes i titel.</string>
+    <string name="youtube_validation_5">Vælg en kategori</string>
+    <string name="yt_upload_completed">Overført til YouTube.</string>
+    <string name="yt_upload_failed">Overførsel af video mislykkedes.</string>
+</resources>

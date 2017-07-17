@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\activity_guide.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout-sw600dp\\activity_guide.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\layout_viewpager.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout-sw600dp\\layout_viewpager.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\activity_player.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\layout-sw600dp\\activity_player.xml"
+    }
+]

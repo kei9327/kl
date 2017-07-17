@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]

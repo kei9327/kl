@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ana ekrana git"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Bitti"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AÇ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Ara…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Şununla paylaş"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s ile paylaş"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string msgid="5835639618285370804" name="accept">"Kabul et"</string>
+    <string name="action_search">Ara</string>
+    <string name="app_name">Know Recorder</string>
+    <string name="btn_more">Daha fazlası...</string>
+    <string name="btn_my_school">Benim okulum</string>
+    <string name="c_import_pdf_endtime">Kayıt süresinin sonunda PDF alabilirsiniz. Bunu yapmak istiyor musunuz?</string>
+    <string name="c_recording_new">Bu noktadan itibaren yeni kayıt</string>
+    <string name="c_recording_this_page">Yalnızca belirli bir zaman aralığını düzenle</string>
+    <string name="c_wifi">We recommend WiFi or unlimited plan. Do you want to play with 3G or 4G?</string>
+    <string name="cancel">İptal Et</string>
+    <string name="cant_access_play">Google Play\'e bağlantı kurulamadı</string>
+    <string name="category">Kategori</string>
+    <string name="close">Kapat</string>
+    <string name="com_facebook_image_download_unknown_error">Görsel indirilirken beklenmeyen hata.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView girişi için İNTERNET izni gerekir</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Hatası</string>
+    <string name="com_facebook_like_button_liked">Beğendin</string>
+    <string name="com_facebook_like_button_not_liked">Beğen</string>
+    <string name="com_facebook_loading">Yükleniyor...</string>
+    <string name="com_facebook_loginview_cancel_action">İptal</string>
+    <string name="com_facebook_loginview_log_in_button">Giriş yap</string>
+    <string name="com_facebook_loginview_log_in_button_long">Facebook ile giriş yap</string>
+    <string name="com_facebook_loginview_log_out_action">Çıkış yap</string>
+    <string name="com_facebook_loginview_log_out_button">Çıkış yap</string>
+    <string name="com_facebook_loginview_logged_in_as">Giriş yapan: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebook ile giriş yapıldı</string>
+    <string name="com_facebook_send_button_text">Gönder</string>
+    <string name="com_facebook_share_button_text">Paylaş</string>
+    <string name="com_facebook_tooltip_default">Yeni! Kontrol sende. Uygulamalarla paylaşmak istediğin bilgileri seç.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Etkinleştir"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play hizmetlerini etkinleştirmezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmaz."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play hizmetlerini etkinleştirin"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Yükle"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play hizmetlerini edinin"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play Hizmetleri hatası"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Güncelle"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Google Play hizmetlerini güncellemezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmayacak."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play hizmetlerini güncelleyin"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Telefonda aç"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Oturum aç"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google\'da oturum aç"</string>
+    <string name="content_text_youtube_upload_started">YouTube\'a Yükleniyor.</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"Reklamın, takvim etkinliği oluşturmasına izin verilsin mi?"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"Takvim etkinliği oluştur"</string>
+    <string name="crop__cancel" ns2:ignore="ButtonCase">ÇIKIŞ</string>
+    <string name="crop__done">TAMAM</string>
+    <string name="crop__pick_error">Fotoğraf bulunamadı</string>
+    <string name="crop__saving">Fotoğraf kaydediliyor…</string>
+    <string name="crop__wait">Lütfen bekleyin…</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"Reklam Bilgileri"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"Creative Preview"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"Hata Ayıklama Modu Seç"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Sorun Giderme"</string>
+    <string msgid="6099173376375995052" name="decline">"Reddet"</string>
+    <string name="description">Film Açıklaması</string>
+    <string name="dialog_setting_accounts">Hesaplar</string>
+    <string name="dialog_setting_remove_watermark">Filigranı kaldır</string>
+    <string name="dialog_setting_time_limit">Kayıt zaman sınırını kaldırın</string>
+    <string name="dialog_setting_title">seçenekleri</string>
+    <string name="enter_text_here">Buraya metin yazın</string>
+    <string name="exit">Tekrar gösterme</string>
+    <string name="export">Filmi Dışa Aktar</string>
+    <string name="export_default_text">Video Know Recorder Cihazıyla yapıldı // 160826 Revise, 정진영</string>
+    <string name="export_to_gallery">Galeri</string>
+    <string name="facebook">Facebook</string>
+    <string name="fail_to_get_categories">Kategoriler yüklenemedi</string>
+    <string name="file_download_failed">Dosya indirme hatası</string>
+    <string name="filecopy_loading_file">ithal ...</string>
+    <string name="gallery">Galeri</string>
+    <string name="google_login_succeed">YouTube\'a girildi</string>
+    <string name="googleplay_service_connection_failed">Google Play\'e bağlanamadı</string>
+    <string name="guide_start_btn">Başlangıç</string>
+    <string name="guide_title_1">Her bilgi, açıklanabilir.</string>
+    <string name="guide_title_1_subtitle_1">Fikirlerinizi açıklayın ve paylaşın! Tersine Dönmüş Sınıf Flipped Classroom için ders videosundan,</string>
+    <string name="guide_title_1_subtitle_2">uzmanların teknik dersine, her şey kolayca açıklanabilir ve Know Recorder Cihazı ile bunu yapmak kolaydır.</string>
+    <string name="guide_title_2">Ders videoları yapmak kolaydır.</string>
+    <string name="guide_title_2_subtitle_1">Sadece birkaç dokunmatik kontrolle, harici dosyalarla birlikte yazılar ve sesler kaydedebilirsiniz.</string>
+    <string name="guide_title_3">Dünyadaki tüm öğrencilerin öğretmeni olun.</string>
+    <string name="guide_title_3_subtitle_1">Kaydedilen videolar doğrudan YouTube\'a yüklenebilir. Yüklenen videolarınızı Facebook\'ta paylaşmak kolaydır.</string>
+    <string name="guide_title_3_subtitle_2">Öğretme\'nin yeni yöntemini Paylaşın ve Deneyimleyin!</string>
+    <string name="i_category_autos">Otomobiller ve Araçlar</string>
+    <string name="i_category_comedy">Komedi</string>
+    <string name="i_category_edu">Eğitim</string>
+    <string name="i_category_ent">Eğlence</string>
+    <string name="i_category_film">Film ve Animasyon</string>
+    <string name="i_category_game">Oyun</string>
+    <string name="i_category_howto">Nasıl Yapılır ve Stil</string>
+    <string name="i_category_music">Müzik</string>
+    <string name="i_category_news">Haberler ve Politika</string>
+    <string name="i_category_nonprofits">Kâr Amacı Gütmeyen Kuruluşlar ve Aktivizm</string>
+    <string name="i_category_people">Kişiler ve Bloglar</string>
+    <string name="i_category_pets">Ev Hayvanları ve Hayvanlar</string>
+    <string name="i_category_science">Bilim ve Teknoloji</string>
+    <string name="i_category_sports">Spor</string>
+    <string name="i_category_travel">Seyahat ve Etkinlikler</string>
+    <string name="i_coming_soon">Pek yakında</string>
+    <string name="i_noVideo">Bir şeyler kaydetmeniz gerek!</string>
+    <string name="i_recording_guide_label">Seçilen alanı tekrar kaydet</string>
+    <string name="i_recording_option_all">Çizim &amp; Ses</string>
+    <string name="i_recording_option_title">Kayıt düzenleme seçenekleri</string>
+    <string name="i_recording_option_voice">Yalnızca ses</string>
+    <string name="i_search_result_ok">#KEYWORD# için #COUNT# sonuç bulundu</string>
+    <string name="i_searchtips">Arama ipuçları</string>
+    <string name="i_searchtips_one">Anahtar kelimelerin doğru yazıldığından emin olun.</string>
+    <string name="i_searchtips_two">Daha az, farklı veya daha genel anahtar kelimeler kullanmayı\n  deneyin.</string>
+    <string name="i_viewer_no_result_found">#KEYWORD# için sonuç bulunamadı</string>
+    <string name="i_youtube_category">Kategori</string>
+    <string name="i_youtube_channel">Hesabınıza bağlı herhangi bir YouTube kanalı yok. YouTube\'a video dersleri yüklemek için en az bir YouTube kanalınızın olması gerekir. Ana Ekran -&lt; Kanalım | YouTube üzerindeki web sitesi veya uygulamasına | giderek kendi kanalınızı yapabilirsiniz.</string>
+    <string name="i_youtube_private">Özel</string>
+    <string name="i_youtube_public">Herkese açık</string>
+    <string name="i_youtube_unlisted">Liste dışı</string>
+    <string name="image_drag_message">Görsel başarıyla içe aktarıldı! Kanvasa eklemek için ekranı sürükleyin.</string>
+    <string name="image_too_small">Görsel boyutu eklemek için çok küçük.</string>
+    <string name="initiation_completed">Başlatma tamamlandı</string>
+    <string name="initiation_started">Yükleme başlatılıyor</string>
+    <string name="intro_m1">Konu özü hakkında bir dizi bilgi edinin</string>
+    <string name="intro_m2">Arayın ve video dersleri görüntüleyin</string>
+    <string name="intro_m3">Android Tablet ile görüntülü konferanslar yapmak</string>
+    <string name="left_panel_new">Yeni Not</string>
+    <string name="left_panel_open">Açık</string>
+    <string name="left_panel_share">Paylaş</string>
+    <string name="login">Giriş Yap</string>
+    <string name="login_facebook">google giriş yapın</string>
+    <string name="login_google">Facebook ile giriş</string>
+    <string name="logout_confirm_msg">Bağlantıyı kesmek mi istiyorsunuz?</string>
+    <string name="m_subject">Öğrenmek istediğiniz bir konuyu seçin</string>
+    <string name="messenger_send_button_text">Gönder</string>
+    <string name="mins_left">Kalan süre: %@ sn.</string>
+    <string name="mute">sessiz</string>
+    <string name="network_failed">Ağ bağlantısı gereklidir.</string>
+    <string name="new_note_confirm">Yeni bir görev mi başlatmak istiyorsunuz? Var olan görevler otomatik olarak kaydedilecek.</string>
+    <string name="no">yok hayır</string>
+    <string name="no_google_play_service">Google Play yüklü değil</string>
+    <string name="no_youtube_history">Videonuzu ilk Facebook aracılığıyla paylaşmak için YouTube\'a aktarın.</string>
+    <string name="note_delete_confirm_msg">%@ notunu silmek istiyor musunuz?</string>
+    <string name="now_encoding_video">Galeriye Aktarılıyor</string>
+    <string name="now_in_compress">Dosya Sıkıştırılıyor...</string>
+    <string name="now_in_decompress">Dosya açılıyor...</string>
+    <string name="onepage_onevideo">Sayfa başına sadece bir video ekleyebilirsiniz.</string>
+    <string name="opencourse">Open Courses</string>
+    <string name="opencourse_back">Geri Dön</string>
+    <string name="opencourse_download_step1">Şimdi video indiriliyor.</string>
+    <string name="opencourse_menu_all">Tümü</string>
+    <string name="opencourse_menu_art">Sanat</string>
+    <string name="opencourse_menu_language">Dil</string>
+    <string name="opencourse_menu_math">Matematik</string>
+    <string name="opencourse_menu_others">Diğerleri</string>
+    <string name="opencourse_menu_science">Bilim</string>
+    <string name="opencourse_menu_social">Toplumsal</string>
+    <string name="opencourse_play_unavailable">Oynatılamıyor</string>
+    <string name="opencourse_respond_fail">Server hatası</string>
+    <string name="opencourse_upload_error_1">Dosyalarından biri veya daha fazlası başarıyla aktarılamadı. Lütfen dosyalarınızı yeniden kontrol edin.</string>
+    <string name="opencourse_upload_error_2">Aktarma başarısız oldu. Hata kodu:</string>
+    <string name="opencourse_upload_error_3">Sunucuya video aktarılırken bir sorun oluştu.</string>
+    <string name="opencourse_upload_error_thumbnail">Küçük resim görüntüsü aktarma başarısız oldu. Hata kodu:</string>
+    <string name="opencourse_upload_error_zip">Sıkıştırma sırasında bir hata oluştu. Hata kodu:</string>
+    <string name="opencourse_upload_step1">Dosyaları sıkıştırılıyor..</string>
+    <string name="opencourse_upload_step2">Sıkıştırma tamamlandı</string>
+    <string name="opencourse_upload_step3">Dosyalar aktarılıyor...</string>
+    <string name="opencourse_upload_succeed">Aktarma Tamamlandı</string>
+    <string name="pdf_renderer_error">Bir hata oluştu.</string>
+    <string name="play_finished">Oynatma bitti.</string>
+    <string name="please_enter_subject">Lütfen başlığı girin.</string>
+    <string name="please_try_again">Lütfen videonuzu YouTube\'a aktarmayı yeniden deneyin.</string>
+    <string name="please_wait">Baixando agora ...</string>
+    <string name="private_setting">Gizlilik Seviyesi</string>
+    <string name="record_not_found">Bir şeyler kaydetmeniz gerek!</string>
+    <string name="record_not_found_export">Bir şeyler kaydetmeniz gerek!</string>
+    <string name="record_selection_1">Bu noktadan itibaren yeni kayıt</string>
+    <string name="record_selection_2">Buradan yeni bir kayıt</string>
+    <string name="record_selection_warn">Kayıt düzenleme seçenekleri</string>
+    <string name="reset_papers_popup_toast">Tüm değişiklikler kaybolacak. Devam etmek istiyor musunuz?</string>
+    <string name="s_general">Genel</string>
+    <string name="s_horizon">Her zaman yatay modunda video oynatır</string>
+    <string name="s_info">Bilgi</string>
+    <string name="s_privacy">Gizlilik Politikası</string>
+    <string name="s_qna">Yardım</string>
+    <string name="s_qna_a1">Android Tablet için Know Recorder deneyin! Sesinizi kaydetmek için basit arayüz kullanın, beyaz tahta üzerinde yazın ve kendi video derslerinizi yapmak için görüntüler/PDF\'ler ekleyin.</string>
+    <string name="s_qna_a2">Online sınıf hizmetimiz Knowlounge\'a göz atın. Knowlounge ayrıca web kamerası aracılığıyla iletişimi destekleyen gerçek zamanlı interaktif öğrenme platformudur. Tarayıcı veya uygulamanız ile bir canlı sınıfı basılı tutun ve gerçek sınıfta olduğunuz gibi öğrenciler ile etkileşin. Grup çalışmasına katılarak, başkaları ile sohbet ederek, sınavlar ve çok daha fazlasını vererek, çevrimiçi daha keyifli öğrenme yapın!</string>
+    <string name="s_qna_q1">Nasıl kendi video derslerimi yapabilirim?</string>
+    <string name="s_qna_q2">Sınıfları canlı yayınlayabilir miyim?</string>
+    <string name="s_question">Bizimle iletişime geçin</string>
+    <string name="s_shortcut">Kısayol</string>
+    <string name="s_sort">çeşit</string>
+    <string name="s_subject">konu</string>
+    <string name="s_terms">Servis Kullanıcı Sözleşmesi</string>
+    <string name="s_version">Sürüm</string>
+    <string name="s_wifi">Sadece Wifi bağlıyken videoları oynatır</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Ara"</string>
+    <string name="search_results">arama sonuçları</string>
+    <string name="shape_drag_message">Sürükleyerek şekiller çizin</string>
+    <string name="shape_too_small">Şekil eklemek için çok küçük.</string>
+    <string name="share_to_youtube_valid_toast">Bir video aktarma geçmişi yok ise paylaşma kullanılamaz.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"Reklamın, Resim galerisine resim kaydetmesine izin verilsin mi?"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"Resmi kaydet"</string>
+    <string name="subject">Film Adı</string>
+    <string name="switch_ready_msg">Deneme süresinden sonra sağlanacak.</string>
+    <string name="text_touch_message">Bir metin kutusu eklemek için pano üzerinde bir yere dokunun</string>
+    <string name="tmsg_onevideo">You can only add one video</string>
+    <string name="to_use_know_recorder_please_sign_in">Lütfen Know Recorder\'ı\n kullanarak giriş yapın.</string>
+    <string name="tooltip_to_opencourse">Kaydedilen videoları paylaş, diğer\nkullanıcıların videolarını konuya göre ara.</string>
+    <string name="tooltip_to_pen">Dosyaları ekle ve kalem,\nşekiller, işaretçiler ile açıkla</string>
+    <string name="tooltip_to_timeline">Hazır olduğunuzda kaydı başlatın. Kayıt tamamlandıktan sonra zaman çizelgesinde hala düzenlenebilir.</string>
+    <string name="twice_backpress_to_exit">bitirmek için tekrar tuşuna basın</string>
+    <string name="unavailable_to_delete_note">Burada en az bir not gereklidir.</string>
+    <string name="unavailable_to_save_disk">Sıkıştırılmış dosyalar diske kaydedilemiyor</string>
+    <string name="untitled_note_name">Video Know Recorder Cihazıyla yapıldı // 160826 Revise, 정진영</string>
+    <string name="upload_completed">YouTube\'a Yüklendi.</string>
+    <string name="upload_in_progress">YouTube\'a Yükleniyor.</string>
+    <string name="upload_not_started">YouTube\'a yüklemeye hazır</string>
+    <string name="video_encoding_finished">Gallery Tamam\'a yükleyin</string>
+    <string name="video_not_found">video dosyalarını bulamıyor.</string>
+    <string name="video_touch_message">Video başarıyla içe aktarıldı! Kanvasa eklemek için ekrana dokunun.</string>
+    <string name="viewer_search_category_all">Bütün diller</string>
+    <string name="viewer_search_category_most_popular">En popüler</string>
+    <string name="viewer_search_category_name">Film Adı</string>
+    <string name="viewer_search_category_recent">En Son</string>
+    <string name="yes">Evet</string>
+    <string name="youtube">YouTube</string>
+    <string name="youtube_upload">YouTube\'a Yükle</string>
+    <string name="youtube_upload_started_toast">YouTube\'a yüklemeye başlayın.</string>
+    <string name="youtube_validation_1">Başlıkta parantezlere izin verilmez.</string>
+    <string name="youtube_validation_2">Başlığa %@ harf girilebilir.</string>
+    <string name="youtube_validation_5">Bir kategori seçin</string>
+    <string name="yt_upload_completed">YouTube\'a Yüklendi.</string>
+    <string name="yt_upload_failed">Video yüklenemedi.</string>
+</resources>

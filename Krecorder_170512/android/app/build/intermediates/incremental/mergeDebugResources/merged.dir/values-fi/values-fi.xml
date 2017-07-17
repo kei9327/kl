@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Siirry etusivulle"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Siirry ylös"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Lisää"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Valmis"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Näytä kaikki"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Valitse sovellus"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"POIS KÄYTÖSTÄ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"KÄYTÖSSÄ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Haku…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Tyhjennä kysely"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Hakulauseke"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Haku"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Lähetä kysely"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Puhehaku"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Jakaminen:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Jakaminen: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Kutista"</string>
+    <string msgid="5835639618285370804" name="accept">"Hyväksy"</string>
+    <string name="action_search">Haku</string>
+    <string name="app_name">Know Recorder</string>
+    <string name="btn_more">Lisää...</string>
+    <string name="btn_my_school">Oma kouluni</string>
+    <string name="c_import_pdf_endtime">Voit tuoda PDF-tiedoston nauhoitusajan lopussa. Haluatko tehdä niin?</string>
+    <string name="c_recording_new">Uusi tallennus tästä kohdasta</string>
+    <string name="c_recording_this_page">Muokkaa vain tätä sivua</string>
+    <string name="c_wifi">We recommend WiFi or unlimited plan. Do you want to play with 3G or 4G?</string>
+    <string name="cancel">Peruuta</string>
+    <string name="cant_access_play">Google Playhin yhdistäminen ei onnistunut</string>
+    <string name="category">Luokka</string>
+    <string name="close">Sulje</string>
+    <string name="com_facebook_image_download_unknown_error">Odottamaton virhe kuvan palvelimesta lataamisen aikana.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView-kirjautuminen edellyttää INTERNET-käyttöoikeutta</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest-virhe</string>
+    <string name="com_facebook_like_button_liked">Tykätty</string>
+    <string name="com_facebook_like_button_not_liked">Tykkää</string>
+    <string name="com_facebook_loading">Ladataan...</string>
+    <string name="com_facebook_loginview_cancel_action">Peruuta</string>
+    <string name="com_facebook_loginview_log_in_button">Kirjaudu sisään</string>
+    <string name="com_facebook_loginview_log_in_button_long">Kirjaudu sisään Facebookin avulla</string>
+    <string name="com_facebook_loginview_log_out_action">Kirjaudu ulos</string>
+    <string name="com_facebook_loginview_log_out_button">Kirjaudu ulos</string>
+    <string name="com_facebook_loginview_logged_in_as">Sisäänkirjautunut nimellä: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Sisäänkirjautunut Facebookin avulla</string>
+    <string name="com_facebook_send_button_text">Lähetä</string>
+    <string name="com_facebook_share_button_text">Jaa</string>
+    <string name="com_facebook_tooltip_default">Uutta! Sinä päätät – valitse, mitä haluat jakaa sovellusten kanssa.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Ota käyttöön"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi, ellet ota Google Play Palveluita käyttöön."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Ota Google Play Palvelut käyttöön"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Asenna"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi ilman Google Play Palveluita, jotka puuttuvat laitteeltasi."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Asenna Google Play Palvelut"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Virhe Google Play -palveluissa"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Sovelluksella <ns1:g id="APP_NAME">%1$s</ns1:g> on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi ilman Google Play Palveluita, joita laitteesi ei tue."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Päivitä"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi, ellet päivitä Google Play Palveluita."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Päivitä Google Play Palvelut"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi ilman Google Play Palveluita, joita päivitetään tällä hetkellä."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Uusi Google Play Palveluiden versio tarvitaan. Se päivittyy pian."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Avaa puhelimessa"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Kirjaudu sisään"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Kirjaudu Google-tilille"</string>
+    <string name="content_text_youtube_upload_started">Ladataan YouTubeen.</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"Myönnetäänkö mainokselle oikeus luoda kalenteritapahtuma?"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"Luo kalenteritapahtuma"</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"Mainoksen tiedot"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"Mainoksen esikatselu"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"Virheenkorjaustilan valinta"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Vianetsintä"</string>
+    <string msgid="6099173376375995052" name="decline">"Hylkää"</string>
+    <string name="description">Elokuvan kuvaus</string>
+    <string name="dialog_setting_accounts">Tilit</string>
+    <string name="dialog_setting_remove_watermark">Poista vesileima</string>
+    <string name="dialog_setting_time_limit">Avaa tallennuksen aikarajoitus</string>
+    <string name="dialog_setting_title">vaihtoehto</string>
+    <string name="enter_text_here">Kirjoita teksti tähän</string>
+    <string name="exit">Älä näytä uudestaan</string>
+    <string name="export">Vie elokuva</string>
+    <string name="export_default_text">Video tehty Know Recorder</string>
+    <string name="export_to_gallery">Galleria</string>
+    <string name="facebook">Facebook</string>
+    <string name="fail_to_get_categories">Kategorioiden lataaminen epäonnistui</string>
+    <string name="file_download_failed">Virhe ladattaessa tiedostoa</string>
+    <string name="filecopy_loading_file">tuontia ...</string>
+    <string name="gallery">Galleria</string>
+    <string name="google_login_succeed">Kirjauduttu sisään YouTubeen</string>
+    <string name="googleplay_service_connection_failed">Google Playhin yhdistäminen epäonnistui</string>
+    <string name="guide_start_btn">alku</string>
+    <string name="guide_title_1">Kaiken tiedon voi selittää.</string>
+    <string name="guide_title_1_subtitle_1">Selitä ja jaa ideoitasi! Kaiken käänteisen opetuksen luentovideoista asiantuntijoiden </string>
+    <string name="guide_title_1_subtitle_2">teknisiin luentoihin voi selittää helposti ja yksinkertaisesti Know Recorder avulla.</string>
+    <string name="guide_title_2">Luentovideoiden tekeminen on helppoa.</string>
+    <string name="guide_title_2_subtitle_1">Vain muutamalla kosketusohjaimella voit tallentaa kirjoituksia, ääniä sekä ulkoisia tiedostoja.</string>
+    <string name="guide_title_3">Ryhdy kaikkien maailman oppilaiden opettajaksi.</string>
+    <string name="guide_title_3_subtitle_1">Tallennetut videot voi helposti ladata YouTubeen. Ladattujen videoiden julkaiseminen</string>
+    <string name="guide_title_3_subtitle_2">Facebookiin on helppoa. Jaa &amp; koe opettamisen uusi tapa!</string>
+    <string name="i_category_autos">Autot ja ajoneuvot</string>
+    <string name="i_category_comedy">Komedia</string>
+    <string name="i_category_edu">Koulutus</string>
+    <string name="i_category_ent">Viihde</string>
+    <string name="i_category_film">Elokuva ja animaatio</string>
+    <string name="i_category_game">Pelit</string>
+    <string name="i_category_howto">Vinkit ja tyylit</string>
+    <string name="i_category_music">Musiikki</string>
+    <string name="i_category_news">Uutiset ja politiikka</string>
+    <string name="i_category_nonprofits">Yhdistykset ja aktivismi</string>
+    <string name="i_category_people">Ihmiset ja blogit</string>
+    <string name="i_category_pets">Lemmikit ja eläimet</string>
+    <string name="i_category_science">Tiede ja tekniikka</string>
+    <string name="i_category_sports">Urheilu</string>
+    <string name="i_category_travel">Matkailu ja tapahtumat</string>
+    <string name="i_coming_soon">Tulossa lähiaikoina</string>
+    <string name="i_noVideo">Sinun on tallennettava jotakin!</string>
+    <string name="i_recording_guide_label">Nauhoita valittu alue uudelleen</string>
+    <string name="i_recording_option_all">Piirros ja ääni</string>
+    <string name="i_recording_option_title">Nauhoituksen muokkausvaihtoehto</string>
+    <string name="i_recording_option_voice">Vain ääni</string>
+    <string name="i_search_result_ok">#COUNT# Resultado encontrado por #KEYWORD#</string>
+    <string name="i_searchtips">Hakuvinkkejä</string>
+    <string name="i_searchtips_one">Varmista että hakusanasi on kirjoitettu oikein.</string>
+    <string name="i_searchtips_two">Kokeile käyttää vähemmän, erilaisia tai yleisempiä hakusanoja.</string>
+    <string name="i_viewer_no_result_found">Ei löydetty tuloksia #KEYWORD#:lle</string>
+    <string name="i_youtube_category">Luokka</string>
+    <string name="i_youtube_channel">Tiliisi ei liity YouTube-kanavaa. Tarvitset vähintään yhden YouTube-kanavan ladataksesi videoluentoja YouTubeen. Voit perustaa oman kanavasi menemällä YouTuben verkkosivuilla tai sovelluksessa kohtaan | Koti -&lt; Oma kanava</string>
+    <string name="i_youtube_private">Yksityinen</string>
+    <string name="i_youtube_public">Julkinen</string>
+    <string name="i_youtube_unlisted">Piilotettu</string>
+    <string name="image_drag_message">Kuva on nyt tuotu! Vedä näyttöä lisätäksesi piirtoalueelle.</string>
+    <string name="image_too_small">Kuvan koko on liian pieni lisättäväksi.</string>
+    <string name="initiation_completed">Alustaminen valmis</string>
+    <string name="initiation_started">Alustetaan tiedoston latausta</string>
+    <string name="intro_m1">Opi lisää suuresta määrästä aineita</string>
+    <string name="intro_m2">Etsi ja katsele videoluentoja</string>
+    <string name="intro_m3">Tee videoluentoina Android Tabletisi</string>
+    <string name="left_panel_new">Uusi merkintä</string>
+    <string name="left_panel_open">Avata</string>
+    <string name="left_panel_share">Jaa</string>
+    <string name="login">Kirjaudu sisään</string>
+    <string name="login_facebook">Kirjaudu sisään Google</string>
+    <string name="login_google">Kirjaudu sisään facebook</string>
+    <string name="logout_confirm_msg">Haluatko katkaista yhteyden?</string>
+    <string name="m_subject">Valitse aine, josta haluaisit oppia lisää</string>
+    <string name="messenger_send_button_text">Lähetä</string>
+    <string name="mins_left">Aikaa jäljellä: %@ sekuntia</string>
+    <string name="mute">äänetön</string>
+    <string name="network_failed">Verkkoyhteys vaaditaan.</string>
+    <string name="new_note_confirm">Haluatko aloittaa uuden tehtävän? Olemassa olevat tehtävät tallennetaan automaattisesti.</string>
+    <string name="no">ei</string>
+    <string name="no_google_play_service">Google Playtä ei ole asennettu</string>
+    <string name="no_youtube_history">Vie videosi ensin YouTubeen jakaaksesi sen Facebookin kautta.</string>
+    <string name="note_delete_confirm_msg">Haluatko poistaa %@ merkinnän?</string>
+    <string name="now_encoding_video">Viedään galleriaan</string>
+    <string name="now_in_compress">Pakataan tiedostoa...</string>
+    <string name="now_in_decompress">Tiedostoa puretaan...</string>
+    <string name="onepage_onevideo">Voit lisätä vain yhden videon sivua kohti.</string>
+    <string name="opencourse">Open Courses</string>
+    <string name="opencourse_back">palata</string>
+    <string name="opencourse_download_step1">Ladataan videota nyt.</string>
+    <string name="opencourse_menu_all">Kaikki</string>
+    <string name="opencourse_menu_art">Taide</string>
+    <string name="opencourse_menu_language">Kieli</string>
+    <string name="opencourse_menu_math">Matematiikka</string>
+    <string name="opencourse_menu_others">Muut</string>
+    <string name="opencourse_menu_science">Tiede</string>
+    <string name="opencourse_menu_social">Sosiaalinen</string>
+    <string name="opencourse_play_unavailable">Toistaminen ei onnistu</string>
+    <string name="opencourse_respond_fail">Palvelinvirhe</string>
+    <string name="opencourse_upload_error_1">Yhden tai useamman tiedostosi vieminen ei onnistunut. Tarkista tiedostosi uudelleen.</string>
+    <string name="opencourse_upload_error_2">Vieminen epäonnistui. Virhekoodi:</string>
+    <string name="opencourse_upload_error_3">Tapahtui virhe vietäessä videota palvelimelle.</string>
+    <string name="opencourse_upload_error_thumbnail">Esikatselukuvan vieminen epäonnistui. Virhekoodi:</string>
+    <string name="opencourse_upload_error_zip">Pakkaamisen aikana tapahtui virhe. Virhekoodi:</string>
+    <string name="opencourse_upload_step1">Tiedostoja pakataan...</string>
+    <string name="opencourse_upload_step2">Pakkaaminen valmistui</string>
+    <string name="opencourse_upload_step3">Tiedostoja viedään...</string>
+    <string name="opencourse_upload_succeed">Vieminen valmistui</string>
+    <string name="pdf_renderer_error">On tapahtunut virhe.</string>
+    <string name="play_finished">Toisto on tehty.</string>
+    <string name="please_enter_subject">Syötä nimi.</string>
+    <string name="please_try_again">Yritä uudelleen viedä videosi YouTubeen</string>
+    <string name="please_wait">Lataaminen nyt ...</string>
+    <string name="private_setting">Yksityisyystaso</string>
+    <string name="record_not_found">Sinun on tallennettava jotakin!</string>
+    <string name="record_not_found_export">Sinun on tallennettava jotakin!</string>
+    <string name="record_selection_1">Uusi tallennus tästä kohdasta</string>
+    <string name="record_selection_2">Uusi nauhoitus tästä lähtien</string>
+    <string name="record_selection_warn">Nauhoituksen muokkausvaihtoehto</string>
+    <string name="reset_papers_popup_toast">Kaikki muutokset menetetään. Haluatko silti jatkaa?</string>
+    <string name="s_general">Yleistä</string>
+    <string name="s_horizon">Toista videot aina vaakasuorassa tilassa</string>
+    <string name="s_info">Tietoja</string>
+    <string name="s_privacy">Yksityisyyskäytännöt</string>
+    <string name="s_qna">Apu</string>
+    <string name="s_qna_a1">Kokeile Know Recorder Android Tabletilla! Käytä yksinkertaista käyttäjäliittymää tallentamaan äänesi, kirjoittamaan tussitaululle ja upottamaan kuvia/PDF-tiedostoja laatiaksesi itse videoluentoja.</string>
+    <string name="s_qna_a2">Käy katsomassa luokkahuoneiden verkkopalveluamme nimeltä Knowlounge. Knowlounge on reealiaikainen ja vuorovaikutuksellinen oppimisalusta, joka tukee myös viestintää verkkokameran välityksellä. Pidä oppitunti reaaliajassa selaimesi tai sovelluksen välityksellä ja ole vuorovaikutuksessa opiskelijoiden kanssa aivan kuin oikeassa luokkahuoneessa. Tee verkko-oppimisesta mukavampaa osallistumalla ryhmäopiskeluun, chattailemalla toisten kanssa, järjestämällä visailuja – ja se on vasta alkua!</string>
+    <string name="s_qna_q1">Miten voin itse laatia videoluentoja?</string>
+    <string name="s_qna_q2">Voinko näyttää oppitunnit suoratoistona?</string>
+    <string name="s_question">Ota yhteyttä</string>
+    <string name="s_shortcut">Pikakuvake</string>
+    <string name="s_sort">järjestellä</string>
+    <string name="s_subject">aihe</string>
+    <string name="s_terms">Palvelun käyttäjäsopimus</string>
+    <string name="s_version">Versio</string>
+    <string name="s_wifi">Toista videot vain WiFi-yhteyden ollessa käytössä</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Haku"</string>
+    <string name="search_results">hakutulokset</string>
+    <string name="shape_drag_message">Piirrä muotoja vetämällä</string>
+    <string name="shape_too_small">Kuva on liian pieni lisättäväksi.</string>
+    <string name="share_to_youtube_valid_toast">Vie videosi ensin YouTubeen jakaaksesi sen Facebookin kautta.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"Myönnetäänkö mainokselle oikeus tallentaa kuva galleriaan?"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"Tallenna kuva"</string>
+    <string name="subject">Elokuvan nimi</string>
+    <string name="switch_ready_msg">Annetaan kokeilujakson jälkeen.</string>
+    <string name="text_touch_message">Kosketa kohtaa taululla syöttääksesi tekstilaatikon</string>
+    <string name="tmsg_onevideo">You can only add one video</string>
+    <string name="to_use_know_recorder_please_sign_in">Ole hyvä ja kirjaudu sisään käyttääksesi Know Recorder:ia</string>
+    <string name="tooltip_to_opencourse">Jaa videoluentosi muiden kanssa</string>
+    <string name="tooltip_to_pen">Kokeile eri työkalujen käyttöä tehostaaksesi materiaalejasi.</string>
+    <string name="tooltip_to_timeline">Aloita nauhoitus kun olet valmis. Se on silti muokattavissa aikajanalla nauhoituksen päättyessä.</string>
+    <string name="twice_backpress_to_exit">Paina takaisin näppäintä uudelleen loppuun</string>
+    <string name="unavailable_to_delete_note">Vähintään yksi merkintä vaaditaan tähän.</string>
+    <string name="unavailable_to_save_disk">Pakattujen tiedostojen tallentaminen levylle ei onnistu</string>
+    <string name="untitled_note_name">Video tehty Know Recorder</string>
+    <string name="upload_completed">Ladattu YouTubeen.</string>
+    <string name="upload_in_progress">Ladataan YouTubeen.</string>
+    <string name="upload_not_started">Valmis lataamaan YouTubeen</string>
+    <string name="video_encoding_finished">Galleriaan lataaminen valmistui</string>
+    <string name="video_not_found">Ei löydä videotiedostoja.</string>
+    <string name="video_touch_message">Video on nyt tuotu! Kosketa näyttöä lisätäksesi piirtoalueelle.</string>
+    <string name="viewer_search_category_all">kaikki kielet</string>
+    <string name="viewer_search_category_most_popular">Suosituimmat</string>
+    <string name="viewer_search_category_name">Elokuvan nimi</string>
+    <string name="viewer_search_category_recent">Viimeisimmät</string>
+    <string name="yes">kyllä</string>
+    <string name="youtube">YouTube</string>
+    <string name="youtube_upload">Lataa YouTubeen</string>
+    <string name="youtube_upload_started_toast">Aloita lataaminen YouTubeen.</string>
+    <string name="youtube_validation_1">Nimessä ei saa olla sulkuja.</string>
+    <string name="youtube_validation_2">Nimessä voi olla %@ kirjainta.</string>
+    <string name="youtube_validation_5">Valitse kategoria</string>
+    <string name="yt_upload_completed">Ladattu YouTubeen.</string>
+    <string name="yt_upload_failed">Videon lataus epäonnistui.</string>
+</resources>

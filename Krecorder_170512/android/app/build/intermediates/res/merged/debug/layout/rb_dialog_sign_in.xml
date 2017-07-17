@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_root"
+    android:background="#FFFFFF">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="#A0C81E"
+        android:text="@string/login"
+        android:drawableStart="@drawable/icon_setting_login"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to_use_know_recorder_please_sign_in"
+        android:textSize="13dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="34dp"
+        android:paddingRight="34dp"
+        android:textColor="#616161"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/login_with_facebook"
+        android:layout_width="184dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:drawableStart="@drawable/ico_viewer_login_facebook"
+        android:background="#3d5c95"
+        android:text="@string/login_facebook"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:background="#919191"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="34dp"
+        android:paddingRight="43dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ico_btn_checked"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:textColor="#969696"
+            android:text="agree to the terms of use and privacy policy - 언어화 필요-"/>
+
+    </LinearLayout>
+
+</LinearLayout>

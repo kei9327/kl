@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lLeftDrawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible"
+    android:layoutDirection="ltr">
+
+    <RelativeLayout
+        android:id="@+id/lLeftDrawerMenuRoot"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/left_menu_right_border">
+        <LinearLayout
+            android:id="@+id/lLeftDrawerMenu"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:gravity="top|left">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/left_menu_logo_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_leftmenu_logo"
+                    />
+            </LinearLayout>
+
+            <!-- New 메뉴 -->
+            <RelativeLayout
+                android:id="@+id/left_new_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/left_menu_border"
+                >
+
+                <ImageView
+                    android:id="@+id/ico_left_new"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ico_leftmenu_new"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/btnDrawerNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/left_panel_new"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#808080"
+                    android:textSize="14dp"
+                    android:textStyle="normal"
+                    android:layout_toRightOf="@id/ico_left_new"
+                    />
+            </RelativeLayout>
+
+            <!-- 열기 메뉴 -->
+            <RelativeLayout
+                android:id="@+id/left_open_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/left_menu_border"
+                >
+
+                <ImageView
+                    android:id="@+id/ico_left_open"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ico_leftmenu_open"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/btnDrawerOpenNote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/left_panel_open"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#808080"
+                    android:textSize="14dp"
+                    android:layout_toRightOf="@id/ico_left_open"
+                    />
+            </RelativeLayout>
+            <!-- Share 메뉴 -->
+            <RelativeLayout
+                android:id="@+id/left_share_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/left_menu_border">
+
+                <ImageView
+                    android:id="@+id/ico_left_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ico_leftmenu_share"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/btnDrawerShare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/left_panel_share"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#808080"
+                    android:textSize="14dp"
+                    android:layout_toRightOf="@id/ico_left_share"
+                    />
+            </RelativeLayout>
+
+            <!-- OpenCourse 메뉴 -->
+            <RelativeLayout
+                android:id="@+id/left_open_course_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/left_menu_border"
+                >
+
+                <ImageView
+                    android:id="@+id/ico_leftmenu_viewer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ico_leftmenu_viewer"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:id="@+id/btnDrawerOpenCourse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:background="@android:color/transparent"
+                    android:text="@string/opencourse"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#808080"
+                    android:textSize="14dp"
+                    android:layout_toRightOf="@id/ico_leftmenu_viewer"
+                    />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dcdcdc"/>
+
+
+            <Button
+                android:id="@+id/btn_clear_db"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clear DB"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="0dp">
+            <!--<TextView-->
+                <!--android:id="@+id/tvVersionName"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:text="Version : " />-->
+            <ImageView
+                android:id="@+id/btn_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:src="@drawable/ico_leftmenu_info"
+                />
+            <ImageButton
+                android:id="@+id/btn_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:src="@drawable/ico_leftmenu_help"
+                android:background="@android:color/transparent"
+                />
+        </LinearLayout>
+
+        <!-- 하단의 나가기 버튼 -->
+        <LinearLayout
+            android:id="@+id/lDrawerBottom"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingTop="2.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            android:visibility="gone">
+            <ImageButton
+                android:id="@+id/btnDrawerExit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left"
+                android:layout_marginLeft="2dp"
+                android:background="@null"
+                android:src="@drawable/btn_bott_exit" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

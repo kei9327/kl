@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="order">
+        <item>@string/viewer_search_category_most_popular</item>
+        <item>@string/viewer_search_category_recent</item>
+        <item>@string/viewer_search_category_name</item>
+        <item>@string/viewer_search_category_all</item>
+    </string-array>
+</resources>

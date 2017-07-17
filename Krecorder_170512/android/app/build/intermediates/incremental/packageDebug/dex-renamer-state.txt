@@ -1,0 +1,7 @@
+#Thu Jun 29 04:37:19 KST 2017
+base.0=E\:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6ed1eca1ff9dcc3097a23d6480ee1019c4f4a260
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cf12dfc1b50201c08fac340fe603f4bb55227fcb\\classes.dex
+base.1=E\:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_cf12dfc1b50201c08fac340fe603f4bb55227fcb
+file.0=E\:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_6ed1eca1ff9dcc3097a23d6480ee1019c4f4a260\\classes.dex

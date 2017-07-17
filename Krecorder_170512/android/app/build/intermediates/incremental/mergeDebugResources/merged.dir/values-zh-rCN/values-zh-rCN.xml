@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"关闭"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"开启"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <string msgid="5835639618285370804" name="accept">"接受"</string>
+    <string name="action_search">搜索</string>
+    <string name="app_name">Know Recorder</string>
+    <string name="btn_more">更多……</string>
+    <string name="btn_my_school">我的学校</string>
+    <string name="c_import_pdf_endtime">你可以在录音结束时导入PDF文件，您要这么做吗？</string>
+    <string name="c_recording_new">从这里开始新的录制</string>
+    <string name="c_recording_this_page">只编辑特定时间段</string>
+    <string name="c_wifi">We recommend WiFi or unlimited plan. Do you want to play with 3G or 4G?</string>
+    <string name="cancel">取消</string>
+    <string name="cant_access_play">无法连接到 Google Play</string>
+    <string name="category">类别</string>
+    <string name="close">关闭</string>
+    <string name="com_facebook_image_download_unknown_error">下载图片时出现意外错误。</string>
+    <string name="com_facebook_internet_permission_error_message">Web 登录需要互联网许可</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest 错误</string>
+    <string name="com_facebook_like_button_liked">赞了</string>
+    <string name="com_facebook_like_button_not_liked">赞</string>
+    <string name="com_facebook_loading">正在加载...</string>
+    <string name="com_facebook_loginview_cancel_action">取消</string>
+    <string name="com_facebook_loginview_log_in_button">登录</string>
+    <string name="com_facebook_loginview_log_in_button_long">使用 Facebook 登录</string>
+    <string name="com_facebook_loginview_log_out_action">退出</string>
+    <string name="com_facebook_loginview_log_out_button">退出</string>
+    <string name="com_facebook_loginview_logged_in_as">已以%1$s 身份登录</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">已使用 Facebook 登录</string>
+    <string name="com_facebook_send_button_text">发送</string>
+    <string name="com_facebook_share_button_text">分享</string>
+    <string name="com_facebook_tooltip_default">新增功能！一切任您掌控 — 选择您想通过应用分享的信息。</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"启用"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"您必须先启用 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"启用 Google Play 服务"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"安装"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"您的设备没有安装 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"获取 Google Play 服务"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play服务出错"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>无法访问 Google Play 服务，请重试。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"您的设备不支持 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"您必须先更新 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"更新 Google Play 服务"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Google Play 服务当前正在更新，因此您无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"必须使用新版 Google Play 服务。该服务很快就会自行更新。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"在手机上打开"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"登录"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"使用 Google 帐号登录"</string>
+    <string name="content_text_youtube_upload_started">正在上传至 YouTube。</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"允许广告创建日历活动吗？"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"创建日历活动"</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"广告信息"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"广告素材预览"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"选择调试模式"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"问题排查"</string>
+    <string msgid="6099173376375995052" name="decline">"拒绝"</string>
+    <string name="description">影片描述</string>
+    <string name="dialog_setting_accounts">账号</string>
+    <string name="dialog_setting_remove_watermark">删除水印</string>
+    <string name="dialog_setting_time_limit">解锁录制时间限制</string>
+    <string name="dialog_setting_title">选项</string>
+    <string name="enter_text_here">在这里输入文本</string>
+    <string name="exit">不再显示</string>
+    <string name="export">导出影片</string>
+    <string name="export_default_text">用 Know Recorder 制作的视频</string>
+    <string name="export_to_gallery">图库</string>
+    <string name="facebook">Facebook</string>
+    <string name="fail_to_get_categories">无法加载类别</string>
+    <string name="file_download_failed">文件下载错误</string>
+    <string name="filecopy_loading_file">输入...</string>
+    <string name="gallery">图库</string>
+    <string name="google_login_succeed">登录到 YouTube</string>
+    <string name="googleplay_service_connection_failed">无法连接到 Google Play</string>
+    <string name="guide_start_btn">开始</string>
+    <string name="guide_title_1">一切知识都可以得到解释。</string>
+    <string name="guide_title_1_subtitle_1">解释并分享你的想法！ 从翻转课堂的讲座视频到专业人士的技术讲座，</string>
+    <string name="guide_title_1_subtitle_2">一切都能轻易地得到解释，使用 Know Recorder，非常简单。</string>
+    <string name="guide_title_2">制作讲座视频非常简单。</string>
+    <string name="guide_title_2_subtitle_1">只需几个触摸控件，你就可以记录文字和声音，并添加外部文件。</string>
+    <string name="guide_title_3">成为全世界学生的老师。</string>
+    <string name="guide_title_3_subtitle_1">录制的视频可直接上传至 YouTube。可以轻易地将上传的视频发布到 Facebook。</string>
+    <string name="guide_title_3_subtitle_2">分享并体验这种新的教学方法！</string>
+    <string name="i_category_autos">汽车</string>
+    <string name="i_category_comedy">喜剧</string>
+    <string name="i_category_edu">教育</string>
+    <string name="i_category_ent">娱乐</string>
+    <string name="i_category_film">电影和动画</string>
+    <string name="i_category_game">游戏</string>
+    <string name="i_category_howto">DIY 和生活百科</string>
+    <string name="i_category_music">音乐</string>
+    <string name="i_category_news">新闻和政治</string>
+    <string name="i_category_nonprofits">公益与社会活动</string>
+    <string name="i_category_people">人物和博客</string>
+    <string name="i_category_pets">宠物和动物</string>
+    <string name="i_category_science">科学和技术</string>
+    <string name="i_category_sports">体育</string>
+    <string name="i_category_travel">旅游和活动</string>
+    <string name="i_coming_soon">即将推出</string>
+    <string name="i_noVideo">你得录制一些东西！</string>
+    <string name="i_recording_guide_label">重录选中区域</string>
+    <string name="i_recording_option_all">绘画&amp;声音</string>
+    <string name="i_recording_option_title">录音编辑选项</string>
+    <string name="i_recording_option_voice">只有声音</string>
+    <string name="i_search_result_ok">为#KEYWORD#共找到#COUNT#个搜索结果</string>
+    <string name="i_searchtips">搜索建议</string>
+    <string name="i_searchtips_one">保证您的关键词拼写正确。</string>
+    <string name="i_searchtips_two">使用更少、不同或更宽泛的关键词</string>
+    <string name="i_viewer_no_result_found">找不到 #KEYWORD#</string>
+    <string name="i_youtube_category">类别</string>
+    <string name="i_youtube_channel">您的帐户没有相关联的 YouTube 频道。您需要至少一个 YouTube 频道，从而将视频讲座上传到 YouTube。您可以在 YouTube 网站或 app 上进入 | 主页-&lt; 我的频道 |，以创建您自己的频道。</string>
+    <string name="i_youtube_private">私享</string>
+    <string name="i_youtube_public">公开</string>
+    <string name="i_youtube_unlisted">不公开</string>
+    <string name="image_drag_message">图片导入成功！拖动屏幕添加到画布中。</string>
+    <string name="image_too_small">图片尺寸太小，无法添加。</string>
+    <string name="initiation_completed">完成初始化</string>
+    <string name="initiation_started">正在初始化上传</string>
+    <string name="intro_m1">了解一系列主题</string>
+    <string name="intro_m2">搜索并查看视频讲座</string>
+    <string name="intro_m3">使用Android Tablet进行视频讲座</string>
+    <string name="left_panel_new">新笔记</string>
+    <string name="left_panel_open">打开</string>
+    <string name="left_panel_share">分享</string>
+    <string name="login">登录</string>
+    <string name="login_facebook">在与谷歌</string>
+    <string name="login_google">通过Facebook登录</string>
+    <string name="logout_confirm_msg">想要断开连接吗？</string>
+    <string name="m_subject">选择一个您想要了解的主题</string>
+    <string name="messenger_send_button_text">发送</string>
+    <string name="mins_left">剩余时间：%@ 秒。</string>
+    <string name="mute">静音</string>
+    <string name="network_failed">需要网络连接。</string>
+    <string name="new_note_confirm">想开始新任务吗？ 现有任务将被自动保存。</string>
+    <string name="no">没有</string>
+    <string name="no_google_play_service">未安装 Google Play</string>
+    <string name="no_youtube_history">先将视频导出到 YouTube，以便通过 Facebook 分享。</string>
+    <string name="note_delete_confirm_msg">您想要删除%@记录吗</string>
+    <string name="now_encoding_video">正在导出到图库</string>
+    <string name="now_in_compress">正在压缩文件……</string>
+    <string name="now_in_decompress">正在解压文件……</string>
+    <string name="onepage_onevideo">你只能在每页添加一个视频。</string>
+    <string name="opencourse">Open Courses</string>
+    <string name="opencourse_back">返回</string>
+    <string name="opencourse_download_step1">现在下载视频。</string>
+    <string name="opencourse_menu_all">所有</string>
+    <string name="opencourse_menu_art">艺术</string>
+    <string name="opencourse_menu_language">語言</string>
+    <string name="opencourse_menu_math">数学</string>
+    <string name="opencourse_menu_others">其他</string>
+    <string name="opencourse_menu_science">科学</string>
+    <string name="opencourse_menu_social">社会</string>
+    <string name="opencourse_play_unavailable">无法播放</string>
+    <string name="opencourse_respond_fail">服务器错误</string>
+    <string name="opencourse_upload_error_1">您的一个或多个文件未成功导出。请重新检查您的文件。</string>
+    <string name="opencourse_upload_error_2">导出失败。错误代码：</string>
+    <string name="opencourse_upload_error_3">导出视频到服务器的过程中出现问题。</string>
+    <string name="opencourse_upload_error_thumbnail">缩略图导出失败。错误代码：</string>
+    <string name="opencourse_upload_error_zip">压缩过程中发生错误。错误代码：</string>
+    <string name="opencourse_upload_step1">正在压缩文件..</string>
+    <string name="opencourse_upload_step2">完成压缩</string>
+    <string name="opencourse_upload_step3">正在导出文件……</string>
+    <string name="opencourse_upload_succeed">完成导出</string>
+    <string name="pdf_renderer_error">发生一个错误。</string>
+    <string name="play_finished">播放结束。</string>
+    <string name="please_enter_subject">请输入标题。</string>
+    <string name="please_try_again">请再次尝试将您的视频导出到 YouTube。</string>
+    <string name="please_wait">现在下载...</string>
+    <string name="private_setting">隐私级别</string>
+    <string name="record_not_found">你得录制一些东西！</string>
+    <string name="record_not_found_export">你得录制一些东西！</string>
+    <string name="record_selection_1">从这里开始新的录制</string>
+    <string name="record_selection_2">从这里开始新录音</string>
+    <string name="record_selection_warn">录音编辑选项</string>
+    <string name="reset_papers_popup_toast">所有更改都将丢失。您希望继续吗？</string>
+    <string name="s_general">通用</string>
+    <string name="s_horizon">始终以水平模式播放视频</string>
+    <string name="s_info">信息</string>
+    <string name="s_privacy">隐私政策</string>
+    <string name="s_qna">帮助</string>
+    <string name="s_qna_a1">尝试 Android Tablet 版 Know Recorder！使用简单的界面录制您的声音，在白板上书写，并插入图像/PDF，以制作您自己的视频讲座。</string>
+    <string name="s_qna_a2">查看我们的在线课堂服务 Knowlounge。Knowlounge 是一个实时的交互式学习平台，并支持通过网络摄像头进行沟通。通过您的游览器或 app 举办直播课程，像在现实课堂中那样与学生互动。通过参与小组学习、与他人聊天、提供小测试等让在线学习更加有趣！</string>
+    <string name="s_qna_q1">我该如何制作我自己的视频讲座？</string>
+    <string name="s_qna_q2">我可以现场直播课程吗？</string>
+    <string name="s_question">联系我们</string>
+    <string name="s_shortcut">快捷键</string>
+    <string name="s_sort">分类</string>
+    <string name="s_subject">学科</string>
+    <string name="s_terms">服务用户协议</string>
+    <string name="s_version">版本</string>
+    <string name="s_wifi">仅当有 wifi 连接时播放视频</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜索"</string>
+    <string name="search_results">搜索结果</string>
+    <string name="shape_drag_message">通过拖动绘制图形</string>
+    <string name="shape_too_small">图形太小，无法添加。</string>
+    <string name="share_to_youtube_valid_toast">如果没有视频导出历史，无法使用分享功能。</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"允许广告将图片存储在图库中吗？"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"保存图片"</string>
+    <string name="subject">影片名称</string>
+    <string name="switch_ready_msg">将在试用期后提供。</string>
+    <string name="text_touch_message">触摸面板上的某个位置插入文本框</string>
+    <string name="tmsg_onevideo">You can only add one video</string>
+    <string name="to_use_know_recorder_please_sign_in">请登录后使用 Know Recorder。</string>
+    <string name="tooltip_to_opencourse">分享录像，按文件名搜索其他用户的视屏。</string>
+    <string name="tooltip_to_pen">插入文件，用钢笔、形状和指针解释。</string>
+    <string name="tooltip_to_timeline">在您准备好时开始录音。录音结束后，\n依然可以在时间线上编辑。</string>
+    <string name="twice_backpress_to_exit">再次按下返回键完成</string>
+    <string name="unavailable_to_delete_note">至少需要一份记录。</string>
+    <string name="unavailable_to_save_disk">无法将压缩文件保存到磁盘</string>
+    <string name="untitled_note_name">用 Know Recorder 制作的视频</string>
+    <string name="upload_completed">已上传至 YouTube。</string>
+    <string name="upload_in_progress">正在上传至 YouTube。</string>
+    <string name="upload_not_started">准备好上传到 YouTube</string>
+    <string name="video_encoding_finished">完成上传到图库</string>
+    <string name="video_not_found">无法找到视频文件。</string>
+    <string name="video_touch_message">视频导入成功！触摸屏幕添加到画布中。</string>
+    <string name="viewer_search_category_all">所有语言</string>
+    <string name="viewer_search_category_most_popular">最受欢迎的</string>
+    <string name="viewer_search_category_name">影片名称</string>
+    <string name="viewer_search_category_recent">最近</string>
+    <string name="yes">是</string>
+    <string name="youtube">YouTube</string>
+    <string name="youtube_upload">上传到 Youtube</string>
+    <string name="youtube_upload_started_toast">开始上传到 Youtube。</string>
+    <string name="youtube_validation_1">标题不得包含括号。</string>
+    <string name="youtube_validation_2">标题中可输入 %@ 字母。</string>
+    <string name="youtube_validation_5">选择一个类别</string>
+    <string name="yt_upload_completed">已上传至 YouTube。</string>
+    <string name="yt_upload_failed">无法上传视频。</string>
+</resources>

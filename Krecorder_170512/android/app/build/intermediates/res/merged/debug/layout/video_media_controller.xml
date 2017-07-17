@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#f8f8fd"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+    <ImageButton
+        android:id="@+id/prev"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_video_prev"/>
+
+    <ImageButton android:id="@+id/rew" style="@android:style/MediaButton.Rew" android:visibility="gone"/>
+    <ImageButton
+        android:id="@+id/pause"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_video_play_s"/>
+    <ImageButton android:id="@+id/ffwd" style="@android:style/MediaButton.Ffwd" android:visibility="gone"/>
+    <ImageButton android:id="@+id/next" style="@android:style/MediaButton.Next" android:visibility="gone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView android:id="@+id/time_current"
+            android:textSize="11dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:textColor="#919191"/>
+
+        <SeekBar
+            android:id="@+id/mediacontroller_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="250dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView android:id="@+id/time"
+            android:textSize="11dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:textColor="#919191"/>
+    </LinearLayout>
+
+</LinearLayout>

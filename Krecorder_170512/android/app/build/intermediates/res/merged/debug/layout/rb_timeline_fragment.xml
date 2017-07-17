@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="140dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_trackbar_top"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.knowrecorder.Views.LiveViewHolyShit
+            android:id="@+id/list_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_trackbar_pattern"
+            android:alpha="0.7">
+            <com.knowrecorder.develop.fragment.TimeLine.HorizontalListView
+                android:id="@+id/time_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.knowrecorder.develop.fragment.TimeLine.HorizontalListView
+                android:id="@+id/packet_list"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"/>
+
+            <com.knowrecorder.develop.fragment.TimeLine.HorizontalListView
+                android:id="@+id/audio_list"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_below="@id/packet_list"/>
+
+
+        </com.knowrecorder.Views.LiveViewHolyShit>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#66FF0000"
+            android:layout_gravity="center_horizontal"/>
+    </FrameLayout>
+    
+
+</LinearLayout>

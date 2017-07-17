@@ -1,0 +1,843 @@
+[
+    {
+        "outputFile": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 74,
+                    "endOffset": 175
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\716b2eb692e34f9f7a6075bcb80977b14b48f6db\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 237,
+                        "endColumn": 70,
+                        "endOffset": 307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 180,
+                    "endColumn": 126,
+                    "endOffset": 302
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 126,
+                        "endOffset": 292
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 307,
+                    "endColumn": 120,
+                    "endOffset": 423
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 297,
+                        "endColumn": 120,
+                        "endOffset": 413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 428,
+                    "endColumn": 92,
+                    "endOffset": 516
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 418,
+                        "endColumn": 92,
+                        "endOffset": 506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 521,
+                    "endColumn": 74,
+                    "endOffset": 591
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 511,
+                        "endColumn": 74,
+                        "endOffset": 581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 596,
+                    "endColumn": 73,
+                    "endOffset": 665
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 586,
+                        "endColumn": 73,
+                        "endOffset": 655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 670,
+                    "endColumn": 67,
+                    "endOffset": 733
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 660,
+                        "endColumn": 67,
+                        "endOffset": 723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 738,
+                    "endColumn": 74,
+                    "endOffset": 808
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 728,
+                        "endColumn": 74,
+                        "endOffset": 798
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 813,
+                    "endColumn": 75,
+                    "endOffset": 884
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 803,
+                        "endColumn": 75,
+                        "endOffset": 874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 889,
+                    "endColumn": 99,
+                    "endOffset": 984
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 879,
+                        "endColumn": 99,
+                        "endOffset": 974
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 989,
+                    "endColumn": 76,
+                    "endOffset": 1061
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 979,
+                        "endColumn": 76,
+                        "endOffset": 1051
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1066,
+                    "endColumn": 76,
+                    "endOffset": 1138
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1056,
+                        "endColumn": 76,
+                        "endOffset": 1128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1143,
+                    "endColumn": 94,
+                    "endOffset": 1233
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1133,
+                        "endColumn": 94,
+                        "endOffset": 1223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1238,
+                    "endColumn": 112,
+                    "endOffset": 1346
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1228,
+                        "endColumn": 112,
+                        "endOffset": 1336
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1351,
+                    "endColumn": 65,
+                    "endOffset": 1412
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1341,
+                        "endColumn": 65,
+                        "endOffset": 1402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1417,
+                    "endColumn": 69,
+                    "endOffset": 1482
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1407,
+                        "endColumn": 69,
+                        "endOffset": 1472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1487,
+                    "endColumn": 156,
+                    "endOffset": 1639
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1477,
+                        "endColumn": 156,
+                        "endOffset": 1629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1644,
+                    "endColumn": 112,
+                    "endOffset": 1752
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 108,
+                        "endOffset": 391
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1757,
+                    "endColumn": 201,
+                    "endOffset": 1954
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 392,
+                        "endColumn": 201,
+                        "endOffset": 593
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1959,
+                    "endColumn": 134,
+                    "endOffset": 2089
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 594,
+                        "endColumn": 130,
+                        "endOffset": 724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2094,
+                    "endColumn": 109,
+                    "endOffset": 2199
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 725,
+                        "endColumn": 105,
+                        "endOffset": 830
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2204,
+                    "endColumn": 201,
+                    "endOffset": 2401
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 831,
+                        "endColumn": 201,
+                        "endOffset": 1032
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2406,
+                    "endColumn": 130,
+                    "endOffset": 2532
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1033,
+                        "endColumn": 126,
+                        "endOffset": 1159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2537,
+                    "endColumn": 127,
+                    "endOffset": 2660
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1160,
+                        "endColumn": 123,
+                        "endOffset": 1283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2665,
+                    "endColumn": 204,
+                    "endOffset": 2865
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\e5c255b02ad466841f947bde7c02520f166f58c4\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 204,
+                        "endOffset": 489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2870,
+                    "endColumn": 208,
+                    "endOffset": 3074
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1284,
+                        "endColumn": 208,
+                        "endOffset": 1492
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3079,
+                    "endColumn": 114,
+                    "endOffset": 3189
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1493,
+                        "endColumn": 110,
+                        "endOffset": 1603
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3194,
+                    "endColumn": 190,
+                    "endOffset": 3380
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1604,
+                        "endColumn": 190,
+                        "endOffset": 1794
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3385,
+                    "endColumn": 136,
+                    "endOffset": 3517
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1795,
+                        "endColumn": 132,
+                        "endOffset": 1927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3522,
+                    "endColumn": 203,
+                    "endOffset": 3721
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1928,
+                        "endColumn": 203,
+                        "endOffset": 2131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3726,
+                    "endColumn": 186,
+                    "endOffset": 3908
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2132,
+                        "endColumn": 182,
+                        "endOffset": 2314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3913,
+                    "endColumn": 98,
+                    "endOffset": 4007
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2315,
+                        "endColumn": 94,
+                        "endOffset": 2409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 4012,
+                    "endColumn": 92,
+                    "endOffset": 4100
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2410,
+                        "endColumn": 88,
+                        "endOffset": 2498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 4105,
+                    "endColumn": 113,
+                    "endOffset": 4214
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2499,
+                        "endColumn": 109,
+                        "endOffset": 2608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 4219,
+                    "endColumn": 131,
+                    "endOffset": 4346
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\716b2eb692e34f9f7a6075bcb80977b14b48f6db\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 308,
+                        "endColumn": 127,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 4351,
+                    "endColumn": 103,
+                    "endOffset": 4450
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\716b2eb692e34f9f7a6075bcb80977b14b48f6db\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 436,
+                        "endColumn": 99,
+                        "endOffset": 535
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 4455,
+                    "endColumn": 99,
+                    "endOffset": 4550
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\716b2eb692e34f9f7a6075bcb80977b14b48f6db\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 536,
+                        "endColumn": 95,
+                        "endOffset": 631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4555,
+                    "endColumn": 108,
+                    "endOffset": 4659
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\716b2eb692e34f9f7a6075bcb80977b14b48f6db\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 632,
+                        "endColumn": 104,
+                        "endOffset": 736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4664,
+                    "endColumn": 95,
+                    "endOffset": 4755
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\716b2eb692e34f9f7a6075bcb80977b14b48f6db\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 737,
+                        "endColumn": 91,
+                        "endOffset": 828
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4760,
+                    "endColumn": 99,
+                    "endOffset": 4855
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\716b2eb692e34f9f7a6075bcb80977b14b48f6db\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 829,
+                        "endColumn": 95,
+                        "endOffset": 924
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4860,
+                    "endColumn": 75,
+                    "endOffset": 4931
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\716b2eb692e34f9f7a6075bcb80977b14b48f6db\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 925,
+                        "endColumn": 71,
+                        "endOffset": 996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4936,
+                    "endColumn": 62,
+                    "endOffset": 4994
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\values-kn\\values-kn.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1766,
+                        "endColumn": 62,
+                        "endOffset": 1824
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4999,
+                    "endColumn": 143,
+                    "endOffset": 5138
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\716b2eb692e34f9f7a6075bcb80977b14b48f6db\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 997,
+                        "endColumn": 139,
+                        "endOffset": 1136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 5143,
+                    "endColumn": 89,
+                    "endOffset": 5228
+                },
+                "from": {
+                    "file": "C:\\Users\\zoa\\.android\\build-cache\\716b2eb692e34f9f7a6075bcb80977b14b48f6db\\output\\res\\values-kn\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1137,
+                        "endColumn": 85,
+                        "endOffset": 1222
+                    }
+                }
+            }
+        ]
+    }
+]

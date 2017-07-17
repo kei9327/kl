@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="500dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_root">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#A0C81E">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_voice_edit"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/ico_dialog_export"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_recording_option_title"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/ico_dialog_export"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_setting_close"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i_recording_guide_label"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#8a8a8a"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="20dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="34dp"
+        android:paddingRight="34dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_recording_option_all"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/sw_edit_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:checked="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="34dp"
+        android:paddingRight="34dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_recording_option_voice"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/sw_voice_only"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <Button
+        android:text="@string/c_recording_new"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_record_from_this_point"
+        android:background="@android:color/transparent"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:textColor="#a0c81e"
+        />
+
+    <Button
+        android:text="@string/c_recording_this_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_this_page_only"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:background="@android:color/transparent"
+        android:textColor="#a0c81e" />
+</LinearLayout>

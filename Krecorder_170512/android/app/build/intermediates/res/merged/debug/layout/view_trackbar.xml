@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/w_trackbar_view_height"
+    android:padding="0dp"
+    android:visibility="gone"
+    android:id="@+id/trackbar_layout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_margin="0dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_trackbar_top">
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.knowrecorder.Views.LiveViewHolyShit
+            android:id="@+id/layout_timeline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg_trackbar_pattern"
+            android:alpha="0.7">
+
+            <com.knowrecorder.Views.HorizontalListView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/HorizontalListView"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:paddingTop="6dp"
+                />
+
+            <com.knowrecorder.Views.HorizontalListView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/HTimelineAudio"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:paddingTop="6dp"
+                />
+
+            <com.knowrecorder.Views.HorizontalListView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/listview_time"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:clickable="false"
+                />
+        </com.knowrecorder.Views.LiveViewHolyShit>
+
+        <LinearLayout
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#66FF0000"
+            android:id="@+id/pivot_bar"
+            android:orientation="horizontal" />
+    </FrameLayout>
+
+</LinearLayout>

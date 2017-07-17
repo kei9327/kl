@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="18dp"
+    android:paddingBottom="18dp"
+    android:layout_marginRight="25dp"
+    >
+
+    <FrameLayout
+        android:layout_width="240dp"
+        android:layout_height="150dp"
+        android:background="@drawable/thumbnail_border">
+
+        <ImageView
+            android:id="@+id/ivThumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/thumb_list"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_viewer_time"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ico_viewer_time"
+                    android:layout_marginRight="7dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_record_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:00"
+                    android:textColor="#616161"
+                    android:textSize="10dp"
+                    />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_delete_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_leftmenu_delete"
+                android:background="@android:color/transparent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="project 01"
+            android:textColor="#3c3c3c"
+            android:textStyle="normal"
+            android:textSize="15dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:maxWidth="160dp"
+            />
+        <TextView
+            android:id="@+id/tvDateCreated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="2016. 04. 24"
+            android:textColor="#919191"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+</LinearLayout>

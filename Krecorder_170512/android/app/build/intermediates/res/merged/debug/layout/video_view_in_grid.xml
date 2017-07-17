@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="22dp"
+    android:paddingRight="22dp"
+    android:paddingBottom="30dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/opencourse_grid_item_bg">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/video_thumbnail"
+            android:scaleType="centerCrop"
+            android:layout_margin="1dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_viewer_time"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ico_viewer_time"
+                android:layout_marginRight="7dp"
+                />
+
+            <TextView
+                android:id="@+id/txt_playtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="#616161"
+                android:textSize="10dp"
+                />
+        </LinearLayout>
+    </FrameLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/user_thumbnail"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ico_viewer_profile_default"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="7dp">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="27dp"
+                android:textSize="13dp"
+                android:textColor="#616161"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textSize="13dp"
+                    android:textColor="#808080"
+                    android:text="user1"
+                    />
+
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ico_viewer_view"
+                    android:layout_marginLeft="7dp"
+                    />
+
+                <TextView
+                    android:id="@+id/hit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="12dp"
+                    android:text="135"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

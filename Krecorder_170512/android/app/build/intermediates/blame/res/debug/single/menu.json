@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\my_menu.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\menu\\my_menu.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\ucrop_menu_activity.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\b5c79503e3a132ea71db1bcc975e015c7d77a1e6\\output\\res\\menu\\ucrop_menu_activity.xml"
+    }
+]

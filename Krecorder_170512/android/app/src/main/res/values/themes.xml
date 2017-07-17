@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="android:textColorPrimary">#96c81e</item>
+    </style>
+
+    <style name="Theme.MyTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">#f8f8fd</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">#f8f8fd</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">#96c81e</item>
+
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+        <item name="android:statusBarColor">#616161</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+    </style>
+</resources>

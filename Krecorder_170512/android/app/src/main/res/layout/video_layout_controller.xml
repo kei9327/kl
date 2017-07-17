@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/controller_layout"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#f5f5fa"
+    android:visibility="visible"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/btn_video_prev"
+        android:id="@+id/btn_prev" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/btn_video_play_s"
+        android:id="@+id/btn_play" />
+
+    <TextView
+        android:id="@+id/tvRealTime"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textColor="#919191"
+        android:text="00:00" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:maxHeight="3dp"
+        android:minHeight="3dp"
+        android:layout_gravity="center_vertical"
+        android:thumb="@drawable/seekbar_circle"
+        android:progressDrawable="@drawable/seekbar_layout"/>
+
+
+
+    <TextView
+            android:id="@+id/tvTotalTime"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="9dp"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:textColor="#919191"
+            android:text="00:00" />
+   <FrameLayout
+       android:layout_width="63dp"
+       android:layout_height="match_parent">
+       <SeekBar
+           android:id="@+id/volume_rating_seek"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:alpha="0"
+           android:background="@null"/>
+        <LinearLayout
+            android:id="@+id/volume_rating"
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical">
+            <View
+                android:id="@+id/volume1"
+                android:layout_width="4dp"
+                android:layout_height="16dp"
+                android:layout_marginRight="3dp"
+                android:background="#808080"/>
+            <View
+                android:id="@+id/volume2"
+                android:layout_width="4dp"
+                android:layout_height="16dp"
+                android:layout_marginRight="3dp"
+                android:background="#808080"/>
+            <View
+                android:id="@+id/volume3"
+                android:layout_width="4dp"
+                android:layout_height="16dp"
+                android:layout_marginRight="3dp"
+                android:background="#808080"/>
+            <View
+                android:id="@+id/volume4"
+                android:layout_width="4dp"
+                android:layout_height="16dp"
+                android:layout_marginRight="3dp"
+                android:background="#808080"/>
+            <View
+                android:id="@+id/volume5"
+                android:layout_width="4dp"
+                android:layout_height="16dp"
+                android:layout_marginRight="3dp"
+                android:background="#808080"/>
+            <View
+                android:id="@+id/volume6"
+                android:layout_width="4dp"
+                android:layout_height="16dp"
+                android:layout_marginRight="3dp"
+                android:background="#808080"/>
+            <View
+                android:id="@+id/volume7"
+                android:layout_width="4dp"
+                android:layout_height="16dp"
+                android:layout_marginRight="3dp"
+                android:background="#808080"/>
+
+            <View
+                android:id="@+id/volume8"
+                android:layout_width="4dp"
+                android:layout_height="16dp"
+                android:background="#808080"/>
+        </LinearLayout>
+   </FrameLayout>
+
+
+    </LinearLayout>
+

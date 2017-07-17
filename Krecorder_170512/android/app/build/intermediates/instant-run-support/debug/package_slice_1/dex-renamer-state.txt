@@ -1,0 +1,4 @@
+#Thu Jun 29 04:35:09 KST 2017
+base.0=E\:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
+renamed.0=classes.dex
+file.0=E\:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "115876068982",
+    "project_id": "knowrecorderreboot"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115876068982:android:82284a465be540b8",
+        "android_client_info": {
+          "package_name": "com.knowrecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115876068982-5t37j1is1h9sf1bo959epo6vii67gp1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.knowrecorder",
+            "certificate_hash": "B429D72BED2B7B84CABF51E0D55FCD55745AFE6C"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNTv3p6W6zH3SGqAp5HdtranGeBN1kiLg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-86575008-2"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="stroke_width_range">16</integer> <!-- 20 - 4 = 16 -->
+    <integer name="stroke_opacity_range">254</integer>
+
+    <!-- 도형 종류 -->
+    <integer name="shape_circle">0</integer>
+    <integer name="shape_triangle">1</integer>
+    <integer name="shape_rectangle">2</integer>
+    <integer name="shape_star">3</integer>
+    <integer name="shape_straight">4</integer>
+    <integer name="shape_arrow">5</integer>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_subject_sort_picker"
+    android:minWidth="150dp"
+    android:paddingTop="30dp">
+
+    <TextView
+        android:id="@+id/p_op_subject_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:textColor="#646464"
+        android:text="@string/opencourse_menu_all" />
+
+    <TextView
+        android:id="@+id/p_op_subject_math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:textColor="#646464"
+        android:text="@string/opencourse_menu_math"/>
+    <TextView
+        android:id="@+id/p_op_subject_science"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:textColor="#646464"
+        android:text="@string/opencourse_menu_science"/>
+    <TextView
+        android:id="@+id/p_op_subject_languge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:textColor="#646464"
+        android:text="@string/opencourse_menu_language"/>
+    <TextView
+        android:id="@+id/p_op_subject_social"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:textColor="#646464"
+        android:text="@string/opencourse_menu_social"/>
+    <TextView
+        android:id="@+id/p_op_subject_art"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="15dp"
+        android:textColor="#646464"
+        android:text="@string/opencourse_menu_art"/>
+    <TextView
+        android:id="@+id/p_op_subject_others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="#646464"
+        android:text="@string/opencourse_menu_others"/>
+</LinearLayout>

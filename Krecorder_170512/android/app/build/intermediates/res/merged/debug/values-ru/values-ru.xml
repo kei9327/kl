@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ОТКЛ."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Поиск"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string msgid="5835639618285370804" name="accept">"Принять"</string>
+    <string name="action_search">Поиск</string>
+    <string name="app_name">Know Recorder</string>
+    <string name="btn_more">Ещё…</string>
+    <string name="btn_my_school">Моя школа</string>
+    <string name="c_import_pdf_endtime">Вы можете импортировать файл формата PDF по окончанию записи. Вы хотите сделать это?</string>
+    <string name="c_recording_new">Новая запись с этой точки</string>
+    <string name="c_recording_this_page">Редактировать только определённый интервал времени</string>
+    <string name="c_wifi">We recommend WiFi or unlimited plan. Do you want to play with 3G or 4G?</string>
+    <string name="cancel">Отменить</string>
+    <string name="cant_access_play">Не удалось подключиться к Google Play</string>
+    <string name="category">Категория</string>
+    <string name="close">Закрыть</string>
+    <string name="com_facebook_image_download_unknown_error">При загрузке изображения возникла неожиданная ошибка.</string>
+    <string name="com_facebook_internet_permission_error_message">Для входа в WebView необходимо разрешение INTERNET</string>
+    <string name="com_facebook_internet_permission_error_title">Ошибка AndroidManifest</string>
+    <string name="com_facebook_like_button_liked">Понравилось</string>
+    <string name="com_facebook_like_button_not_liked">Нравится</string>
+    <string name="com_facebook_loading">Загрузка...</string>
+    <string name="com_facebook_loginview_cancel_action">Отменить</string>
+    <string name="com_facebook_loginview_log_in_button">Вход</string>
+    <string name="com_facebook_loginview_log_in_button_long">Вход через Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Выход</string>
+    <string name="com_facebook_loginview_log_out_button">Выход</string>
+    <string name="com_facebook_loginview_logged_in_as">Вы вошли как: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Выполнен вход с помощью Facebook</string>
+    <string name="com_facebook_send_button_text">Отправить</string>
+    <string name="com_facebook_share_button_text">Поделиться</string>
+    <string name="com_facebook_tooltip_default">Новинка! У вас все под контролем — выбирайте, какой информацией вы хотите поделиться с приложениями.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Включить"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется включить сервисы Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Включите сервисы Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Установить"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется установить сервисы Google Play."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Установите сервисы Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Ошибка сервисов Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Приложению \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" не удается подключиться к сервисам Google Play. Повторите попытку."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Для работы с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Обновить"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Чтобы запустить приложение \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", обновите сервисы Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Обновите сервисы Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Сервисы Google Play, необходимые для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", в настоящий момент обновляются."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Войти"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Войти через аккаунт Google"</string>
+    <string name="content_text_youtube_upload_started">Закачивание на YouTube.</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"Разрешить объявлению создать мероприятие в календаре?"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"Создание мероприятия"</string>
+    <string name="crop__cancel" ns2:ignore="ButtonCase">ОТМЕНА</string>
+    <string name="crop__done">ГОТОВО</string>
+    <string name="crop__pick_error">Нет доступных изображений</string>
+    <string name="crop__saving">Изображение сохраняется…</string>
+    <string name="crop__wait">Пожалуйста, подождите…</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"Сведения об объявлении"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"Creative Preview"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"Выбрать режим отладки"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Устранение неполадок"</string>
+    <string msgid="6099173376375995052" name="decline">"Отклонить"</string>
+    <string name="description">Описание фильма</string>
+    <string name="dialog_setting_accounts">Учётные записи</string>
+    <string name="dialog_setting_remove_watermark">Удалить водяной знак</string>
+    <string name="dialog_setting_time_limit">Разблокировать лимит времени записывания</string>
+    <string name="dialog_setting_title">выбор</string>
+    <string name="enter_text_here">Напечатайте текст здесь</string>
+    <string name="exit">Больше не показывать</string>
+    <string name="export">Экспорт фильма</string>
+    <string name="export_default_text">Видео, созданные в Know Recorder</string>
+    <string name="export_to_gallery">Галерея</string>
+    <string name="facebook">Facebook</string>
+    <string name="fail_to_get_categories">Не удалось загрузить категории</string>
+    <string name="file_download_failed">Ошибка скачивания файла</string>
+    <string name="filecopy_loading_file">импорта ...</string>
+    <string name="gallery">Галерея</string>
+    <string name="google_login_succeed">Авторизованы в YouTube</string>
+    <string name="googleplay_service_connection_failed">Не удалось подключиться к Google Play</string>
+    <string name="guide_start_btn">Начало</string>
+    <string name="guide_title_1">Каждое знание можно объяснить.</string>
+    <string name="guide_title_1_subtitle_1">Объясните свои идеи и поделитесь ими! Начиная с видеолекций для Flipped Classroom и заканчивая лекциями экспертов</string>
+    <string name="guide_title_1_subtitle_2">в области технологий, – всё можно с лёгкостью объяснить, а при помощи Know Recorder это очень легко сделать.</string>
+    <string name="guide_title_2">Делать видеолекции легко!</string>
+    <string name="guide_title_2_subtitle_1">Имея лишь нескольких сенсорных элементов управления, вы сможете записывать тексты и голосовое сопровождение наряду с внешними файлами.</string>
+    <string name="guide_title_3">Станьте преподавателем для всех студентов в мире.</string>
+    <string name="guide_title_3_subtitle_1">Записанное видео можно закачать прямо на YouTube. Закачанные видео легко разместить</string>
+    <string name="guide_title_3_subtitle_2">в вашем профиле Facebook. Испытайте и делитесь новым способом преподавания!</string>
+    <string name="i_category_autos">Транспорт</string>
+    <string name="i_category_comedy">Юмор</string>
+    <string name="i_category_edu">Образование</string>
+    <string name="i_category_ent">Развлечения</string>
+    <string name="i_category_film">Фильмы и анимация</string>
+    <string name="i_category_game">Компьютерные игры</string>
+    <string name="i_category_howto">Хобби и стиль</string>
+    <string name="i_category_music">Музыка</string>
+    <string name="i_category_news">Новости и политика</string>
+    <string name="i_category_nonprofits">Общество</string>
+    <string name="i_category_people">Люди и блоги</string>
+    <string name="i_category_pets">Животные</string>
+    <string name="i_category_science">Наука и техника</string>
+    <string name="i_category_sports">Спорт</string>
+    <string name="i_category_travel">Путешествия</string>
+    <string name="i_coming_soon">Скоро выйдет</string>
+    <string name="i_noVideo">Вам нужно записать что-нибудь!</string>
+    <string name="i_recording_guide_label">Записывать выбранную область снова</string>
+    <string name="i_recording_option_all">Графика и Голос</string>
+    <string name="i_recording_option_title">Опция редактирования записи</string>
+    <string name="i_recording_option_voice">Только голосовая запись</string>
+    <string name="i_search_result_ok">#COUNT# Результатов найдено для #KEYWORD#</string>
+    <string name="i_searchtips">Поисковые подсказки</string>
+    <string name="i_searchtips_one">Убедитесь, что ваши ключевые слова написаны правильно.</string>
+    <string name="i_searchtips_two">Старайтесь использовать меньше ключевых слов,\n   отличающихся друг от друга или более общего характера.</string>
+    <string name="i_viewer_no_result_found">Не найдено результатов для #KEYWORD#</string>
+    <string name="i_youtube_category">Категория</string>
+    <string name="i_youtube_channel">Нет ни одного канала YouTube, связанного с вашей учётной записью. Вам необходимо иметь как минимум один канал YouTube, чтобы загружать видео лекции на YouTube. Вы можете создать собственный канал, пройдя в | Главная -&lt; Мой канал | на сайте YouTube или в приложении.</string>
+    <string name="i_youtube_private">Ограниченный доступ</string>
+    <string name="i_youtube_public">Открытый доступ</string>
+    <string name="i_youtube_unlisted">Доступ по ссылке</string>
+    <string name="image_drag_message">Изображение импортировано успешно! Перетащите экран для добавления в рабочую область.</string>
+    <string name="image_too_small">Размер изображения слишком мал, чтобы добавить его.</string>
+    <string name="initiation_completed">Инициализация завершена</string>
+    <string name="initiation_started">Инициализация загрузки</string>
+    <string name="intro_m1">Узнать обо всём диапазоне предметов</string>
+    <string name="intro_m2">Ищите и просматривайте видео лекции</string>
+    <string name="intro_m3">Сделайте видеолекции с Android Tablet</string>
+    <string name="left_panel_new">Новая заметка</string>
+    <string name="left_panel_open">открыть</string>
+    <string name="left_panel_share">Поделиться</string>
+    <string name="login">Авторизоваться</string>
+    <string name="login_facebook">Войти на Google</string>
+    <string name="login_google">Авторизоваться с помощью Фэйсбука</string>
+    <string name="logout_confirm_msg">Вы хотите отключиться?</string>
+    <string name="m_subject">Выберите предмет, который вы хотите изучать</string>
+    <string name="messenger_send_button_text">Отпр</string>
+    <string name="mins_left">Осталось времени: %@ сек.</string>
+    <string name="mute">немой</string>
+    <string name="network_failed">Подключение к сети требуется.</string>
+    <string name="new_note_confirm">Хотите создать новое задание? Существующие задания будут автоматически сохранены.</string>
+    <string name="no">нет</string>
+    <string name="no_google_play_service">Google Play не установлено</string>
+    <string name="no_youtube_history">Сначала экспортируйте свое видео на YouTube, чтобы поделиться им в Facebook.</string>
+    <string name="note_delete_confirm_msg">Вы хотите удалить %@ примечание?</string>
+    <string name="now_encoding_video">Экспортируем в Галерею</string>
+    <string name="now_in_compress">Сжатие файла…</string>
+    <string name="now_in_decompress">Распаковка файла…</string>
+    <string name="onepage_onevideo">Вы можете добавить только одно видео на одну страницу.</string>
+    <string name="opencourse">Open Courses</string>
+    <string name="opencourse_back">обратный</string>
+    <string name="opencourse_download_step1">Скачиваем видео.</string>
+    <string name="opencourse_menu_all">Все</string>
+    <string name="opencourse_menu_art">Искусство</string>
+    <string name="opencourse_menu_language">Язык</string>
+    <string name="opencourse_menu_math">Математика</string>
+    <string name="opencourse_menu_others">Другое</string>
+    <string name="opencourse_menu_science">Наука</string>
+    <string name="opencourse_menu_social">Социальное</string>
+    <string name="opencourse_play_unavailable">Воспроизведение невозможно</string>
+    <string name="opencourse_respond_fail">Ошибка сервера</string>
+    <string name="opencourse_upload_error_1">Один или больше ваших файлов не были успешно экспортированы. Пожалуйста, проверьте ещё раз ваши файлы.</string>
+    <string name="opencourse_upload_error_2">Не удалось экспортировать файлы. Код ошибки:</string>
+    <string name="opencourse_upload_error_3">Во время экспорта видео на сервер возникла проблема.</string>
+    <string name="opencourse_upload_error_thumbnail">Не удалось экспортировать изображение миниатюр. Код ошибки:</string>
+    <string name="opencourse_upload_error_zip">Во время сжатия произошла ошибка. Код ошибки:</string>
+    <string name="opencourse_upload_step1">Сжатие файлов…</string>
+    <string name="opencourse_upload_step2">Сжатие завершено</string>
+    <string name="opencourse_upload_step3">Экспорт файлов…</string>
+    <string name="opencourse_upload_succeed">Экспорт завершен</string>
+    <string name="pdf_renderer_error">Произошла ошибка.</string>
+    <string name="play_finished">Воспроизведение завершено.</string>
+    <string name="please_enter_subject">Пожалуйста, введите название.</string>
+    <string name="please_try_again">Пожалуйста, попробуйте экспортировать ваши видео на YouTube снова.</string>
+    <string name="please_wait">Загрузка сейчас ...</string>
+    <string name="private_setting">Уровень конфиденциальности</string>
+    <string name="record_not_found">Вам нужно записать что-нибудь!</string>
+    <string name="record_not_found_export">Вам нужно записать что-нибудь!</string>
+    <string name="record_selection_1">Новая запись с этой точки</string>
+    <string name="record_selection_2">Новая запись с этого места</string>
+    <string name="record_selection_warn">Опция редактирования записи</string>
+    <string name="reset_papers_popup_toast">Все изменения будут утеряны. Вы хотите продолжить?</string>
+    <string name="s_general">Общая информация</string>
+    <string name="s_horizon">Всегда проигрывайте видео в горизонтальном режиме</string>
+    <string name="s_info">Информация</string>
+    <string name="s_privacy">Политика конфиденциальности</string>
+    <string name="s_qna">Помощь</string>
+    <string name="s_qna_a1">Испытайте Know Recorder на Android Tablet! Используйте простой интерфейс для записи вашего голоса, пишите на лекционной доске и вставляйте изображения/файлы PDF для создания собственных видео лекций.</string>
+    <string name="s_qna_a2">Ознакомьтесь с нашим сервисом уроков по интернету Knowlounge. Knowlounge это платформа интерактивного обучения в режиме реального времени, которая также поддерживает возможность коммуникации при помощи веб-камеры. Проводите уроки в прямом эфире при помощи вашего браузера или приложения и взаимодействуйте с учащимися так же, как и в настоящей классной комнате. Сделайте обучение в интернете более увлекательным, приняв участие в групповом обучении, обмениваясь с другими текстовыми сообщениями в чате, устраивая викторины и многое другое!</string>
+    <string name="s_qna_q1">Как я могу создать собственные видео лекции?</string>
+    <string name="s_qna_q2">Могу я транслировать уроки в прямом эфире?</string>
+    <string name="s_question">Связаться с нами</string>
+    <string name="s_shortcut">Ярлык</string>
+    <string name="s_sort">Сортировать</string>
+    <string name="s_subject">предмет</string>
+    <string name="s_terms">Соглашение с пользователем услуг</string>
+    <string name="s_version">Версия</string>
+    <string name="s_wifi">Проигрывайте видео только при подключении к WiFi</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Поиск"</string>
+    <string name="search_results">результаты поиска</string>
+    <string name="shape_drag_message">Рисуйте фигуры с помощью перетаскивания</string>
+    <string name="shape_too_small">Иллюстрация слишком мала, чтобы добавить её.</string>
+    <string name="share_to_youtube_valid_toast">Невозможно использовать функцию Поделиться, если отсутствует история экспорта видео</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"Разрешить объявлению сохранить изображение в галерее?"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"Сохранение изображения"</string>
+    <string name="subject">Название фильма</string>
+    <string name="switch_ready_msg">Будет предоставлено после испытательного срока.</string>
+    <string name="text_touch_message">Дотроньтесь до места на панели, чтобы вставить текстовое окно</string>
+    <string name="tmsg_onevideo">You can only add one video</string>
+    <string name="to_use_know_recorder_please_sign_in">Пожалуйста, войдите\n чтобы пользоваться Know Recorder.</string>
+    <string name="tooltip_to_opencourse">Поделитесь записанными видео,\nнаходите видео других пользователей по названию тем.</string>
+    <string name="tooltip_to_pen">Вставьте файлы и объясните их\nпри помощи ручки, фигур и указок.</string>
+    <string name="tooltip_to_timeline">Начните запись, когда будете готовы. После того, как запись будет окончена, вы всё ещё сможете редактировать её на временной шкале.</string>
+    <string name="twice_backpress_to_exit">Нажмите клавишу возврата еще раз, чтобы закончить</string>
+    <string name="unavailable_to_delete_note">Требуется, как минимум, одно примечание.</string>
+    <string name="unavailable_to_save_disk">Невозможно сохранить сжатые файлы на диск</string>
+    <string name="untitled_note_name">Видео, созданные в Know Recorder</string>
+    <string name="upload_completed">Закачано на YouTube.</string>
+    <string name="upload_in_progress">Закачивание на YouTube.</string>
+    <string name="upload_not_started">Готово к загрузке на YouTube</string>
+    <string name="video_encoding_finished">Загрузка в Галерею завершена</string>
+    <string name="video_not_found">Не можете найти видео файлы.</string>
+    <string name="video_touch_message">Видео успешно импортировано! Дотроньтесь до экрана для добавления в рабочую область.</string>
+    <string name="viewer_search_category_all">Все языки</string>
+    <string name="viewer_search_category_most_popular">Наиболее популярное</string>
+    <string name="viewer_search_category_name">Название фильма</string>
+    <string name="viewer_search_category_recent">Недавнее</string>
+    <string name="yes">да</string>
+    <string name="youtube">YouTube</string>
+    <string name="youtube_upload">Закачать на Youtube</string>
+    <string name="youtube_upload_started_toast">Начало закачивания на Youtube.</string>
+    <string name="youtube_validation_1">Использование скобок в названии не допускается.</string>
+    <string name="youtube_validation_2">%@ букв можно использовать в названии.</string>
+    <string name="youtube_validation_5">Выбрать категорию</string>
+    <string name="yt_upload_completed">Закачано на YouTube.</string>
+    <string name="yt_upload_failed">Не удалось закачать это видео.</string>
+</resources>

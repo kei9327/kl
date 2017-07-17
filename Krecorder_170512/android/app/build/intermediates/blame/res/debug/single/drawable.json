@@ -1,0 +1,554 @@
+[
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_bubble_bg.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\popup_bubble_bg.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\default_scroll_handle_top.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\49fd1bf7b70ea7fa66222694183998a30a248dc3\\output\\res\\drawable\\default_scroll_handle_top.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\player_title_bg.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\player_title_bg.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\progress.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_menu_logo_bg.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\left_menu_logo_bg.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\line_red.9.png",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\line_red.9.png"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ucrop_vector_loader_animated.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\b5c79503e3a132ea71db1bcc975e015c7d77a1e6\\output\\res\\drawable\\ucrop_vector_loader_animated.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_pressed.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\selector_btn_pressed.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button.9.png",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\drawable\\background_button.9.png"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_round_1.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\border_round_1.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\page_thumb_selector.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\page_thumb_selector.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_browser_back.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\selector_btn_browser_back.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ucrop_shadow_upside.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\b5c79503e3a132ea71db1bcc975e015c7d77a1e6\\output\\res\\drawable\\ucrop_shadow_upside.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_rectangle.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\drawable\\background_button_rectangle.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\default_scroll_handle_left.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\49fd1bf7b70ea7fa66222694183998a30a248dc3\\output\\res\\drawable\\default_scroll_handle_left.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\opencourse_category_selected_top_border.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\opencourse_category_selected_top_border.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\crop__texture.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\c3c59854cee4e84ddc2b5acb7cc3aeade592e5b2\\output\\res\\drawable\\crop__texture.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_popup_03_phone.gif",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\img_main_popup_03_phone.gif"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_selected.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\selector_btn_selected.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_menu_border_pressed.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\left_menu_border_pressed.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_p_op_video_thumbnail_border1_radius.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\bg_p_op_video_thumbnail_border1_radius.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_menu_border.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\left_menu_border.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample.png",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\sample.png"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_right.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\drawable\\shadow_right.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ucrop_vector_loader.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\b5c79503e3a132ea71db1bcc975e015c7d77a1e6\\output\\res\\drawable\\ucrop_vector_loader.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_guide_get_started_btn2.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\bg_guide_get_started_btn2.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_switch_ball_uncheck.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\drawable\\background_switch_ball_uncheck.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\opencourse_category_bg.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\opencourse_category_bg.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_menu_right_border.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\left_menu_right_border.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_guide_get_started_btn3.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\bg_guide_get_started_btn3.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\under_line.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\under_line.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumbnail_border.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\thumbnail_border.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumbnail_border_radius.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\thumbnail_border_radius.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\opencourse_category_selected.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\opencourse_category_selected.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_down.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\drawable\\shadow_down.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share_btn_bg.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\share_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_transparent.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\drawable\\background_transparent.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_menubar_border1.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\bg_menubar_border1.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_p_op_setting_bodytitle.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\bg_p_op_setting_bodytitle.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_cursor.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\edittext_cursor.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_video_play_pause.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\selector_btn_video_play_pause.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_popup_03_tablet.gif",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\img_main_popup_03_tablet.gif"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_popup_01_tablet.gif",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\img_main_popup_01_tablet.gif"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\opencourse_grid_item_bg.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\opencourse_grid_item_bg.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_popup_02_tablet.gif",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\img_main_popup_02_tablet.gif"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_float.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\drawable\\background_button_float.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_circle.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\seekbar_circle.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_menu_border_with_bottom.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\left_menu_border_with_bottom.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\brush_test.png",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\brush_test.png"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_layout.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\seekbar_layout.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_playpause.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\selector_btn_playpause.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\under_line_on.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\under_line_on.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\default_scroll_handle_bottom.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\49fd1bf7b70ea7fa66222694183998a30a248dc3\\output\\res\\drawable\\default_scroll_handle_bottom.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\move.png",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\move.png"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_p_op_setting_subtitle.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\bg_p_op_setting_subtitle.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_check.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\drawable\\background_checkbox_check.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\crop__selectable_background.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\c3c59854cee4e84ddc2b5acb7cc3aeade592e5b2\\output\\res\\drawable\\crop__selectable_background.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_browser_forward.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\selector_btn_browser_forward.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_popup_02_phone.gif",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\img_main_popup_02_phone.gif"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f2d74dcdf515c434e1f7bbd21e4886d2bfe6d197\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_box_white_4dp.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\shape_round_box_white_4dp.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\anim_drawable_recording.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\anim_drawable_recording.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumbnail_border_info.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\thumbnail_border_info.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_drawable.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\progress_drawable.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\setting_edittext.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\setting_edittext.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\default_scroll_handle_right.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\49fd1bf7b70ea7fa66222694183998a30a248dc3\\output\\res\\drawable\\default_scroll_handle_right.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\0f75e0394ccf7da2a5dbf6f7ac86fdb84150c069\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bg.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_main_popup_01_phone.gif",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\img_main_popup_01_phone.gif"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_progress.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\drawable\\background_progress.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_timeline_packet_item.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\bg_timeline_packet_item.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ucrop_vector_ic_crop.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\b5c79503e3a132ea71db1bcc975e015c7d77a1e6\\output\\res\\drawable\\ucrop_vector_ic_crop.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_rightmenu_border1_radius.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\bg_rightmenu_border1_radius.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_round_gray_white1.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\shape_round_gray_white1.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\drawable\\background_checkbox.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sample2.png",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\sample2.png"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\5a4b78138db54f746fff6482011e085c6d5fabbf\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_uncheck.xml",
+        "source": "C:\\Users\\zoa\\.android\\build-cache\\f4c0ef2169de70ebe16fcac7afe161f147f7ec88\\output\\res\\drawable\\background_checkbox_uncheck.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_color_selected.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\selector_btn_color_selected.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_guide_get_started_btn1.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\bg_guide_get_started_btn1.xml"
+    },
+    {
+        "merged": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_border.xml",
+        "source": "E:\\infraware\\VSS\\VSS\\Krecorder_170512\\android\\app\\src\\main\\res\\drawable\\layout_border.xml"
+    }
+]

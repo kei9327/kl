@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s、%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s、%2$s、%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string msgid="5835639618285370804" name="accept">"同意する"</string>
+    <string name="action_search">検索</string>
+    <string name="app_name">Know Recorder</string>
+    <string name="btn_more">詳しく...</string>
+    <string name="btn_my_school">マイ スクール</string>
+    <string name="c_import_pdf_endtime">記録時間の最後にPDFにインポートできます。インポートしますか？</string>
+    <string name="c_recording_new">ここから新しく記録する</string>
+    <string name="c_recording_this_page">特定時間間隔のみ編集</string>
+    <string name="c_wifi">We recommend WiFi or unlimited plan. Do you want to play with 3G or 4G?</string>
+    <string name="cancel">キャンセル</string>
+    <string name="cant_access_play">Google Playに接続できませんでした</string>
+    <string name="category">カテゴリ</string>
+    <string name="close">閉じる</string>
+    <string name="com_facebook_image_download_unknown_error">画像のダウンロード中に予期しないエラーが発生しました。</string>
+    <string name="com_facebook_internet_permission_error_message">WebViewログインにはINTERNET権限が必要です</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifestエラー</string>
+    <string name="com_facebook_like_button_liked">いいね！済み</string>
+    <string name="com_facebook_like_button_not_liked">いいね！</string>
+    <string name="com_facebook_loading">読み込み中...</string>
+    <string name="com_facebook_loginview_cancel_action">キャンセル</string>
+    <string name="com_facebook_loginview_log_in_button">ログイン</string>
+    <string name="com_facebook_loginview_log_in_button_long">Facebookでログイン</string>
+    <string name="com_facebook_loginview_log_out_action">ログアウト</string>
+    <string name="com_facebook_loginview_log_out_button">ログアウト</string>
+    <string name="com_facebook_loginview_logged_in_as">次のユーザーとしてログイン中: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebookを使用してログイン中</string>
+    <string name="com_facebook_send_button_text">送信</string>
+    <string name="com_facebook_share_button_text">シェア</string>
+    <string name="com_facebook_tooltip_default">新機能！アプリと共有する情報をコントロールできます。</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"有効にする"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行には、Google Play開発者サービスの有効化が必要です。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play開発者サービスの有効化"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"インストール"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」の実行には Google Play 開発者サービスが必要ですが、お使いの端末にはインストールされていません。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play開発者サービスの入手"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play開発者サービスのエラー"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"「<ns1:g id="APP_NAME">%1$s</ns1:g>」の実行には Google Play 開発者サービスが必要ですが、お使いの端末ではサポートされていません。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスの更新が必要です。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play開発者サービスの更新"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>の実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"スマートフォンで開く"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"ログイン"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Googleにログイン"</string>
+    <string name="content_text_youtube_upload_started">YouTubeにアップロードしています。</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"広告がカレンダーの予定を作成することを許可しますか？"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"カレンダーの予定の作成"</string>
+    <string name="crop__cancel" ns2:ignore="ButtonCase">キャンセル</string>
+    <string name="crop__done">決定</string>
+    <string name="crop__pick_error">画像が見つかりません</string>
+    <string name="crop__saving">保存中…</string>
+    <string name="crop__wait">お待ちください…</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"広告の情報"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"クリエイティブのプレビュー"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"デバッグモードの選択"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"困ったときに"</string>
+    <string msgid="6099173376375995052" name="decline">"同意しない"</string>
+    <string name="description">動画の説明</string>
+    <string name="dialog_setting_accounts">アカウント</string>
+    <string name="dialog_setting_remove_watermark">透かしを消去する</string>
+    <string name="dialog_setting_time_limit">記録時間制限を解除する。</string>
+    <string name="dialog_setting_title">オプション</string>
+    <string name="enter_text_here">ここにテキストを入力</string>
+    <string name="exit">この先表示しない。</string>
+    <string name="export">動画のエクスポート</string>
+    <string name="export_default_text">Know Recorderで作成した動画</string>
+    <string name="export_to_gallery">ギャラリー</string>
+    <string name="facebook">Facebook</string>
+    <string name="fail_to_get_categories">カテゴリの読み込みに失敗</string>
+    <string name="file_download_failed">ファイルダウンロードエラー</string>
+    <string name="filecopy_loading_file">インポート...</string>
+    <string name="gallery">ギャラリー</string>
+    <string name="google_login_succeed">YouTubeにログインしました</string>
+    <string name="googleplay_service_connection_failed">Google Playに接続できませんでした。</string>
+    <string name="guide_start_btn">スタート</string>
+    <string name="guide_title_1">全ての知識を説明することができます。</string>
+    <string name="guide_title_1_subtitle_1">自分のアイデアを説明し広めましょう!</string>
+    <string name="guide_title_1_subtitle_2">反転授業の講義ビデオから専門家の専門講義まで、全てが簡単に説明できます。そうKnow Recorderなら簡単です。</string>
+    <string name="guide_title_2">簡単に講義ビデオを作成できます。</string>
+    <string name="guide_title_2_subtitle_1">少しの操作だけで、外部ファイルとともに文章と音声の記録ができます。</string>
+    <string name="guide_title_3">世界中にいる生徒の教師になりましょう。</string>
+    <string name="guide_title_3_subtitle_1">録画したビデオは直接YouTubeにアップロードすることができます。Facebookにアップロードした動画を投稿することも簡単です。</string>
+    <string name="guide_title_3_subtitle_2">新しい教育方法をシェアし体験してみましょう!</string>
+    <string name="i_category_autos">自動車と乗り物</string>
+    <string name="i_category_comedy">コメディー</string>
+    <string name="i_category_edu">教育</string>
+    <string name="i_category_ent">エンターテイメント</string>
+    <string name="i_category_film">映画とアニメ</string>
+    <string name="i_category_game">ゲーム</string>
+    <string name="i_category_howto">ハウツーとスタイル</string>
+    <string name="i_category_music">音楽</string>
+    <string name="i_category_news">ニュースと政治</string>
+    <string name="i_category_nonprofits">非営利団体と社会活動</string>
+    <string name="i_category_people">ブログ</string>
+    <string name="i_category_pets">ペットと動物</string>
+    <string name="i_category_science">科学と技術</string>
+    <string name="i_category_sports">スポーツ</string>
+    <string name="i_category_travel">旅行とイベント</string>
+    <string name="i_coming_soon">近日公開</string>
+    <string name="i_noVideo">何か記録する必要があります!</string>
+    <string name="i_recording_guide_label">もう一度選択範囲を記録する</string>
+    <string name="i_recording_option_all">絵と音声</string>
+    <string name="i_recording_option_title">編集オプションを記録</string>
+    <string name="i_recording_option_voice">音声のみ</string>
+    <string name="i_search_result_ok">#KEYWORD# の検索結果 #COUNT#</string>
+    <string name="i_searchtips">サーチのヒント</string>
+    <string name="i_searchtips_one">キーワードが正しく入力されているか確認してください。</string>
+    <string name="i_searchtips_two">もっと少なく、異なるキーワード、またはもっと一般的なキーワードを使ってみてください。</string>
+    <string name="i_viewer_no_result_found">#KEYWORD# の検索結果なし</string>
+    <string name="i_youtube_category">カテゴリ</string>
+    <string name="i_youtube_channel">アカウントにリンクされているYouTubeチャンネルがありません。YouTubeへビデオレクチャーをアップロードするには最低1つのYouTubeチャンネルが必要です。YouTubeのウェブサイトやアプリで | ホーム -&lt; マイ チャンネル | へ行き、自分のチャンネルを作ることができます。</string>
+    <string name="i_youtube_private">非公開</string>
+    <string name="i_youtube_public">公開</string>
+    <string name="i_youtube_unlisted">限定公開</string>
+    <string name="image_drag_message">画像のインポートが完了しました。スクリーンをドラッグしてキャンバスに追加して下さい。</string>
+    <string name="image_too_small">画像サイズが小さすぎて追加できません。</string>
+    <string name="initiation_completed">初期化完了</string>
+    <string name="initiation_started">アップロード初期化中</string>
+    <string name="intro_m1">全種類のサブジェクトについて知る</string>
+    <string name="intro_m2">ビデオレクチャーの検索と表示</string>
+    <string name="intro_m3">あなたのAndroid Tabletでビデオ講義を行います</string>
+    <string name="left_panel_new">新しいノート</string>
+    <string name="left_panel_open">オープン</string>
+    <string name="left_panel_share">共有</string>
+    <string name="login">サインイン</string>
+    <string name="login_facebook">Googleアカウントでサインイン</string>
+    <string name="login_google">Facebookのアカウントでログイン</string>
+    <string name="logout_confirm_msg">切断しますか?</string>
+    <string name="m_subject">知りたいサブジェクトを選択</string>
+    <string name="messenger_send_button_text">送信</string>
+    <string name="mins_left">残り時間 : %@秒</string>
+    <string name="mute">ミュート</string>
+    <string name="network_failed">ネットワーク接続が必要となります。</string>
+    <string name="new_note_confirm">「新しいタスクを開始しますか!既存のタスクは自動的に保存されます。」</string>
+    <string name="no">いいえ</string>
+    <string name="no_google_play_service">Google Playがインストールされていません</string>
+    <string name="no_youtube_history">Facebookで共有するためにビデオをYouTubeへ出力します。</string>
+    <string name="note_delete_confirm_msg">%@ ノートを削除しますか？</string>
+    <string name="now_encoding_video">ギャラリーへ出力中</string>
+    <string name="now_in_compress">ファイルを圧縮中...</string>
+    <string name="now_in_decompress">ファイルを解凍中...</string>
+    <string name="onepage_onevideo">ページごとに1つの動画しか追加できません。</string>
+    <string name="opencourse">Open Courses</string>
+    <string name="opencourse_back">バック</string>
+    <string name="opencourse_download_step1">ビデオをダウンロード中</string>
+    <string name="opencourse_menu_all">全部</string>
+    <string name="opencourse_menu_art">アート</string>
+    <string name="opencourse_menu_language">言語</string>
+    <string name="opencourse_menu_math">数学</string>
+    <string name="opencourse_menu_others">その他</string>
+    <string name="opencourse_menu_science">科学</string>
+    <string name="opencourse_menu_social">社会</string>
+    <string name="opencourse_play_unavailable">再生できません</string>
+    <string name="opencourse_respond_fail">サーバーエラー</string>
+    <string name="opencourse_upload_error_1">1つ以上のファイルを正常に出力できませんでした。ファイルを再確認してください。</string>
+    <string name="opencourse_upload_error_2">出力に失敗。エラーコード:</string>
+    <string name="opencourse_upload_error_3">サーバーへビデオを出力する際に問題が発生しました。</string>
+    <string name="opencourse_upload_error_thumbnail">サムネイルの出力に失敗しました。エラーコード:</string>
+    <string name="opencourse_upload_error_zip">圧縮中にエラーが発生しました。エラーコード:</string>
+    <string name="opencourse_upload_step1">ファイルを圧縮中...</string>
+    <string name="opencourse_upload_step2">圧縮完了</string>
+    <string name="opencourse_upload_step3">ファイルを出力中...</string>
+    <string name="opencourse_upload_succeed">エクスポート完了</string>
+    <string name="pdf_renderer_error">エラーが発生しました。</string>
+    <string name="play_finished">再生が終了しました。</string>
+    <string name="please_enter_subject">タイトルを入力して下さい。</string>
+    <string name="please_try_again">もう一度ビデオをYouTubeへ出力してください。</string>
+    <string name="please_wait">今すぐダウンロードしています...</string>
+    <string name="private_setting">プライバシーレベル</string>
+    <string name="record_not_found">何か記録する必要があります!</string>
+    <string name="record_not_found_export">何か記録する必要があります!</string>
+    <string name="record_selection_1">ここから新しく記録する</string>
+    <string name="record_selection_2">ここから新しい記録</string>
+    <string name="record_selection_warn">編集オプションを記録</string>
+    <string name="reset_papers_popup_toast">すべての変更は失われます。続行しますか？</string>
+    <string name="s_general">一般</string>
+    <string name="s_horizon">常に水平モードでビデオを再生</string>
+    <string name="s_info">企業案内</string>
+    <string name="s_privacy">プライバシーポリシー</string>
+    <string name="s_qna">ヘルプ</string>
+    <string name="s_qna_a1">Android Tablet用 Know Recorder を試す！シンプルなインターフェースであなたの声を録音し、ホワイトボードに書き込み、画像/PDFを挿入して自分のビデオレクチャーを作る。</string>
+    <string name="s_qna_a2">私たちのオンライン教室サービス Knowlounge をチェックしてください。 Knowlounge はウェブカメラを使った通信をサポートするリアルタイム双方向学習プラットフォームです。 ブラウザやアプリを使い授業をライブし、まるで教室にいるように学生と接することができます。 オンライン学習をもっと有意義にするため、グループ研究に参加したり、他の人と会話し、クイズを出し合うなど、他にもできることはたくさん！</string>
+    <string name="s_qna_q1">どうやれば自分のビデオレクチャーを作れる？</string>
+    <string name="s_qna_q2">授業のライブを流せる？</string>
+    <string name="s_question">お問い合わせ</string>
+    <string name="s_shortcut">ショートカット</string>
+    <string name="s_sort">ソート</string>
+    <string name="s_subject">テーマ</string>
+    <string name="s_terms">サービス利用規約</string>
+    <string name="s_version">バージョン</string>
+    <string name="s_wifi">Wi-Fiに接続しているときのみ動画を再生</string>
+    <string msgid="146198913615257606" name="search_menu_title">"検索"</string>
+    <string name="search_results">の検索結果</string>
+    <string name="shape_drag_message">ドラッグして図形を描きます</string>
+    <string name="shape_too_small">図が小さすぎて追加できません。</string>
+    <string name="share_to_youtube_valid_toast">エクスポート履歴がない場合共有できません。</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"広告が画像ギャラリーに画像を保存することを許可しますか？"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"画像の保存"</string>
+    <string name="subject">動画名</string>
+    <string name="switch_ready_msg">トライアル期間の後に使用できます。</string>
+    <string name="text_touch_message">ボード上の場所に触れてテキストボックスを挿入します</string>
+    <string name="tmsg_onevideo">You can only add one video</string>
+    <string name="to_use_know_recorder_please_sign_in">Know Recorderを使うにはサインインしてください。</string>
+    <string name="tooltip_to_opencourse">記録したビデオを共有し、他の人のビデオをテーマ別に検索する</string>
+    <string name="tooltip_to_pen">ファイルを挿入し、ペン・図形・矢印で説明する。</string>
+    <string name="tooltip_to_timeline">準備ができたら記録を開始してください。記録終了後もタイムラインで編集可能です。</string>
+    <string name="twice_backpress_to_exit">完了するために再びキーを押してください</string>
+    <string name="unavailable_to_delete_note">少なくとも1つのノートが必要です。</string>
+    <string name="unavailable_to_save_disk">圧縮ファイルをディスクに保存できません</string>
+    <string name="untitled_note_name">Know Recorderで作成した動画</string>
+    <string name="upload_completed">YouTubeにアップロード</string>
+    <string name="upload_in_progress">YouTubeにアップロードしています。</string>
+    <string name="upload_not_started">YouTubeへアップロードする準備ができました</string>
+    <string name="video_encoding_finished">ギャラリーへアップロード完了</string>
+    <string name="video_not_found">ビデオファイルを見つけることができません。</string>
+    <string name="video_touch_message">動画のインポートが完了しました!スクリーンをタッチしてキャンバスに追加してください。</string>
+    <string name="viewer_search_category_all">すべての言語</string>
+    <string name="viewer_search_category_most_popular">最も人気</string>
+    <string name="viewer_search_category_name">動画名</string>
+    <string name="viewer_search_category_recent">最近</string>
+    <string name="yes">はい</string>
+    <string name="youtube">YouTube</string>
+    <string name="youtube_upload">YouTubeにアップロード</string>
+    <string name="youtube_upload_started_toast">YouTubeへのアップロードを開始</string>
+    <string name="youtube_validation_1">括弧はタイトルに使うことができません</string>
+    <string name="youtube_validation_2">%@文字をタイトルに入力することができます。</string>
+    <string name="youtube_validation_5">カテゴリを選択</string>
+    <string name="yt_upload_completed">YouTubeにアップロード</string>
+    <string name="yt_upload_failed">動画のアップロードに失敗しました。</string>
+</resources>

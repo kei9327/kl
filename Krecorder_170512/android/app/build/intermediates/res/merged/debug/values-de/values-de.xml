@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s: %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"Aus"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"An"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string msgid="5835639618285370804" name="accept">"Akzeptieren"</string>
+    <string name="action_search">Suche</string>
+    <string name="app_name">Know Recorder</string>
+    <string name="btn_more">Mehr...</string>
+    <string name="btn_my_school">Meine Schule</string>
+    <string name="c_import_pdf_endtime">Sie können am Ende der Aufnahmezeit eine PDF importieren. Wollen Sie das tun?</string>
+    <string name="c_recording_new">Neue Aufnahme ab diesem Punkt.</string>
+    <string name="c_recording_this_page">Bearbeiten Sie nur die spezifische Zeitspanne.</string>
+    <string name="c_wifi">We recommend WiFi or unlimited plan. Do you want to play with 3G or 4G?</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="cant_access_play">Kunne ikke oprette forbindelse til Google Play</string>
+    <string name="category">Kategorie</string>
+    <string name="close">Schließen</string>
+    <string name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes.</string>
+    <string name="com_facebook_internet_permission_error_message">Die WebView-Anmeldung erfordert die INTERNET-Berechtigung</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest-Fehler</string>
+    <string name="com_facebook_like_button_liked">Gefällt dir</string>
+    <string name="com_facebook_like_button_not_liked">Gefällt mir</string>
+    <string name="com_facebook_loading">Wird geladen ...</string>
+    <string name="com_facebook_loginview_cancel_action">Abbrechen</string>
+    <string name="com_facebook_loginview_log_in_button">Anmelden</string>
+    <string name="com_facebook_loginview_log_in_button_long">Über Facebook anmelden</string>
+    <string name="com_facebook_loginview_log_out_action">Abmelden</string>
+    <string name="com_facebook_loginview_log_out_button">Abmelden</string>
+    <string name="com_facebook_loginview_logged_in_as">Angemeldet als: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Über Facebook angemeldet</string>
+    <string name="com_facebook_send_button_text">Senden</string>
+    <string name="com_facebook_share_button_text">Teilen</string>
+    <string name="com_facebook_tooltip_default">Neu! Es liegt ganz an dir – du kannst dir aussuchen, was du mit Apps teilen möchtest.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivieren"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> funktioniert erst nach der Aktivierung der Google Play-Dienste."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play-Dienste aktivieren"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installieren"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind die Google Play-Dienste erforderlich, die auf deinem Gerät nicht installiert sind."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play-Dienste installieren"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fehler bei Zugriff auf Google Play-Dienste"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die auf deinem Gerät nicht unterstützt werden."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Aktualisieren"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> wird nur ausgeführt, wenn du die Google Play-Dienste aktualisierst."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play-Dienste aktualisieren"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die gerade aktualisiert werden."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Auf Smartphone öffnen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Anmelden"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Über Google anmelden"</string>
+    <string name="content_text_youtube_upload_started">Upload auf YouTube läuft.</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"Anzeige erlauben, einen Kalendertermin zu erstellen?"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"Kalendertermin erstellen"</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"Informationen zur Anzeige"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"Creative-Vorschau"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"Fehlerbehebungsmodus auswählen"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"Fehlerbehebung"</string>
+    <string msgid="6099173376375995052" name="decline">"Ablehnen"</string>
+    <string name="description">Video-Beschreibung</string>
+    <string name="dialog_setting_accounts">Accounts</string>
+    <string name="dialog_setting_remove_watermark">Wasserzeichen entfernen</string>
+    <string name="dialog_setting_time_limit">Begrenzung der Aufnahmezeit aufheben</string>
+    <string name="dialog_setting_title">Optionen</string>
+    <string name="enter_text_here">Skriv tekst her</string>
+    <string name="exit">Nicht mehr zeigen</string>
+    <string name="export">Video exportieren</string>
+    <string name="export_default_text">Video erstellt mit Know Recorder</string>
+    <string name="export_to_gallery">Galleri</string>
+    <string name="facebook">Facebook</string>
+    <string name="fail_to_get_categories">Kunne ikke loade kategorier</string>
+    <string name="file_download_failed">Fildownload fejl</string>
+    <string name="filecopy_loading_file">Importieren ...</string>
+    <string name="gallery">Galleri</string>
+    <string name="google_login_succeed">Logget ind på YouTube</string>
+    <string name="googleplay_service_connection_failed">Kunne ikke oprette forbindelse til Google Play</string>
+    <string name="guide_start_btn">Anfang</string>
+    <string name="guide_title_1">Jedes Wissen kann man erklären.</string>
+    <string name="guide_title_1_subtitle_1">Erklären und teilen Sie Ihre Ideen! Egal ob eine Video-Präsentation für einen Flipped-Classroom-Unterricht</string>
+    <string name="guide_title_1_subtitle_2">oder ein technischer Expertenvortrag: alles kann man einfach erklären, und ganz leicht geht es mit dem Know Recorder.</string>
+    <string name="guide_title_2">Es ist ganz leicht, Vorlesungs-Videos zu erstellen.</string>
+    <string name="guide_title_2_subtitle_1">Mit nur ein paar Steuerelementen können Sie Texte und Simmen zusammen mit externen Dateien aufnehmen.</string>
+    <string name="guide_title_3">Werden Sie zum Lehrer für alle Lernenden weltweit.</string>
+    <string name="guide_title_3_subtitle_1">Aufgenommene Videos können direkt auf YouTube hochgeladen werden. Sie können die hochgeladenen</string>
+    <string name="guide_title_3_subtitle_2">Videos auch leicht auf Facebook posten. Erleben Sie und teilen Sie die neue Art des Unterrichtens!</string>
+    <string name="i_category_autos">Autos &amp; Fahrzeuge</string>
+    <string name="i_category_comedy">Komödie</string>
+    <string name="i_category_edu">Bildung</string>
+    <string name="i_category_ent">Unterhaltung</string>
+    <string name="i_category_film">Film &amp; Animation</string>
+    <string name="i_category_game">Gaming</string>
+    <string name="i_category_howto">Praktische Tipps &amp; Styling</string>
+    <string name="i_category_music">Musik</string>
+    <string name="i_category_news">Nachrichten &amp; Politik</string>
+    <string name="i_category_nonprofits">Soziales Engagement</string>
+    <string name="i_category_people">Menschen &amp; Blogs</string>
+    <string name="i_category_pets">Tiere</string>
+    <string name="i_category_science">Wissenschaft &amp; Technik</string>
+    <string name="i_category_sports">Sport</string>
+    <string name="i_category_travel">Reisen &amp; Events</string>
+    <string name="i_coming_soon">Erscheint in Kürze</string>
+    <string name="i_noVideo">Sie müssen etwas aufnehmen!</string>
+    <string name="i_recording_guide_label">Ausgewählten Bereich erneut aufnehmen.</string>
+    <string name="i_recording_option_all">Zeichnung &amp; Stimme</string>
+    <string name="i_recording_option_title">Aufnahme-Bearbeitungsoption</string>
+    <string name="i_recording_option_voice">Nur Stimme</string>
+    <string name="i_search_result_ok">#COUNT# Ergebnis gefunden für #KEYWORD#</string>
+    <string name="i_searchtips">Suchtipps</string>
+    <string name="i_searchtips_one">Achten Sie darauf, dass Ihre Suchbegriffe richtig geschrieben sind.</string>
+    <string name="i_searchtips_two">Versuchen Sie, weniger, andere oder allgemeinere Suchbegriffe zu verwenden.</string>
+    <string name="i_viewer_no_result_found">Kein Ergebnis gefunden für #KEYWORD#</string>
+    <string name="i_youtube_category">Kategorie</string>
+    <string name="i_youtube_channel">Mit Ihrem Konto ist kein YouTube-Kanal verknüpft. Sie brauchen mindestens einen YouTube-Kanal, um Videovorträge auf YouTube hochzuladen. Sie können Ihren eigenen Kanal auf | Startseite -&lt; Mein Kanal | auf der Webseite von YouTube oder der App erstellen.</string>
+    <string name="i_youtube_private">Privat</string>
+    <string name="i_youtube_public">Öffentlich</string>
+    <string name="i_youtube_unlisted">Nicht gelistet</string>
+    <string name="image_drag_message">Bild erfolgreich importiert! Ziehen Sie den Bildschirm, um es in die Zeichenfläche einzufügen.</string>
+    <string name="image_too_small">Bild ist zu klein zum Einfügen.</string>
+    <string name="initiation_completed">Initialisering fuldendt</string>
+    <string name="initiation_started">Initialiserer upload</string>
+    <string name="intro_m1">Mehr über viele Fächer lernen</string>
+    <string name="intro_m2">Videovorträge suchen und ansehen</string>
+    <string name="intro_m3">Machen Sie Video-Vorträge mit Ihrem Android Tablet</string>
+    <string name="left_panel_new">Neue Notiz</string>
+    <string name="left_panel_open">Öffnen</string>
+    <string name="left_panel_share">Teilen</string>
+    <string name="login">Anmelden</string>
+    <string name="login_facebook">Anmeldung mit Google</string>
+    <string name="login_google">Mit Facebook anmelden</string>
+    <string name="logout_confirm_msg">Möchten Sie die Verbindung trennen?</string>
+    <string name="m_subject">Wählen Sie ein Thema, über das Sie mehr erfahren wollen</string>
+    <string name="messenger_send_button_text">Senden</string>
+    <string name="mins_left">Verbleibende Zeit: %@ Sekunden</string>
+    <string name="mute">stumm</string>
+    <string name="network_failed">Netzwerkverbindung erforderlich ist.</string>
+    <string name="new_note_confirm">Möchten Sie eine neue Aufgabe anlegen? Bestehende Aufgaben werden automatisch gespeichert.</string>
+    <string name="no">Nein</string>
+    <string name="no_google_play_service">Google Play er ikke installeret</string>
+    <string name="no_youtube_history">Eksportér din video til YouTube før du kan dele via Facebook.</string>
+    <string name="note_delete_confirm_msg">Wollen Sie %@s Notiz löschen?</string>
+    <string name="now_encoding_video">Eksporterer til Galleri</string>
+    <string name="now_in_compress">Komprimerer fil…</string>
+    <string name="now_in_decompress">Pakker fil ud…</string>
+    <string name="onepage_onevideo">Sie können maximal ein Video pro Seite einfügen.</string>
+    <string name="opencourse">Open Courses</string>
+    <string name="opencourse_back">Zurück</string>
+    <string name="opencourse_download_step1">Video wird heruntergeladen.</string>
+    <string name="opencourse_menu_all">Alles</string>
+    <string name="opencourse_menu_art">Kunst</string>
+    <string name="opencourse_menu_language">Sprachen</string>
+    <string name="opencourse_menu_math">Mathe</string>
+    <string name="opencourse_menu_others">Sonstiges</string>
+    <string name="opencourse_menu_science">Naturwissenschaften</string>
+    <string name="opencourse_menu_social">Sozialwissenschaften</string>
+    <string name="opencourse_play_unavailable">Ikke i stand til at afspille</string>
+    <string name="opencourse_respond_fail">Serverfejl</string>
+    <string name="opencourse_upload_error_1">En eller flere af dine filer blev ikke eksporteret. Tjek venligst dine filer igen.</string>
+    <string name="opencourse_upload_error_2">Eksport fejlede. Fejlkode:</string>
+    <string name="opencourse_upload_error_3">Der opstod et problem under eksporten af videoen til serveren.</string>
+    <string name="opencourse_upload_error_thumbnail">Eksport af miniaturebillede fejlede. Fejlkode:</string>
+    <string name="opencourse_upload_error_zip">Der opstod en fejl under komprimeringen. Fejlkode:</string>
+    <string name="opencourse_upload_step1">Komprimerer filer...</string>
+    <string name="opencourse_upload_step2">Komprimering fuldendt</string>
+    <string name="opencourse_upload_step3">Eksporterer filer…</string>
+    <string name="opencourse_upload_succeed">Eksport fuldendt</string>
+    <string name="pdf_renderer_error">En fejl er opstået.</string>
+    <string name="play_finished">Abspielen abgeschlossen.</string>
+    <string name="please_enter_subject">Bitte geben Sie den Titel ein.</string>
+    <string name="please_try_again">Prøv venligst at eksportere din video til YouTube igen.</string>
+    <string name="please_wait">Herunterladen jetzt ...</string>
+    <string name="private_setting">Privatlivsniveau</string>
+    <string name="record_not_found">Sie müssen etwas aufnehmen!</string>
+    <string name="record_not_found_export">Sie müssen etwas aufnehmen!</string>
+    <string name="record_selection_1">Neue Aufnahme ab diesem Punkt</string>
+    <string name="record_selection_2">Neue Aufnahme ab hier</string>
+    <string name="record_selection_warn">Aufnahme-Bearbeitungsoption</string>
+    <string name="reset_papers_popup_toast">Alle ændringer vil blive tabt. Ønsker du at fortsætte?</string>
+    <string name="s_general">Allgemein</string>
+    <string name="s_horizon">Videos immer im Horizontal-Modus abspielen</string>
+    <string name="s_info">Information</string>
+    <string name="s_privacy">Datenschutzrichtlinien</string>
+    <string name="s_qna">Hilfe</string>
+    <string name="s_qna_a1">Probieren Sie Know Recorder für das Android Tablet aus!Mit der einfachen Benutzeroberfläche können Sie Ihre Stimme aufnehmen, auf das Whiteboard schreiben und Bilder/PDFs einfügen, um Ihre eigenen Videovorträge zu gestalten.</string>
+    <string name="s_qna_a2">Sehen Sie sich unseren Online-Klassenzimmer-Service Knowlounge an. Knowlounge ist eine interaktive Echtzeit-Lernplattform, die Kommunikation via Webcam unterstützt. Sie können über Browser oder App eine Live-Unterrichtsstunde abhalten und mit Schülern wie in einem echten Klassenzimmer interagieren. Online-Lernen macht mehr Spaß, wenn Sie Teil einer Lerngruppe sind, mit anderen chatten, Quizze verteilen und viel mehr!</string>
+    <string name="s_qna_q1">Wie kann ich meine eigenen Videovorträge erstellen?</string>
+    <string name="s_qna_q2">Kann ich Klassen live streamen?</string>
+    <string name="s_question">Kontakt</string>
+    <string name="s_shortcut">Verknüpfung</string>
+    <string name="s_sort">Art</string>
+    <string name="s_subject">Fach</string>
+    <string name="s_terms">Nutzungsvereinbarung</string>
+    <string name="s_version">Version</string>
+    <string name="s_wifi">Videos nur abspielen, wenn eine WLAN-Verbindung besteht</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Suchen"</string>
+    <string name="search_results">Suchergebnisse</string>
+    <string name="shape_drag_message">Tegn former ved at trække</string>
+    <string name="shape_too_small">Abbildung ist zu klein zum Einfügen.</string>
+    <string name="share_to_youtube_valid_toast">Teilen nicht möglich, wenn kein Video-Export-Verlauf vorhanden ist.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"Anzeige erlauben, das Bild in der Bildergalerie zu speichern?"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"Bild speichern"</string>
+    <string name="subject">Video-Titel</string>
+    <string name="switch_ready_msg">Wird nach der Testperiode zur Verfügung gestellt.</string>
+    <string name="text_touch_message">Rør et sted på fladen for at indsætte en tekstboks</string>
+    <string name="tmsg_onevideo">You can only add one video</string>
+    <string name="to_use_know_recorder_please_sign_in">Bitte melden Sie sich an\n um Know Recorder zu benutzen.</string>
+    <string name="tooltip_to_opencourse">Teilen Sie aufgenommene Videos,\ndurchsuchen Sie die Videos anderer Nutzer nach Themen.</string>
+    <string name="tooltip_to_pen">Fügen Sie Dateien ein und erklären\nSie mit Stift, Formen, Pfeilen.</string>
+    <string name="tooltip_to_timeline">Beginnen Sie mit der Aufnahme, wenn Sie bereit sind. Sie können Sie immer noch auf der Zeitleiste bearbeiten, nachdem Sie die Aufnahme beendet haben.</string>
+    <string name="twice_backpress_to_exit">Drücken Sie die Zurück-Taste erneut.</string>
+    <string name="unavailable_to_delete_note">Hier wird mindestens eine Nachricht benötigt.</string>
+    <string name="unavailable_to_save_disk">Ikke i stand til at gemme komprimerede filer på disk</string>
+    <string name="untitled_note_name">Video erstellt mit Know Recorder</string>
+    <string name="upload_completed">Upload auf YouTube fertig.</string>
+    <string name="upload_in_progress">Upload auf YouTube läuft.</string>
+    <string name="upload_not_started">Klar til at uploade til YouTube</string>
+    <string name="video_encoding_finished">Upload til Galleri fuldendt</string>
+    <string name="video_not_found">Es kann kein Video-Dateien.</string>
+    <string name="video_touch_message">Video erfolgreich importiert! Berühren Sie den Bildschirm, um es in die Zeichenfläche einzufügen.</string>
+    <string name="viewer_search_category_all">Alle Sprachen</string>
+    <string name="viewer_search_category_most_popular">Am beliebtesten</string>
+    <string name="viewer_search_category_name">Video-Titel</string>
+    <string name="viewer_search_category_recent">Kürzlich</string>
+    <string name="yes">Ja</string>
+    <string name="youtube">YouTube</string>
+    <string name="youtube_upload">Auf YouTube hochladen</string>
+    <string name="youtube_upload_started_toast">Upload auf YouTube starten.</string>
+    <string name="youtube_validation_1">Klammern sind im Titel nicht zulässig.</string>
+    <string name="youtube_validation_2">Der Titel kann aus bis zu %@ Zeichen bestehen.</string>
+    <string name="youtube_validation_5">Vælg en kategori</string>
+    <string name="yt_upload_completed">Upload auf YouTube fertig.</string>
+    <string name="yt_upload_failed">Upload des Videos gescheitert.</string>
+</resources>

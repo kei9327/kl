@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/p_opencourse_toggle_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/btn_top_menu"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingRight="48dp"
+            android:textSize="20dp"
+            android:textColor="#505050"
+            android:text="@string/opencourse" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dcdcdc"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/p_opencourse_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+        <TextView
+            android:id="@+id/p_op_default_pager_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="320dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:textColor="#FFFFFF"/>
+        <LinearLayout
+            android:id="@+id/circle_page_control_layout"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/p_opencourse_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ProgressBar
+            android:id="@+id/p_op_home_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"홈 탐색"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"위로 탐색"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"옵션 더보기"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"완료"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"사용 안함"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"사용"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"검색..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"공유 대상"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s와(과) 공유"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"접기"</string>
+    <string msgid="5835639618285370804" name="accept">"동의"</string>
+    <string name="action_search">검색</string>
+    <string name="alldelete_caution">모든 펜 데이터가 지워집니다.</string>
+    <string name="alldelete_pen_caution">페이지의 모든 데이터가 지워집니다. 되돌릴 수 없습니다!</string>
+    <string name="app_name">Know Recorder</string>
+    <string name="btn_more">더 보기</string>
+    <string name="btn_my_school">우리 학교</string>
+    <string name="c_import_pdf_endtime">PDF 파일은 녹화본의 맨 마지막에 삽입할 수 있습니다. 계속하시겠습니까?</string>
+    <string name="c_recording_new">여기서부터 수정</string>
+    <string name="c_recording_this_page">이 페이지만 수정</string>
+    <string name="c_wifi">WiFi 재생을 권장합니다.\n3G 또는 4G 에서 계속 재생하시겠습니까?</string>
+    <string name="cancel">취소</string>
+    <string name="cant_access_play">구글 플레이 서비스에 접근할 수 없습니다.</string>
+    <string name="category">카테고리</string>
+    <string name="close">닫기</string>
+    <string name="com_facebook_image_download_unknown_error">이미지를 다운로드하는 중 예기치 않은 오류가 발생했습니다.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView에 로그인하려면 인터넷 권한이 필요합니다</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest 오류</string>
+    <string name="com_facebook_like_button_liked">좋아요</string>
+    <string name="com_facebook_like_button_not_liked">좋아요</string>
+    <string name="com_facebook_loading">읽어들이는 중...</string>
+    <string name="com_facebook_loginview_cancel_action">취소</string>
+    <string name="com_facebook_loginview_log_in_button">로그인</string>
+    <string name="com_facebook_loginview_log_in_button_long">Facebook으로 로그인</string>
+    <string name="com_facebook_loginview_log_out_action">로그아웃</string>
+    <string name="com_facebook_loginview_log_out_button">로그아웃</string>
+    <string name="com_facebook_loginview_logged_in_as">로그인할 이름: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Facebook 계정으로 로그인함</string>
+    <string name="com_facebook_send_button_text">보내기</string>
+    <string name="com_facebook_share_button_text">공유하기</string>
+    <string name="com_facebook_tooltip_default">새로운 기능! 이제 앱과 어떤 정보를 공유할지 자유롭게 선택할 수 있습니다.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"사용 설정"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play 서비스를 사용하도록 설정해야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 작동합니다."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play 서비스 사용"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"설치"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"기기에 Google Play 서비스가 설치되어 있어야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play 서비스 설치"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play 서비스 오류"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>에서 Google Play 서비스를 사용하는 데 문제가 있습니다. 다시 시도하세요."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>은(는) Google Play 서비스 없이는 실행되지 않으나, 기기에서 Google Play 서비스를 지원하지 않습니다."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"업데이트"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Google Play 서비스를 업데이트해야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play 서비스 업데이트"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"현재 업데이트 중인 Google Play 서비스가 있어야 <ns1:g id="APP_NAME">%1$s</ns1:g>이(가) 실행됩니다."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"새 버전의 Google Play 서비스가 필요합니다. 곧 자동으로 업데이트됩니다."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"스마트폰에서 열기"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"로그인"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
+    <string name="content_text_youtube_upload_started">유튜브에 내보내는 중입니다.</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"광고에서 캘린더 일정을 만들도록 허용하시겠습니까?"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"캘린더 일정 만들기"</string>
+    <string name="crop__cancel" ns2:ignore="ButtonCase">취소</string>
+    <string name="crop__done">확인</string>
+    <string name="crop__pick_error">이미지가 존재하지 않습니다.</string>
+    <string name="crop__saving">사진을 저장중입니다…</string>
+    <string name="crop__wait">잠시만 기다려주세요…</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"광고 정보"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"광고 소재 미리보기"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"디버그 모드 선택"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"문제해결"</string>
+    <string msgid="6099173376375995052" name="decline">"거부"</string>
+    <string name="description">설명</string>
+    <string name="dialog_setting_accounts">계정</string>
+    <string name="dialog_setting_remove_watermark">워터마크 제거</string>
+    <string name="dialog_setting_time_limit">녹화 시간제한 해제</string>
+    <string name="dialog_setting_title">설정</string>
+    <string name="enter_text_here">이곳에 텍스트를 입력하세요</string>
+    <string name="exit">다시 보지 않기</string>
+    <string name="export">내보내기</string>
+    <string name="export_default_text">Know Recorder에서 만든 영상 (0)</string>
+    <string name="export_to_gallery">갤러리</string>
+    <string name="facebook">Facebook</string>
+    <string name="fail_to_get_categories">카테고리 목록을 가져오는데 실패했습니다.</string>
+    <string name="file_download_failed">파일 다운로드 실패 Code : </string>
+    <string name="filecopy_loading_file">파일을 불러오는 중입니다.</string>
+    <string name="gallery">갤러리</string>
+    <string name="google_login_succeed">유튜브에 로그인되었습니다.</string>
+    <string name="googleplay_service_connection_failed">구글 플레이 접속에 실패했습니다.</string>
+    <string name="guide_start_btn">시작하기</string>
+    <string name="guide_title_1">세상의 어떤 지식도 설명할 수 있습니다.</string>
+    <string name="guide_title_1_subtitle_1">플립러닝을 위한 동영상강의 자료부터 전문가의 기술강좌까지, 어떤 지식이든 쉽게 설명할 수 있습니다.</string>
+    <string name="guide_title_1_subtitle_2">나누고 싶은 모든 지식을 Know Recorder를 통해 설명하고, 공유해보세요.</string>
+    <string name="guide_title_2">손쉽게 수업 영상을 만들어 보세요.</string>
+    <string name="guide_title_2_subtitle_1">간단한 동작만으로, 파일을 삽입하고 필기하는 화면을 음성과 함께 동영상으로 제작할 수 있습니다.</string>
+    <string name="guide_title_3">세상 모든 학생의 선생이 되어보세요.</string>
+    <string name="guide_title_3_subtitle_1">제작한 영상은 YouTube에 바로 업로드 가능합니다. 페이스북에 포스팅하는 것 역시 간단합니다.</string>
+    <string name="guide_title_3_subtitle_2">수업 영상을 공유하고, 새로운 수업 방식을 경험해보세요.</string>
+    <string name="i_category_autos">자동차</string>
+    <string name="i_category_comedy">코미디</string>
+    <string name="i_category_edu">교육</string>
+    <string name="i_category_ent">엔터테인먼트</string>
+    <string name="i_category_film">영화/애니메이션</string>
+    <string name="i_category_game">게임</string>
+    <string name="i_category_howto">노하우/스타일</string>
+    <string name="i_category_music">음악</string>
+    <string name="i_category_news">뉴스/정치</string>
+    <string name="i_category_nonprofits">비영리/사회운동</string>
+    <string name="i_category_people">인물/블로그</string>
+    <string name="i_category_pets">동물</string>
+    <string name="i_category_science">과학기술</string>
+    <string name="i_category_sports">스포츠</string>
+    <string name="i_category_travel">여행/이벤트</string>
+    <string name="i_coming_soon">서비스 준비 중입니다.</string>
+    <string name="i_noVideo">녹화 분량이 없습니다.</string>
+    <string name="i_recording_guide_label">선택한 내용을 다시 녹화합니다.</string>
+    <string name="i_recording_option_all">드로잉 &amp; 음성</string>
+    <string name="i_recording_option_title">녹화 수정 설정</string>
+    <string name="i_recording_option_voice">음성만 수정</string>
+    <string name="i_search_result_ok">#KEYWORD#에 대한 #COUNT#개의 결과</string>
+    <string name="i_searchtips">더 많은 검색결과를 원하신다면?</string>
+    <string name="i_searchtips_one">- 검색어의 철자가 정확한지 확인해 주세요.</string>
+    <string name="i_searchtips_two">- 검색어의 단어 수를 줄이거나, 일반적인 단어로 검색해 보세요</string>
+    <string name="i_viewer_no_result_found">#KEYWORD#에 대한 검색결과가 없습니다.</string>
+    <string name="i_youtube_category">카테고리</string>
+    <string name="i_youtube_channel">현재 YouTube 계정에 개설된 채널이 없습니다. 녹화된 비디오를 YouTube에 업로드하려면 적어도 하나의 채널이 개설되어야 합니다. 사용자 계정의 채널은 YouTube 웹에서 YouTube 계정 설정 홈 -&lt; 나의 채널에서 만들 수 있습니다.</string>
+    <string name="i_youtube_private">비공개</string>
+    <string name="i_youtube_public">공개</string>
+    <string name="i_youtube_unlisted">미등록</string>
+    <string name="image_drag_message">화면을 드래그하면 이미지가 삽입됩니다.</string>
+    <string name="image_too_small">그림이 너무 작아 그릴 수 없습니다.</string>
+    <string name="initiation_completed">초기화 완료</string>
+    <string name="initiation_started">초기화 시작</string>
+    <string name="intro_m1">다양한 과목을 배워보세요</string>
+    <string name="intro_m2">강의를 찾아서 들어보세요</string>
+    <string name="intro_m3">Android Tablet에서 강의를 만드세요</string>
+    <string name="left_panel_new">새 노트</string>
+    <string name="left_panel_open">열기</string>
+    <string name="left_panel_share">공유하기</string>
+    <string name="login">로그인</string>
+    <string name="login_facebook">Sign in with facebook</string>
+    <string name="login_google">Sign in with google</string>
+    <string name="logout_confirm_msg">로그아웃하시겠습니까?</string>
+    <string name="m_subject">배우고 싶은 과목을 선택하세요</string>
+    <string name="messenger_send_button_text">보내기</string>
+    <string name="mins_left">10초 남았습니다.</string>
+    <string name="mute">음소거</string>
+    <string name="network_failed">네트워크 연결이 필요합니다.</string>
+    <string name="new_note_confirm">새 작업을 시작하시겠습니까? 기존의 작업은 자동 저장됩니다.</string>
+    <string name="no">No</string>
+    <string name="no_google_play_service">구글 플레이가 설치되어 있지 않습니다.</string>
+    <string name="no_youtube_history">내보내기 이력이 없으면 공유를 할 수 없습니다.</string>
+    <string name="note_delete_confirm_msg">노트를 삭제하시겠습니까?</string>
+    <string name="now_encoding_video">갤러리에 내보내는 중입니다.</string>
+    <string name="now_in_compress">파일을 압축하는 중입니다.</string>
+    <string name="now_in_decompress">압축을 푸는 중입니다.</string>
+    <string name="old_data">오래된 버전이라 재생할 수 없습니다.</string>
+    <string name="old_data_alert">이전 버전의 강좌입니다. 재생하시겠습니까?</string>
+    <string name="onepage_onevideo">비디오는 한 페이지에 한 개만 불러올 수 있습니다.</string>
+    <string name="opencourse">공개강좌</string>
+    <string name="opencourse_back">돌아가기</string>
+    <string name="opencourse_download_step1">재생 준비를 하는 중입니다.</string>
+    <string name="opencourse_menu_all">모든 과목</string>
+    <string name="opencourse_menu_art">예술</string>
+    <string name="opencourse_menu_language">언어</string>
+    <string name="opencourse_menu_math">수학</string>
+    <string name="opencourse_menu_others">기타</string>
+    <string name="opencourse_menu_science">과학</string>
+    <string name="opencourse_menu_social">사회</string>
+    <string name="opencourse_play_unavailable">재생할 수 없습니다.</string>
+    <string name="opencourse_respond_fail">서버에서 데이터를 받아오는 데 실패했습니다.</string>
+    <string name="opencourse_upload_error_1">일부 파일이 내보내기에 실패했습니다. 확인해주세요.</string>
+    <string name="opencourse_upload_error_2">서버에 내보내기에 실패했습니다. Code : </string>
+    <string name="opencourse_upload_error_3">서버에 내보내기 하는 도중에 문제가 발생했습니다.</string>
+    <string name="opencourse_upload_error_thumbnail">섬네일 이미지 내보내기에 실패했습니다. Code : </string>
+    <string name="opencourse_upload_error_zip">압축파일 내보내기에 실패했습니다. Code : </string>
+    <string name="opencourse_upload_step1">파일들을 압축하는 중입니다.</string>
+    <string name="opencourse_upload_step2">압축을 완료했습니다.</string>
+    <string name="opencourse_upload_step3">파일을 서버에 내보내기 하는 중입니다.</string>
+    <string name="opencourse_upload_succeed">성공적으로 서버에 내보내기를 했습니다.</string>
+    <string name="pdf_renderer_error">오류가 발생했습니다.</string>
+    <string name="play_finished">재생이 끝났습니다.</string>
+    <string name="please_enter_subject">제목을 입력해주세요.</string>
+    <string name="please_try_again">유튜브에 다시 내보내기 해주세요.</string>
+    <string name="please_wait">다운로드 중…</string>
+    <string name="private_setting">공개 범위</string>
+    <string name="record_not_found">녹화 기록이 없습니다.</string>
+    <string name="record_not_found_export">녹화 분량이 없어서 내보내기를 할 수 없습니다.</string>
+    <string name="record_selection_1">여기서부터 수정</string>
+    <string name="record_selection_2">끝에 이어서 녹화</string>
+    <string name="record_selection_warn">녹화 수정 설정</string>
+    <string name="reset_papers_popup_toast">변경내역이 소실됩니다. 계속하시겠습니까?</string>
+    <string name="s_general">일반</string>
+    <string name="s_horizon">가로 고정 재생</string>
+    <string name="s_info">정보</string>
+    <string name="s_privacy">개인정보 보호 정책</string>
+    <string name="s_qna">안내</string>
+    <string name="s_qna_a1">Android Tablet에서 Know Recorder를 사용해보세요. 간단한 동작만으로 파일을 삽입하고 필기하는 화면을 음성과 함께 동영상으로 제작할 수 있습니다. 제작한 수업 영상을 공개강좌에 공유하고 함께 보세요. 다른 사람들이 올린 수업 영상도 찾아볼 수 있습니다.</string>
+    <string name="s_qna_a2">앱 안의 교실 Knowlounge를 사용해보세요. Knowlounge는 다자간 화상을 지원하는 멀티 보드 기반의 양방향 학습 서비스로, 웹과 모바일 환경에서 실제 교실처럼 선생님과 마주 보며 강의를 듣고, 질문을 주고 받을 수 있습니다. 그룹별 학습, 실시간 채팅과 Q&amp;A, 메모 및 댓글 작성 등을 통해 더욱 편리하고 재밌게 수업해보세요.</string>
+    <string name="s_qna_q1">수업 영상은 어떻게 만드나요?</string>
+    <string name="s_qna_q2">실시간으로 수업할 수는 없나요?</string>
+    <string name="s_question">문의하기</string>
+    <string name="s_shortcut">바로가기</string>
+    <string name="s_sort">정렬</string>
+    <string name="s_subject">과목</string>
+    <string name="s_terms">서비스 이용약관</string>
+    <string name="s_version">버전</string>
+    <string name="s_wifi">Wi-Fi를 통해서 재생</string>
+    <string msgid="146198913615257606" name="search_menu_title">"검색"</string>
+    <string name="search_results">검색 결과</string>
+    <string name="shape_drag_message">화면에 드래그하면 도형이 그려집니다.</string>
+    <string name="shape_too_small">도형이 너무 작아 그릴 수 없습니다.</string>
+    <string name="share_to_youtube_valid_toast">유튜브에 공유하기 위해서는 먼저 동영상으로 변환해야 합니다.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"광고에서 사진 갤러리에 이미지를 저장하도록 허용하시겠습니까?"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"이미지 저장"</string>
+    <string name="subject">제목</string>
+    <string name="switch_ready_msg">무료기간 종료 후에 제공됩니다.</string>
+    <string name="text_touch_message">화면을 터치하면 텍스트 박스가 삽입됩니다.</string>
+    <string name="tmsg_onevideo">비디오는 한 개만 불러올 수 있습니다.</string>
+    <string name="to_use_know_recorder_please_sign_in">Know Recorder를 사용하기 위해서는, 로그인이 필요합니다.</string>
+    <string name="tooltip_to_opencourse">내가 녹화한 영상을 공유하고,\n다른 사람들의 영상을 과목별로 찾아볼 수 있습니다.</string>
+    <string name="tooltip_to_pen">자료를 삽입하고\n펜과 도형, 포인터와 함께 설명을 해보세요.</string>
+    <string name="tooltip_to_timeline">자료가 준비되면 녹화를 시작해보세요.\n녹화가 끝나면 타임라인을 통해 편집할 수 있습니다.</string>
+    <string name="twice_backpress_to_exit">뒤로 버튼을 한 번 더 누르면 종료됩니다.</string>
+    <string name="unavailable_to_delete_note">현재 노트는 삭제할 수 없습니다.</string>
+    <string name="unavailable_to_save_disk">디스크에 압축 파일을 저장할 수 없습니다.</string>
+    <string name="untitled_note_name">Made with Know Recorder</string>
+    <string name="upload_completed">유튜브에 내보내기가 완료되었습니다.</string>
+    <string name="upload_in_progress">유튜브에 내보내는 중입니다.</string>
+    <string name="upload_not_started">유튜브에 내보내기가 아직 시작되지 않았습니다.</string>
+    <string name="video_encoding_finished">갤러리에 내보내기가 완료되었습니다.</string>
+    <string name="video_not_found">동영상 파일을 찾을 수 없습니다.</string>
+    <string name="video_touch_message">화면을 터치하면 영상이 삽입됩니다.</string>
+    <string name="viewer_search_category_all">모든 언어</string>
+    <string name="viewer_search_category_most_popular">인기</string>
+    <string name="viewer_search_category_name">제목</string>
+    <string name="viewer_search_category_recent">날짜</string>
+    <string name="yes">Yes</string>
+    <string name="youtube">YouTube</string>
+    <string name="youtube_upload">유튜브 내보내기</string>
+    <string name="youtube_upload_started_toast">유튜브 내보내기가 시작되었습니다.</string>
+    <string name="youtube_validation_1">제목에는 &lt;, >가 들어갈 수 없습니다. (수정 필요)</string>
+    <string name="youtube_validation_2">제목은 최대 100자까지 가능합니다.</string>
+    <string name="youtube_validation_5">카테고리를 선택해주세요.</string>
+    <string name="yt_upload_completed">유튜브에 내보내기가 완료되었습니다.</string>
+    <string name="yt_upload_failed">유튜브에 내보내기가 실패했습니다.</string>
+</resources>

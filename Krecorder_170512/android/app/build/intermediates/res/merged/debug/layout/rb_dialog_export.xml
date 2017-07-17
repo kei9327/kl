@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:id="@+id/layout_root"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#A0C81E">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/export"
+            android:textColor="#ffffff"
+            android:drawableStart="@drawable/icon_setting_export"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            />
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_setting_close"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/btn_opencourse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/opencourse"
+            android:gravity="center"
+            android:drawableTop="@drawable/img_export_viewer"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="16dp"/>
+        <TextView
+            android:id="@+id/btn_gallery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/gallery"
+            android:gravity="center"
+            android:drawableTop="@drawable/img_export_my"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+        <TextView
+            android:id="@+id/btn_youtube"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/youtube"
+            android:gravity="center"
+            android:drawableTop="@drawable/img_export_youtube"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="38dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
